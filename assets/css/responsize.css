@@ -362,7 +362,7 @@
     height: 85px !important;
   }
   .header_container {
-    padding: 8px 16px;
+    /* padding: 8px 16px; */
   }
   .bar_bottom {
     display: none;
@@ -406,7 +406,7 @@
     font-size: 2rem;
   }
   h1.text-title {
-    margin: 18px 0;
+    margin: 45px 0;
     font-size: 2rem;
     line-height: 3rem;
   }
@@ -415,8 +415,8 @@
   }
   .section_banner-phone,
   .section_banner-screen {
-    height: 150px;
-    width: 150px;
+    height: 242px;
+    width: 463px;
   }
   .section_banner-screen {
     left: 18px;
