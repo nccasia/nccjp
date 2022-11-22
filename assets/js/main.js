@@ -1,8 +1,7 @@
 const box = document.querySelectorAll(".icon-b");
 const btnDropDown = document.querySelector(".header_dropdown-language");
 const menuLanguage = document.querySelector(".dropdown-menu");
-const headerLanguage = document.querySelector(".header_language");
-const headerContainer = document.querySelector(".header_container");
+
 const slickNext = document.querySelector(".slick-next");
 const slickPrev = document.querySelector(".slick-prev");
 const slickSlide = document.querySelector(".slick-track");
@@ -55,27 +54,9 @@ barBottomIcon.addEventListener("click", () => {
 });
 
 
-let statusFixed = true;
-window.addEventListener("scroll", () => {
-  //header
-//   if (window.pageYOffset > 100) {
-//     if (statusFixed) {
-//       headerLanguage.classList.add("header_language-disable");
-//       headerContainer.classList.add("header_fixed");
-//       subMenu.classList.add("navbar_submenu-show");
-//       statusFixed = false;
-//     }
 
-    
-//   }
-//   else {
-//     if (!statusFixed) {
-//         headerLanguage.classList.remove("header_language-disable")
-//         subMenu.classList.remove("navbar_submenu-show");
-//         headerContainer.classList.remove("header_fixed");
-//         statusFixed = true;
-//     }
-// }
+window.addEventListener("scroll", () => {
+ 
   scrollFunction();
   if (window.pageYOffset > 300) {
     btnBackToTop.style.display = "block";

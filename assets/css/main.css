@@ -41,6 +41,7 @@
 }
 
 .header_fixed {
+    top: 0;
     position: fixed;
     z-index: 99999;
     padding: 8px 16px;
@@ -84,12 +85,7 @@
     padding-top: 8px;
     display: flex;
     justify-content: space-between;
-    /* height: 100%; */
-    position: fixed;
-    height: 100px;
-    z-index: 10;
-    background-color: #163266;
-    width: 100%;
+    height: 100%;
 }
 
 .navbar-collapse {
@@ -267,10 +263,19 @@ a.sub_menu-link {
 .container_content_list_box{
     margin-top: 38px;
 }
+
+
+.content{
+    font-size: 14px;
+}
+h2{
+    font-size: 16px;
+}
 h3{
     margin: 0;
     font-size: 16px;
 }
+
 
 .container_top-choice {
     display: flex;
@@ -1637,7 +1642,8 @@ span.manager-name {
 
 .container_management-item{
     /* margin-top: 53px; */
-    width: 505px    ;
+    width: 710px    ;
+    margin-top: 20px;
 }
 
 .container_management-item-card {
@@ -1782,6 +1788,7 @@ span.manager-name {
 
 .contact_form-item-group {
     margin-bottom: 1rem;
+    border-bottom: 1px solid;
 }
 
 .form-input-title {
@@ -1834,7 +1841,7 @@ span.manager-name {
 
 .form_textarea {
     resize: none;
-    height: 200px;
+    /* height: 200px; */
     margin-bottom: -7px;
 }
 
@@ -1870,6 +1877,7 @@ button.contact-form-btn {
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .box-save {
