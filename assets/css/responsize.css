@@ -251,12 +251,17 @@
     margin-bottom: 30px;
   }
   /* CONTACT  */
-  .container-fluid {
+  .container_contact, .container-fluid {
     padding-left: 39px;
     padding-right: 39px;
     height: auto;
   }
-
+  .container_office-map-list {
+    flex-wrap: wrap;
+  }
+  .container_office-map-item {
+    width: 100%;
+  }
   .contact-form-item {
     width: 100%;
   }
@@ -295,8 +300,6 @@
   .container_service-item-flat > p {
     margin: 0;
   }
-
-
 
   .service_customer-info-img {
     /* padding: 0; */
@@ -354,9 +357,6 @@
 @media (max-width: 740px) {
   .header_fixed {
     height: 85px !important;
-  }
-  .header_container {
-    /* padding: 8px 16px; */
   }
   .bar_bottom {
     display: none;
@@ -436,11 +436,11 @@
     margin-bottom: 15px;
   }
 
-  .container_heading-text{
+  .container_heading-text {
     text-align: center;
     text-align: center;
     font-size: 26px;
-    margin: 0
+    margin: 0;
   }
   .container_top-choice-left {
     width: 100%;
@@ -553,7 +553,6 @@
     line-height: 10px;
     margin-top: 50px;
     font-size: 27px;
-
   }
   .container_post-home-list {
     flex-wrap: wrap;
@@ -564,7 +563,7 @@
   .container_post-home-item-title h3 {
     font-size: var(--text-font);
   }
- 
+
   .container_post-home-item-title {
     margin-bottom: 10px;
   }
@@ -586,7 +585,7 @@
   }
   .heading-center {
     /* margin: 20px 0; */
-   
+
     background-position: 47% 100%;
   }
   .layout_certification-awards-sidebar {
@@ -737,31 +736,30 @@
 
   .manager-wrapper {
     padding: 0;
-  }  }
+  }
 
-  /* .bu-container {
+
+/* .bu-container {
     min-width: 100%;
     margin: 5px 0;
   } */
 
-  .bu-wrapper {
-    height: auto;
-    margin: 10px 0; /* justify-content: space-between; */
-  }
+.bu-wrapper {
+  height: auto;
+  margin: 10px 0; /* justify-content: space-between; */
+}
 
-  
+.manager-wrapper,
+.manager-wrapper-card {
+  padding-left: 0;
+}
 
-  .manager-wrapper, .manager-wrapper-card{
-    padding-left: 0;
-  }
-  
+.bu-wrapper-second {
+  margin-bottom: 157px;
+}
 
-  .bu-wrapper-second{
-    margin-bottom: 157px;
-  }
-
-  .container_management-item {
-    /* flex: 100%;
+.container_management-item {
+  /* flex: 100%;
     min-width: 100%;
     margin-top: 20px;
   } */
@@ -775,8 +773,7 @@
     background: #2867b1;
     padding-top: 0;
   } */
-
-  
+}
   .ceo-bar {
     margin-bottom: 30px;
   }
@@ -800,10 +797,16 @@
   .container_collection {
     padding: 0 15px;
   }
-  .container-fluid {
+  .container_contact, .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
     height: auto;
+  }
+  .container_office-map-list {
+    flex-wrap: wrap;
+  }
+  .container_office-map-item {
+    width: 100%;
   }
   .contact-form-item {
     width: 100%;
@@ -834,7 +837,6 @@
   .container_service-card-number {
   }
 
-  
   .container_service-card-number .number {
     font-size: 45px;
   }
