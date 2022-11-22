@@ -234,10 +234,10 @@ a.sub_menu-link {
 }
 
 .container_heading {
-    margin-top: 20px;
+    margin-top: 0;
     min-height: 80px;
     white-space: pre-line;
-    padding-bottom: 37px;
+    margin-bottom: 37px;
     background-repeat: no-repeat;
 }
 
@@ -246,6 +246,7 @@ a.sub_menu-link {
     background-repeat: no-repeat;
     background-position: -9px 100%;
     padding-bottom: 4rem;
+    margin-bottom: 20px;
 }
 
 .heading, .heading_title{
@@ -812,16 +813,14 @@ h3{
     border-bottom-left-radius: 20px;
 }
 
-
+.container_parters-list {}
 
 .container_partners-item {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.container_partners-item-img {
-    width: calc((100% - 600px) / 6);
-}
+
 .footer {
     margin-top: 100px;
     background-image: url(../img/bg_footer.png);
@@ -1470,6 +1469,7 @@ img.icon-info-description {
 }
 
 .container_company-overview {
+    margin-top: 25px;
     border-width: 0.5px 0;
     border-style: solid;
 }
@@ -1555,7 +1555,7 @@ p.container_management-content {
     padding: 10px 10px 30px 30px;
 }
 
-.manager-name {
+span.manager-name {
     font-size: 2rem;
 }
 
@@ -1644,8 +1644,9 @@ p.container_management-content {
 
 .container_management-item{
     /* margin-top: 53px; */
-    width: 710px    ;
+    /* width: 710px    ; */
     margin-top: 20px;
+    flex: 1;
 }
 
 .container_management-item-card {
@@ -1680,8 +1681,9 @@ p.container_management-content {
     color: #232323;
     margin: 20px 0;
 }
+
 .container-overview {
-    padding: 50px 0 ;
+    padding: 20px 0 ;
 }
 .container_result-item-title {
     margin: 15px 0;
@@ -1733,118 +1735,6 @@ p.container_management-content {
 }
 
 /* CONTACT */
-.modal-map-name {    
-    font-size: 25px;
-    color: #000;
-    font-weight: 700;
-    padding: 15px 30px 15px 0;
-    text-align: center;
-                
-}
-
-.modal-contact-map {
-    position: fixed;
-    top: 180px;
-    background-color: #fff;
-    margin: auto;
-    padding: 10px;
-    border: 1px solid #888;
-    width: 100%;
-    left: 20%;
-    max-width: 1000px;
-    border-radius: 10px;
-    z-index: 20;
-    display: none;
-}
-.modal-contact-map-active {
-    display: block;
-}
-
-.frame-map {
-    width: 100%;
-    height: 500px;
-}
-
-.btn-close-modal {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-.map-content {
-    display: none;
-}
-.map-content-active {
-    display: block;
-}
-.modal-map-content {
-    position: relative;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0 10px;
-}
-.btn-close-modal {
-    font-size: 2.4rem;
-}
-.contact-link {
-    font-size: 16px;
-    color: #2f78cd;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.container_office-map-item {
-    width: 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right 20px bottom 20px;
-    padding: 75px 45px 0;
-    margin-top: 30px;
-    cursor: pointer;
-}
-.map-hanoi {
-    background: url(../img/bg_hanoi-address.png);
-}
-.map-jp {
-    background: url(../img/bg_jp-adress.png);
-}
-.contact-office-wrap {
-    background: #fff;
-    box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
-    border-radius: 5px;
-    padding: 30px;
-    height: 100%;
-}
-
-.container_office-map-list {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-p.contact-office {
-    font-size: 1.8rem;
-}
-
-.contact-text {
-    line-height: 2.5rem;
-    font-size: var(--text-font);
-    font-weight: 600;
-    color: var(--text-font);
-}
-.contact-text.content-1 {
-    background: url(../img/contact-building.png) no-repeat 2px 2px;
-    padding-left: 28px;
-}
-.contact-text.content-2 {
-    background: url(../img/contact-call.png) no-repeat 2px 2px;
-    padding-left: 28px;
-}
-.contact-text.content-3 {
-    background: url(../img/contact-message.png) no-repeat 2px 2px;
-    padding-left: 28px;
-}
 .container-fluid {
     background-image: url(../img/bg_contact.png);
     width: 100%;
@@ -2187,4 +2077,3 @@ a.container_field-item-link {
 .container_field-item {
     width: 30%;
 }
-
