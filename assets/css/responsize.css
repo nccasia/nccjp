@@ -5,12 +5,21 @@
   .header {
     height: 100px;
   }
+
+  .content_logo{
+    display: none;
+  }
   .header_language {
     display: none;
   }
+
+   .header_fixed  {
+    padding: 20px 99px;
+  }
+  
   .header_navbar {
     padding: 0 24px;
-  }
+  } 
   .navbar_list-item {
     display: none;
   }
@@ -421,14 +430,21 @@
 
 @media (max-width: 740px) {
 
+  .grid, .header_fixed  {
+    padding: 8px 31px;
+  }
 
-  .header_fixed {
-    /* height: 85px !important; */
+
+  .container_parters-list{
+    margin: 0 31px;
   }
   .bar_bottom {
     display: none;
   }
   .header_language {
+    display: none;
+  }
+  .content_logo{
     display: none;
   }
   li.navbar_list-item {
