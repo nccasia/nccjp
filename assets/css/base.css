@@ -35,9 +35,9 @@ a {
 }
 
 .grid {
-    width: 1457px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 8px 99px;
 }
 
 .grid__full-width {

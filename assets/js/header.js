@@ -32,3 +32,24 @@ window.addEventListener("scroll", ()=>{
     }
 }
 })
+
+// var navList = document.getElementsByClassName("navbar_list");
+
+
+// // Get all buttons with class="btn" inside the container
+// var navItem = navList[0].getElementsByClassName("navbar_list-item");
+// console.log(navList)
+// // Loop through the buttons and add the active class to the current/clicked button
+// for (var i = 0; i < navItem.length; i++) {
+//   navItem[i].addEventListener("click", function() {
+//     console.log(navItem)
+//     var current = document.getElementsByClassName("navbar_list-item--active");
+//    console.log('curent',current)
+//     if(current.length){
+//       current[0].className = current[0].className.replace("navbar_list-item--active", "");
+//     } 
+
+//     this.className += " navbar_list-item--active";
+//     console.log(this.className)
+//   });
+// }
