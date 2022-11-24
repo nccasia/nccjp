@@ -105,7 +105,7 @@
     position: absolute;
     top: -20px;
     left: 185px;
-    color: #dcd4d4;
+    color: #fff;
 }
 .navbar-collapse {
     position: absolute;
@@ -298,6 +298,15 @@ h3{
     margin: 0;
     font-size: 16px;
 }
+
+
+b{
+    font-size: 60px;
+}
+.container_heading-text{
+    font-size: 40px;
+}
+
 
 
 .container_top-choice {
@@ -814,7 +823,7 @@ h3{
 }
 
 .container_post-home-item-title h3 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 20px;
     color: #fa8c1e;
     margin-bottom: 0.5rem;
@@ -861,6 +870,20 @@ h3{
     position: relative;
 }
 
+
+
+.footer_head-logo{
+    margin-bottom: 30px;
+}
+.content_logo-footer{
+
+    font-size: 110px;
+    /* margin-bottom: 12px; */
+    position: absolute;
+    top: 173px;
+    left: 185px;
+    color: #fff;
+}
 
 /* Add Automation CSS */
 
@@ -953,6 +976,13 @@ div .certification-awards-item-middle {
     flex: 2;
 }
 
+.fa-locations{
+    font-size: 20px;
+color: white;
+margin-top: 12px;
+margin-right: 10px;
+}
+
 .footer_head-itemr-logo-description {
     font-size: var(--text-font);
     color: #fff;
@@ -1014,8 +1044,8 @@ div .certification-awards-item-middle {
 
 .link-footer>a {
     font-size: var(--text-font);
-    color: var(--gray-color);
-    font-weight: 700;
+    /* color: var(--gray-color);
+    font-weight: 700; */
 }
 
 .footer_head-item-address-vi {
@@ -1034,6 +1064,11 @@ div .certification-awards-item-middle {
     font-weight: 400;
     background: url(../img/building.png) no-repeat 0 2px;
     margin-bottom: 30px;
+}
+
+
+.footer_head-item--infomation{
+    margin-bottom: 28px;
 }
 
 .footer_head-item-office {
@@ -1072,6 +1107,24 @@ div .certification-awards-item-middle {
     background: url(../img/building.png) no-repeat 0 2px;
     padding-left: 30px;
     font-size: 16px;
+    margin-bottom: 0;
+}
+
+.footer_head-item-phone-text {
+    white-space: pre-line;
+    color: #fff;
+    font-weight: 400;
+    background: url(../img/contact-call.png) no-repeat 0 2px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.footer_head-item-email-text {
+    white-space: pre-line;
+    color: #fff;
+    font-weight: 400;
+    background: url(../img/contact-message.png) no-repeat 0 2px;
+    padding-left: 30px;
+    font-size: 16px;
 }
 
 .link-footer-first {
@@ -1080,18 +1133,20 @@ div .certification-awards-item-middle {
 
 .link-footer-first>a {
     font-size: var(--text-font);
-    color: var(--white-color);
-    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    /* color: var(--white-color);
+    font-weight: 700; */
 }
 
-.light-link:before {
+/* .light-link:before {
     content: "\f105";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: 400;
     color: #ccc;
     padding-right: 5px;
-}
+} */
 
 .menu-text {
     display: block;
@@ -1099,6 +1154,7 @@ div .certification-awards-item-middle {
     color: var(--white-color);
     font-size: var(--text-font);
 }
+
 
 .footer_head-list-first.flex-column.no-padding {
     flex: 4;
@@ -1111,6 +1167,20 @@ div .certification-awards-item-middle {
 .footer_head-list-last.flex-column.no-padding {
     flex: 3;
 }
+
+
+.header_footer{
+    display: flex;
+}
+
+.header_footer>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-right: 3px;
+}
+
+
 
 .slick-arrow {
     position: absolute;
@@ -1192,7 +1262,8 @@ div .certification-awards-item-middle {
 }
 
 h2.title {
-    margin: 15px 0 0 0;
+    /* margin: 15px 0 0 0; */
+    font-size: 40px;
 }
 
 .bar_bottom-heading {
@@ -2144,6 +2215,10 @@ button.contact-form-btn {
     padding: 0 15px;
     line-height: 2.5rem;
     font-size: 1.6rem;
+}
+
+.container_field-item-link > img{
+    width: 100%;
 }
 
 /* WHY US */
