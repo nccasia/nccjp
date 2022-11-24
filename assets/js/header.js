@@ -21,7 +21,7 @@ window.addEventListener("scroll", ()=>{
       statusFixed = false;
     }
 
-    
+   
   }
   else {
     if (!statusFixed) {
