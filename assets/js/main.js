@@ -1,7 +1,7 @@
 const box = document.querySelectorAll(".icon-b");
 const btnDropDown = document.querySelector(".header_dropdown-language");
 const menuLanguage = document.querySelector(".dropdown-menu");
-
+const heathCareSlideList = document.querySelector(".health-care-right-slide-list");
 const slickNext = document.querySelector(".slick-next");
 const slickPrev = document.querySelector(".slick-prev");
 const slickSlide = document.querySelector(".slick-track");
@@ -17,17 +17,30 @@ const footerItem = document.querySelectorAll(".footer_head-item");
 const layoutHealthCareRightTitle = document.querySelector(
   ".layout_health-care-right-title"
 );
-const layoutCertificationAward = document.querySelectorAll(
-  ".layout_certification-awards-list"
-);
+// const layoutCertificationAward = document.querySelectorAll(
+//   ".layout_certification-awards-list"
+// );
 
-const layoutCertificationAwardSideBar = document.querySelector(
-  ".layout_certification-awards-sidebar"
-);
+// const layoutCertificationAwardSideBar = document.querySelector(
+//   ".layout_certification-awards-sidebar"
+// );
 
 const containerPartnerItem = document.querySelectorAll(
   ".container_partners-item "
 );
+
+
+
+const widthBody = document.body.offsetWidth;
+
+if(1005 <= widthBody && widthBody <= 1140 )
+  {
+    heathCareSlideList.style.width = "610px"
+  
+  }else {
+    heathCareSlideList.style.width = "auto"
+  }
+  
 let countNext = 0;
 let countPrev = 6;
 slickNext.addEventListener("click", () => {
@@ -95,26 +108,26 @@ const scrollFunction = () => {
     : (layoutHealthCareRightTitle.style.animation = "none");
 
   //layout certification award
-  windowBottom > layoutCertificationAward[0].offsetTop + 20
-    ? (layoutCertificationAward[0].style.animation =
-        "fadeInRight ease 0.8s forwards")
-    : (layoutCertificationAward[0].style.animation = "none");
+  // windowBottom > layoutCertificationAward[0].offsetTop + 20
+  //   ? (layoutCertificationAward[0].style.animation =
+  //       "fadeInRight ease 0.8s forwards")
+  //   : (layoutCertificationAward[0].style.animation = "none");
 
-  windowBottom > layoutCertificationAward[1].offsetTop + 20
-    ? (layoutCertificationAward[1].style.animation =
-        "fadeInLeft ease 0.8s forwards")
-    : (layoutCertificationAward[1].style.animation = "none");
+  // windowBottom > layoutCertificationAward[1].offsetTop + 20
+  //   ? (layoutCertificationAward[1].style.animation =
+  //       "fadeInLeft ease 0.8s forwards")
+  //   : (layoutCertificationAward[1].style.animation = "none");
 
-  windowBottom > layoutCertificationAward[2].offsetTop + 20
-    ? (layoutCertificationAward[2].style.animation =
-        "fadeInRight ease 0.8s forwards")
-    : (layoutCertificationAward[2].style.animation = "none");
+  // windowBottom > layoutCertificationAward[2].offsetTop + 20
+  //   ? (layoutCertificationAward[2].style.animation =
+  //       "fadeInRight ease 0.8s forwards")
+  //   : (layoutCertificationAward[2].style.animation = "none");
 
   //layout certification award sidebar
-  windowBottom > layoutCertificationAwardSideBar.offsetTop + 20
-    ? (layoutCertificationAwardSideBar.style.animation =
-        "fadeInLeft ease 0.8s forwards")
-    : (layoutCertificationAwardSideBar.style.animation = "none");
+  // windowBottom > layoutCertificationAwardSideBar.offsetTop + 20
+  //   ? (layoutCertificationAwardSideBar.style.animation =
+  //       "fadeInLeft ease 0.8s forwards")
+  //   : (layoutCertificationAwardSideBar.style.animation = "none");
 
   //container partner item
   containerPartnerItem.forEach((item, index) => {

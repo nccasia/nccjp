@@ -286,7 +286,9 @@ h3{
     width: 35%;
 }
 
-.container_top-choice-solution {}
+.container_top-choice-solution {
+    width: 100%;
+}
 
 .container_top-choice-right {
     width: 65%;
