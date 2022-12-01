@@ -809,6 +809,7 @@
 
   .section_banner-image>img{
     width: 100%;
+    height: 345px;
   }
   h2.text-c {
     font-size: 2rem;
@@ -923,9 +924,7 @@
     width: 100%;
     margin-top: 0;
   }
-  .layout_health-care-right {
-    width: 100%;
-  }
+
   .box-icon2 {
     right: -22px;
     top: 16%;
@@ -969,9 +968,17 @@
     left: -21px;
     top: 13%;
   }
+  .layout_health-care-right{
+    width: 100%;
+    margin-top: 40px;
+  }
+  .layout_health-care-right-title .heading-text{
+    padding: 0;
+  }
   .layout_health-care-right-title .heading-text > h1 {
     margin: 0;
     font-size: 22px;
+    padding-right: 0;
   }
   .container_health-care .container_background-top {
     padding-bottom: 20px;
@@ -1295,12 +1302,20 @@
   .layout_certification-purposes-main{
     display: block;
   }
+  .layout_certification-purposes-image {
+      width: 100%;
+      padding-right: 0;
+  }
 
   .layout_certification-purposes-image img {
     width: 100%;
     margin-bottom: 20px;
   }
 
+  .layout_certification-purposes-list{
+    width: 100%;
+    padding-left: 0 ;
+  }
   .layout_certification-purposes-item {
       width: 100%;
      }
@@ -1379,6 +1394,9 @@
     padding: 0 15px;
   }
 
+  .fa-locations{
+    margin-top: 8px;
+  }
   .container_service-card {
     width: 100%;
     margin-bottom: 20px;
@@ -1546,8 +1564,8 @@
     width: 28%;
   }
   .section_content-image >img{
-    width: 327px;
-    height: 458px;
+    width: 312px;
+    height: 433px;
 
   }
 
@@ -1565,8 +1583,8 @@
   }
   .section_banner-text .decoration {
     /* border: 1px solid #fff; */
-    padding: 19px;
-    border-radius: 28px;
+    /* padding: 19px;
+    border-radius: 28px; */
   }
 
   .container_top-choice-item-img>img {
@@ -1636,5 +1654,9 @@
   .heading-text-title>h1{
     padding: 0;
     margin: 96px 0px 60px 0;
+  }
+
+  .content_logo-footer {
+    left: 306px;
   }
 }
