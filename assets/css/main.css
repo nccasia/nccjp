@@ -246,7 +246,7 @@ a.sub_menu-link {
 }
 
 .section_banner-image> img{
-    width: 622px;
+    width: 100%;
     height: 700px;
 }
 
@@ -428,7 +428,7 @@ b{
 }
 
 .container_top-choice-item-img>img{
-    width: 200px;
+    width: 37%;
     margin-bottom: 15px;
     height: 200px;
 }
@@ -785,7 +785,7 @@ b{
     width: 50%;
 }
 .layout_certification-purposes-image img{
-    width: 622px;
+    width: 100%;
     height: 750px;
     /* padding-right: 50px; */
     margin-top: 9px;
@@ -1028,8 +1028,8 @@ b{
 }
 .container_partners-item-img {
     /* width: calc((100% - 186px) / 6); */
-    width: 186px;
-    height: 136px;
+    width: 14%;
+    height: 14%;
 }
 .footer {
     margin-top: 0;
@@ -1148,7 +1148,7 @@ div .certification-awards-item-middle {
 .fa-locations{
     font-size: 20px;
 color: white;
-margin-top: 12px;
+margin-top: 8px;
 margin-right: 10px;
 }
 
@@ -1284,21 +1284,23 @@ ul li.footer_head-collection-address{
     font-size: 14px;
     margin-bottom: 0;
 }
-
+.footer_head-item-phone-info{
+    display: flex;
+}
 .footer_head-item-phone-text {
     white-space: pre-line;
     color: #fff;
     font-weight: 400;
-    background: url(../img/contact-call.png) no-repeat 0 2px;
-    padding-left: 30px;
+    background: url(../img/images/icon_phone.svg) no-repeat 0 2px;
+    padding: 5px 20px 0 20px;
     font-size: 14px;
 }
 .footer_head-item-email-text {
     white-space: pre-line;
     color: #fff;
     font-weight: 400;
-    background: url(../img/contact-message.png) no-repeat 0 2px;
-    padding-left: 30px;
+    background: url(../img/images/icon_mail.svg) no-repeat 0 2px;
+    padding: 5px 0 0 25px;
     font-size: 14px;
 }
 
@@ -1399,17 +1401,20 @@ ul li.footer_head-collection-address{
 .section_content-info{
     display: flex;
 }
+.section_content-image{
+    margin-right: 32px;
+}
 
 .section_content-image >img{
     margin-top: 163px;
-    width: 295px;
+    width: 100%;
     height: 392px;
     margin-right: 37px;
 
 }
 
 .section_content-info-list{
-    width: 77%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1.067fr);
     grid-template-rows: 250px 250px;
@@ -1853,8 +1858,8 @@ p.container_management-content {
 
 .line-tree {
     position: absolute;
-    top: 106px;
-    left: 46px;
+    top: 464px;
+    left: 392px;
 }
 
 .container_management-list {
