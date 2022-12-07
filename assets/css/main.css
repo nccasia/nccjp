@@ -276,38 +276,61 @@ a.sub_menu-link {
 }
 
 .container_content_list_box {
-  margin-top: 38px;
   display: flex;
   justify-content: space-between;
+  gap: 32px;
+  padding-top: 40px;
+  width: 100%;
 }
-
+.heading-service-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 64px;
+}
+.w-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 96px;
+}
 .container_content_list_box-item {
-  width: 404px;
-  height: 286px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: inherit;
+  height: auto;
   background: #ffffff;
   border: 1px solid var(--text-color);
   border-radius: 12px;
   padding: 20px;
+
 }
 .container_content_list_box-item-image > img {
   width: 100px;
   height: 100px;
 }
+.container_content_list_box-item-content{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
-.container_content_list_box-item-content > h2 {
+}
+.content-list-box{
   font-weight: 700;
   font-size: 28px;
   line-height: 38px;
   color: var(--red_vip-color);
-  margin: 0;
-  margin-top: 10px;
 }
-.container_content_list_box-item-content > p {
+.box-content{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin: 0;
   color: var(--text-color);
+  margin: 0;
 }
 
 .content {
@@ -2309,14 +2332,13 @@ button.contact-form-btn {
 
 /* SERVICE */
 
-.container_heading-service {
-  margin-top: 0;
-  min-height: 80px;
-  min-height: 80px;
-  white-space: pre-line;
-  margin-bottom: 37px;
-  background-repeat: no-repeat;
+.container_heading-service{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   justify-content: center;
+  align-items: center;
+  padding-top: 96px;
 }
 
 .container_heading-service .heading-service {
@@ -2336,6 +2358,7 @@ button.contact-form-btn {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 40px;
 }
 
 .container_service-card {
@@ -2376,13 +2399,11 @@ button.contact-form-btn {
 }
 
 .container_service-item {
+  border: 1px solid #FBFBFB;
   flex-wrap: wrap;
-  background: #fbfbfb;
   border-radius: 10px;
-  padding-top: 20px;
   color: #fff;
   display: flex;
-  margin-bottom: 25px;
   align-items: center;
   padding: 20px;
 }
@@ -2394,16 +2415,17 @@ button.contact-form-btn {
 }
 
 .container_service-item-customer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   border-left: 1px solid #d1d1d1;
-  padding: 0 15px;
-  flex: 2;
+  padding-left: 15px;
 }
 
 .container_service-item-flat > p {
   font-size: 18px;
   color: #000;
   font-weight: 500;
-  margin: 0 0 16px 0;
   line-height: 24px;
 }
 
@@ -2415,9 +2437,8 @@ button.contact-form-btn {
 
 .container_service-item-customer-info {
   display: flex;
-  margin-bottom: 20px;
   align-items: center;
-  margin: 12px -15px 0 -15px;
+  gap: 8px;
 }
 
 .service_customer-info-img {
@@ -2484,9 +2505,9 @@ button.contact-form-btn {
 }
 
 .container_field-list {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 35px;
+  display: grid;
+  grid-template-columns:  auto auto auto;
+  gap: 32px;
 }
 
 a.container_field-item-link {
@@ -2538,7 +2559,7 @@ a.container_field-item-link {
   margin-bottom: 40px;
 }
 .container_field-item {
-  width: 30%;
+  width: 100%;
 }
 
 .layout_health-care-right-content::after {
