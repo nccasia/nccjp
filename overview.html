@@ -16,18 +16,16 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/overview.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
-
 <body>
     <header class="header">
         <navbar class="header_navbar">
             <div class="header_logo">
                 <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
             </div>
-
             <ul class="navbar_list">
                 <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
                 <li class="navbar_list-item navbar_list-item--active"><a href="./overview.html"
@@ -39,26 +37,55 @@
                 <!-- <li class="navbar_list-item"><a href="./whyus.html" class="navbar_list-item-link">なぜnccなのか</a></li> -->
                 <li class="navbar_list-item"><a href="" class="navbar_list-item-link">問い合わせ</a></li>
                 <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
-
                 <div class="navbar_submenu">
                     <img src="./assets/img/english.png" alt="">
+                    <div class="navbar_submenu-list">
+                        <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
+                        <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
+                    </div>
                 </div>
             </ul>
-        </navbar>
-        <div class="header_language">
-            <button class="header_dropdown-language">
-                <img src="./assets/img/english.png" alt="">
-                English
-                <i class="fa-solid fa-caret-down"></i>
-            </button>
-            <div class="dropdown-menu"><span class="dropdown-item"><img src="./assets/img/vi.png" alt=""> <span>
-                        Vietnam</span></span><span class="dropdown-item"><img src="./assets/img/english.png" alt="">
-                    <span> English</span></span><span class="dropdown-item"><img src="./assets/img/jp.png" alt="">
-                    <span>
-                        Japan</span></span>
+            <div class="menu-icon">
+                <button class="menu-icon-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
-        </div>
+            <div class="navbar-collapse web-b collapse show nav_hiden">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t active"><a
+                                class="sub_menu-link" href="./index.html">ホーム</a>
 
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                                class="sub_menu-link" href="./overview.html">会社概要</a><span class="iconDrop"></span>
+
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                                class="sub_menu-link" href="./service.html">サービス</a>
+
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                                class="sub_menu-link" href="./casestudy.html">開発実績</a>
+
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank"
+                                href="" class="sub_menu-link"
+                                rel="noopener noreferrer">採用</a>
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                                class="sub_menu-link" href="./contact.html">お問い合わせ</a>
+
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </navbar>
     </header>
     <div class="container">
         <div class="container-overview">
@@ -187,12 +214,12 @@
                     </div>
                     <div class="line-css"></div>
                 </div>
-                <div class="container_management-cards">
-                    <div class="line">
+                <div class="container_management-cards" id="item-cards">
+                    <div class="line" id="line">
                         <div class="line_height-css"></div>
                     </div>
                     <div>
-                        <div class="container_management-cards-list">
+                        <div class="container_management-cards-list" id="item-card-list-top">
                             <div class="line-css"></div>
                             <div class="container_management-card-list">
                                 <div class="container_management-card-list--item-title">
@@ -231,7 +258,6 @@
                                         </div>
                                     </div>
                                     <div class="container_management-item-content-wrapper">
-
                                         <div class="container_management-item-content-bu-container">
                                             <p> Quality Assurance Department</p>
                                         </div>
@@ -256,7 +282,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="container_management-cards-list">
+                        <div class="container_management-cards-list" id="item-card-list-bottom">
                             <div class="line-css"></div>
                             <div class="container_management-card-list">
                                 <div class="container_management-card-list--item-title">
@@ -283,7 +309,7 @@
                                     </div>
                                 </div>
                                 <div class="container_management-item-content">
-                                    <div class="container_management-item-content-wrapper">
+                                    <div class="container_management-item-content-wrappers">
                                         <div class="container_management-item-content-bu-container">
                                             <p>QUALITY ASSURANCE DEPARTMENT</p>
                                         </div>
@@ -383,6 +409,14 @@
                 </li>
             </ul>
     </footer>
+    <script>
+        const maxHeightListTop = document.getElementById('item-card-list-top').offsetHeight;
+        const maxHeightListBottom = document.getElementById('item-card-list-bottom').offsetHeight;
+        const heightList = maxHeightListTop - maxHeightListBottom
+        const maxHeight = document.getElementById('item-cards').offsetHeight;
+        document.getElementById("line").style.height = `${maxHeight / 2}px`;
+        document.getElementById("line").style.marginTop = `${heightList / 2}px`;
+    </script>
     <script src="./assets/js/header.js"></script>
 </body>
 
