@@ -39,7 +39,7 @@
 
 .header_container {
     position: relative;
-    height: 100px;
+    /* height: 100px; */
 }
 
 
@@ -96,17 +96,11 @@
     height: 100%;
 }
 
-.header_logo{
-    display: flex;
+.header_logo>img{
+    width: 430px;
+    height: 40.91px;
 }
 
-.content_logo{
-    font-size: 86px;
-    position: absolute;
-    top: -17px;
-    left: 154px;
-    color: var(--black-color);
-}
 .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -146,10 +140,10 @@ a.sub_menu-link {
     align-items: center;
 }
 
-.logo-company {
+/* .logo-company {
     width: 50px;
     height: 50px;
-}
+} */
 
 .menu-icon {
     display: none;
@@ -222,9 +216,9 @@ a.sub_menu-link {
 
 .section_banner-text .decoration {
     display: flex;
-    width: 143px;
-    /* border: 1px solid #fff; */
-    padding: 19px;
+    width: 190px;
+    align-items: center;
+    padding: 16px 19px;
     border-radius: 28px;
     background-color: var(--black-color);
 }
@@ -335,7 +329,7 @@ h3{
 
 
 b{
-    font-size: 60px;
+    font-size: 45px;
     /* color: var(--red_vip-color); */
 }
 
@@ -377,10 +371,11 @@ b{
 }
 
 .container_top-choice-list {
-    /* width: 500px; */
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 42px;
+    grid-template-columns: repeat(2, 46%);
+    grid-template-rows: 400px 400px;
+    grid-gap: 39px 87px;
 }
 
 .container_top-choice-item {
@@ -428,9 +423,9 @@ b{
 }
 
 .container_top-choice-item-img>img{
-    width: 37%;
-    margin-bottom: 15px;
-    height: 200px;
+    width: 35%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .container_top-choice-item-info {
@@ -619,6 +614,16 @@ b{
     background: #fff;
 }
 
+.temp{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--black-color);
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 57px;
+    padding: 8px 12px;
+    width: 88px;
+}
 .layout_health-care-right-content-image{
     position: absolute ;
     top: 100px;
@@ -786,7 +791,7 @@ b{
 }
 .layout_certification-purposes-image img{
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
     /* padding-right: 50px; */
     margin-top: 9px;
 }
@@ -800,8 +805,7 @@ b{
     background-color: #fff;
     width: 100%;
     padding: 20px 27px;
-    margin-bottom: 28px;
-    margin-top: 10px;
+    margin: 10px 0 37px 0;
     border-radius: 23px;
     border: 1px solid #d1d1d1;
     height: 166px;
@@ -994,7 +998,8 @@ b{
 
 .container_post-home-item-title h3 {
     /* text-transform: uppercase; */
-    font-size: 34px;
+    font-size: 27px;
+    text-align: center;
     color: var(--red_vip-color);
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -1026,10 +1031,15 @@ b{
     justify-content: space-between;
     margin-top: 50px;
 }
+
+.container_parters-list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+    margin-top: 40px;
+}
 .container_partners-item-img {
-    /* width: calc((100% - 186px) / 6); */
-    width: 14%;
-    height: 14%;
+    width: 100%;
 }
 .footer {
     margin-top: 0;
@@ -1406,11 +1416,10 @@ ul li.footer_head-collection-address{
 }
 
 .section_content-image >img{
-    margin-top: 163px;
-    width: 100%;
-    height: 392px;
-    margin-right: 37px;
-
+        margin-top: 106px;
+        width: 82%;
+        /* height: 447px; */
+        margin-right: 37px;
 }
 
 .section_content-info-list{
@@ -1428,13 +1437,19 @@ ul li.footer_head-collection-address{
     width: 100%;
     border: 1px solid #D1D1D1;
     border-radius: 20px;
-    padding: 44px 29px;
+    padding: 26px 29px;
 }
 
 .section_content-info-item:hover{
     opacity: 0.5;
 }
-
+.section_content-info-item .number{
+    background: #fbfbfb;
+    width: 42px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
 
 .color-text {
     color: #EF0C0E;
@@ -1720,37 +1735,39 @@ h2.title {
 }
 
 .logo_image-ncc>img{
-    width: 600px;
-    height: 535px;
+    width: 100%;
+    /* height: 535px; */
+}
+.container_company-overview-list-infomation{
+    display: contents;
 }
 .container_company-overview-list-info{
-    width: 14%;
-    margin-top: 90px;
+    width: 11%;
+    /* margin-top: 90px; */
+    margin: 90px 10px 0 10px;
 }
 .container_company-overview-list-info--item{
     display: flex;
-    padding: 12px;
+    padding: 13px;
 }
 .icon-info-wrap{
     margin-right: 5px;
     font-size: 20px;
     color: var(--red_vip-color);
 }
-.basic-info-title{
-    font-size: 20px;
-    color: var(--red_vip-color);
-}
+
 .container_company-overview-list-address{
     margin-top: 90px;
 }
 .container_company-overview-item{
-    font-size: 18px;
-    padding: 13px 0;
+    font-size: 20px;
+    padding: 16px 0;
 }
 
 
 .basic-info-title {
-    font-size: var(--text-font);
+    font-size: 21px;
+    color: var(--red_vip-color);
 }
 
 .container_company-overview {
@@ -1876,6 +1893,12 @@ p.container_management-content {
     justify-content: space-between;
 }
 
+.heading-text .heading-text-overview{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
 
 .container_management-card-ceo-bar{
     border: 1px solid #d1d1d1;
@@ -1885,7 +1908,7 @@ p.container_management-content {
 }
 
 .container_management-card-ceo-bar-avatar>img{
-    width: 280px;
+    width: 100% ;
     height: 320px;
     border-radius: 20px;
 }
@@ -1917,8 +1940,8 @@ p strong{
 }
 
 .container_management-card-bar-avatar > img{
-    width: 184px;
-    height: 271px;
+    width: 100%;
+    padding: 20px;
     border-radius: 24px;
 }
 .container_management-content-member{
@@ -1997,6 +2020,7 @@ p strong{
 }
 .container_result-item-title {
     margin: 15px 0;
+    padding: 0 20px;
     /* padding: 8px 16px;
     gap: 10px;
     background: rgba(58, 78, 255, 0.1);
@@ -2026,6 +2050,7 @@ p strong{
 }
 .container_result-item-content {
     margin-bottom: 20px;
+    padding: 0 20px;
 }
 .container_result-item-category {
     font-weight: 700;
@@ -2055,8 +2080,8 @@ p strong{
 }
 
 .container_result-item-img >img{
-    width: 418px;
-    height: 287px;
+    width: 100%;
+    /* height: 287px; */
 }
 
 /* CONTACT */
@@ -2407,7 +2432,7 @@ line-height: 27px;
 }
 .container_heading-service >h3{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
     color: #4C4C4C
 }
@@ -2446,7 +2471,7 @@ line-height: 27px;
 
 .container_service-card-subtile .text {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
 
 }
@@ -2509,13 +2534,13 @@ line-height: 27px;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #000;
+    color: var(--black-color);
 }
 
 .container_field-item-link > img{
     width: 100%;
-    height: 287px;
-    border-radius: 13px;
+    /* height: 287px; */
+    /* border-radius: 13px; */
 }
 
 /* WHY US */
@@ -2617,6 +2642,8 @@ a.container_field-item-link {
 }
 .container_field-item {
     width: 30%;
+    border: 1px solid var(--black-color);
+    border-radius: 12px;
 }
 
 .layout_health-care-right-content::after{
@@ -2639,13 +2666,14 @@ a.container_field-item-link {
 .container_post-home-item{
     position: relative;
     min-height: 430px;
+    padding: 28px;
 }
 .img-bottom-line{
     position: absolute;
     bottom: 18px;
     right: 18px;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     display: block;
 }
 .img-bottom-line img{
