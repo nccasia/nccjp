@@ -36,17 +36,6 @@ a {
     color: var(--text-color);
 }
 
-.grid {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 8px 99px;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
-.grid__row {
-    display: flex;
-    flex-wrap: wrap;
+p {
+    margin: 0;
 }
