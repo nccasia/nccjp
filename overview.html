@@ -14,8 +14,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/responsize.css">
+    <link rel="stylesheet" href="./assets/css/overview.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,133 +23,101 @@
 
 <body>
     <header class="header">
-        <div class="grid header_container">
-            <div class="header_language">
-                <button class="header_dropdown-language">
-                    <img src="./assets/img/english.png" alt="">
-                    English
-                    <i class="fa-solid fa-caret-down"></i>
-                </button>
-                <div class="dropdown-menu"><span class="dropdown-item"><img src="./assets/img/vi.png" alt=""> <span>
-                            Vietnam</span></span><span class="dropdown-item"><img src="./assets/img/english.png" alt="">
-                        <span> English</span></span><span class="dropdown-item"><img src="./assets/img/jp.png" alt="">
-                        <span>
-                            Japan</span></span>
-                </div>
+        <navbar class="header_navbar">
+            <div class="header_logo">
+                <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
             </div>
-            <navbar class="header_navbar">
-                <div class="header_logo">
-                    <a href="./index.html"><img class="logo-company" src="./assets/img/logo.png" alt=""></a>
-                    <div class="content_logo">ncc</div>
+            <ul class="navbar_list">
+                <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
+                <li class="navbar_list-item navbar_list-item--active"><a href="./overview.html"
+                        class="navbar_list-item-link">会社概要
+                    </a>
+                </li>
+                <li class="navbar_list-item"><a href="./service.html" class="navbar_list-item-link">サービス</a></li>
+                <li class="navbar_list-item"><a href="./casestudy.html" class="navbar_list-item-link">開発実績</a></li>
+                <!-- <li class="navbar_list-item"><a href="./whyus.html" class="navbar_list-item-link">なぜnccなのか</a></li> -->
+                <li class="navbar_list-item"><a href="" class="navbar_list-item-link">問い合わせ</a></li>
+                <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
+                <div class="navbar_submenu">
+                    <img src="./assets/img/english.png" alt="">
+                    <div class="navbar_submenu-list">
+                        <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
+                        <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
+                    </div>
                 </div>
+            </ul>
+            <div class="menu-icon">
+                <button class="menu-icon-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse web-b collapse show nav_hiden">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t active"><a class="sub_menu-link"
+                                href="./index.html">ホーム</a>
 
-                <ul class="navbar_list">
-                    <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
-                    <li class="navbar_list-item navbar_list-item--active"><a href="./overview.html" class="navbar_list-item-link">会社概要 
-                        </a>
+                        </span>
                     </li>
-                    <li class="navbar_list-item"><a href="./service.html" class="navbar_list-item-link">サービス</a></li>
-                    <li class="navbar_list-item"><a href="./casestudy.html" class="navbar_list-item-link">開発実績</a></li>
-                    <!-- <li class="navbar_list-item"><a href="./whyus.html" class="navbar_list-item-link">なぜnccなのか</a></li> -->
-                    <li class="navbar_list-item"><a href="" class="navbar_list-item-link">問い合わせ</a></li>
-                    <li class="navbar_list-item"><a href="./contact.html"
-                            class="navbar_list-item-link">お問い合わせ</a></li>
-                
-                    <div class="navbar_submenu">
-                        <img src="./assets/img/english.png" alt="">
-                        <i class="fa-solid fa-caret-down"></i>
-                        <div class="navbar_submenu-list">
-                            <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
-                            <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
-                            <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="menu-icon">
-                        <button class="menu-icon-btn">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                    </div>
-                    <div class="navbar-collapse web-b collapse show nav_hiden">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t  active"><a
-                                        class="sub_menu-link" href="./index.html">ホーム</a>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./overview.html">会社概要</a><span class="iconDrop"></span>
 
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./overview.html">会社概要</a><span class="iconDrop"></span>
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./service.html">サービス</a>
 
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./service.html">サービス</a>
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./casestudy.html">開発実績</a>
 
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./casestudy.html">開発実績</a>
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank" href=""
+                                class="sub_menu-link" rel="noopener noreferrer">採用</a>
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./contact.html">お問い合わせ</a>
 
-                                </span>
-                            </li>
-                            <!-- <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./whyus.html">なぜnccなのか</a>
-
-                                </span>
-                            </li> -->
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank"
-                                        href="" class="sub_menu-link"
-                                        rel="noopener noreferrer">採用</a>
-
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./contact.html">お問い合わせ</a>
-
-                                </span>
-                            </li>
-                            
-                        </ul>
-
-                    </div>
+                        </span>
+                    </li>
                 </ul>
-
-
-            </navbar>
-
-        </div>
+            </div>
+        </navbar>
     </header>
-    <div class="container-overview">
-        <div class="grid ">
+    <div class="container">
+        <div class="container-overview">
             <div class="container_heading-title">
-                <h1 class="container_heading-text-title">会社概要 </h1>
+                会社概要
             </div>
             <div class="container_company-overview">
+                <div class="logo_image-ncc">
+                    <img src="./assets/img/images/logo_nccprofile.png" alt="">
+                </div>
                 <div class="container_company-overview-list">
-                    <div class="logo_image-ncc">
-                        <img src="./assets/img/images/logo_nccprofile.png" alt="">
-                    </div>
                     <div class="container_company-overview-list-info">
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-regular fa-building"></i></div>
-                            <div class="basic-info-title">社名</div>
-                           
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-solid fa-calendar-days"></i></div>
-                            <div class="basic-info-title">設立</div>
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-sharp fa-solid fa-location-dot"></i></i></div>
-                            <div class="basic-info-title">住所</div>
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-solid fa-dollar-sign"></i></div>
-                            <div class="basic-info-title">資本金</div>
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-solid fa-briefcase"></i></div>
-                            <div class="basic-info-title">事業内容</div>
-                        </div>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-regular fa-building"></i>
+                            <li class="basic-info-title">社名</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <li class="basic-info-title">設立</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <li class="basic-info-title">住所</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <li class="basic-info-title">資本金</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <li class="basic-info-title">事業内容</li>
+                        </ul>
                     </div>
                     <div class="container_company-overview-list-address">
                         <div class="container_company-overview-list-address-info">
@@ -176,43 +143,96 @@
                             </div>
                         </div>
                     </div>
+                    <div class="container_company-overview-list-mobile">
+                        <div class="container_company-overview-list-address-info">
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-regular fa-building"></i>
+                                    <li class="basic-info-title">社名</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>NCCPLUS VIETNAM JSC</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <li class="basic-info-title">設立</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>2014年9月1日</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <li class="basic-info-title">住所</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>5F Ecolife、58 To Huu、Nam Tu Liem、Ha Noi</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <li class="basic-info-title">資本金</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>5億円</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                    <li class="basic-info-title">事業内容</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div style="line-height: 30px;">
+                                        1.ソフトウェア・アウトソーシング・サービスを提供する。<br />
+                                        2. 高い新技術のアプリケーションを研究・開発する。<br />
+                                        3. 技術者との人材育成をする。<br />
+                                        4. 前各号に附帯する一切の事業。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="container_heading-title">
-                <h1 class="container_heading-text-title margin-top">関連会社 </h1>
+                関連会社
             </div>
             <div class="container_company-overview">
+                <div class="logo_image-ncc">
+                    <img src="./assets/img/images/logo_nccjanpan.png " alt="">
+                </div>
                 <div class="container_company-overview-list">
-                    <div class="logo_image-ncc">
-                        <img src="./assets/img/images/logo_nccjanpan.png " alt="">
-                    </div>
                     <div class="container_company-overview-list-info">
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-regular fa-building"></i></div>
-                            <div class="basic-info-title">社名</div>
-                           
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-solid fa-calendar-days"></i></div>
-                            <div class="basic-info-title">設立</div>
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-sharp fa-solid fa-location-dot"></i></i></div>
-                            <div class="basic-info-title">所在地</div>
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-solid fa-dollar-sign"></i></div>
-                            <div class="basic-info-title">資本金</div>
-                        </div>
-                        <div class="container_company-overview-list-info--item">
-                            <div class="icon-info-wrap"><i class="fa-solid fa-user-tie"></i></div>
-                            <div class="basic-info-title">代表者</div>
-                        </div>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-regular fa-building"></i>
+                            <li class="basic-info-title">社名</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <li class="basic-info-title">設立</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <li class="basic-info-title">住所</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <li class="basic-info-title">資本金</li>
+                        </ul>
+                        <ul class="container_company-overview-list-info--item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <li class="basic-info-title">代表者</li>
+                        </ul>
                     </div>
                     <div class="container_company-overview-list-address">
                         <div class="container_company-overview-list-address-info">
                             <div class="container_company-overview-item">
-                                <div> NCC ジャパン 合同会社</div>
+                                <div>NCC ジャパン 合同会社</div>
                             </div>
                             <div class="container_company-overview-item">
                                 <div>2022年09月15日</div>
@@ -225,266 +245,314 @@
                             </div>
                             <div class="container_company-overview-item">
                                 <div>Nguyen Quang Thang <span class="highlight"> (グェン・カン・タン) <br>
-                                    Qualification： PMP - Project Management Professional</span></div>
+                                        Qualification： PMP - Project Management Professional</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_company-overview-list-mobile">
+                        <div class="container_company-overview-list-address-info">
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-regular fa-building"></i>
+                                    <li class="basic-info-title">社名</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>NCC ジャパン 合同会社</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <li class="basic-info-title">設立</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>2022年09月15日</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <li class="basic-info-title">住所</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>〒145-0065 東京都大田区東雪谷２－３５－５</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <li class="basic-info-title">資本金</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>5000000円</div>
+                                </div>
+                            </div>
+                            <div class="container_company-overview-lists">
+                                <ul class="container_company-overview-list-info--item">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                    <li class="basic-info-title">代表者</li>
+                                </ul>
+                                <div class="container_company-overview-item">
+                                    <div>Nguyen Quang Thang <span class="highlight"> (グェン・カン・タン) <br>
+                                            Qualification： PMP - Project Management Professional</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-           
         </div>
     </div>
-   <div class="container_management">
-    <div class="grid ">
+    <div class="container_management">
         <div class="heading-text">
-            <h1>組織体制</h1>
+            組織体制
         </div>
-        <div class="container_management-category">
+        <div class="container-category">
             <div class="container_management-card">
                 <div class="container_management-card-ceo-bar">
-                    <div class="container_management-card-ceo-bar-avatar"><img
-                            src="./assets/img/anhnhan.png"></div>
+                    <div class="container_management-card-ceo-bar-avatar"><img src="./assets/img/anhnhan.png">
+                    </div>
                     <div class="container_management-card-explain ">
-                        <p class="container_management-content"><span
-                                class="manager-name">Nguyen Tran Nhan</span><br><strong>CEO</strong></p>
+                        <p class="container_management-content"><span class="manager-name">Nguyen Tran
+                                Nhan</span><br><strong>CEO</strong></p>
                     </div>
                 </div>
+                <div class="line-css"></div>
             </div>
-            <div class="container_management-cards">
-                <div class="container_management-card-list margin-top-box">
-                        <div class="container_management-card-list--item">
+            <div class="container_management-cards" id="item-cards">
+                <div class="line" id="line">
+                    <div class="line_height-css"></div>
+                </div>
+                <div>
+                    <div class="container_management-cards-list" id="item-card-list-top">
+                        <div class="line-css"></div>
+                        <div class="container_management-card-list">
                             <div class="container_management-card-list--item-title">
                                 <div class="about-head">ベトナム本社</div>
                             </div>
-                            <div class="container_management-card-list-item-info">
-                                <div class="container_management-card-list-item-info--card">
-                                    <div class="container_management-card">
-                                        <div class="container_management-card-bar">
-                                            <div class="container_management-card-bar-avatar "><img
-                                                src="./assets/img/anhtien.jpg"
-                                                    alt="Pham Manh Tien"></div>
-                                            <div class="container_management-card-expla secondary">
-                                                <p class="container_management-content-member"> <span
-                                                    class="manager-member">Pham Manh Tien</span><br><span>副社長</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container_management-card">
-                                   
-                                            <div class="container_management-card-bar">
-                                                <div class="container_management-card-bar-avatar  "><img
-                                                    src="./assets/img/anhphuc.png"
-                                                        alt="Duong Van Phuc"></div>
-                                                <div class="container_management-card-expla secondary">
-                                                    <p class="container_management-content-member"><span
-                                                            class="manager-member">Duong Van Phuc</span><br><span>最高技術担当者</span></p>
-                                                </div>
-                                            </div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="container_management-item-content">
-                                    <div class="container_management-item-content-wrapper margin-top">
-                                        <div class="container_management-item-content-bu-container">
-                                            <p>Business Development Departments (Business Unit No.1~No.5)</p>
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>Business Promotion Department</p> 
-                                        </div>
-                                    </div>
-                                    <div class="container_management-item-content-wrapper">
-                                        
-                                        <div class="container_management-item-content-bu-container">  
-                                            <p> Quality Assurance Department</p>
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>Strategic Partnerships Departmen</p> 
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>Finance - Accounting  Department</p> 
-                                        </div>
-                                    </div>
-                                    <div class="container_management-item-content-wrapper">
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>Public Relations Department</p> 
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p> Administration Department</p>
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>Organization Development  Department</p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-    
-                            </div>
-                        </div>
-                    
-                </div>
-                <div class="container_management-card-list">
-                        <div class="container_management-card-list--item">
-                            <div class="container_management-card-list--item-title">
-                                <div class="about-head">日本法人</div>
-                            </div>
-                            <div class="container_management-card-list-item-info">
-                                <div class="container_management-card-list-item-info--card">
-                                    <div class="container_management-card">
-                                        <div class="container_management-card-bar">
-                                            <div class="container_management-card-bar-avatar "><img
-                                                src="./assets/img/YThang.png"
-                                                    alt="Nguyen Quang Thang"></div>
-                                            <div class="container_management-card-expla secondary">
-                                                <p class="container_management-content-member"> <span
-                                                    class="manager-member">Nguyen Quang Thang</span><br><span>日本法人代表</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container_management-card">
-                                   
-                                            <div class="container_management-card-bar">
-                                                <div class="container_management-card-bar-avatar  "><img
-                                                    src="./assets/img/yoshiki.png"
-                                                        alt="池谷 賀樹"></div>
-                                                <div class="container_management-card-expla secondary">
-                                                    <p class="container_management-content-member"><span
-                                                            class="manager-member">池谷 賀樹</span><br><span>副社長</span></p>
-                                                </div>
-                                            </div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="container_management-item-content">
-                                    <div class="container_management-item-content-wrapper margin-top">
-                                        <div class="container_management-item-content-bu-container">
-                                            <p>QUALITY ASSURANCE DEPARTMENT</p>
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>STRATEGIC PARTNERSHIPS DEPARTMEN</p> 
-                                        </div>
-                                        <div class="container_management-item-content-bu-container">
-                                           <p>FINANCE ACCOUNTING DEPARTMENT</p> 
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                </div>
-    
-                            </div>
-                        </div>
-                    
-                </div>
-            </div>
-            <div class="line-tree"><svg width="22" height="651" viewBox="0 0 22 651" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 0V651H20" stroke="#FA8C1E"></path>
-                <path d="M0 260H22" stroke="#FA8C1E"></path>
-            </svg></div>
-        </div>
-        
-            
-            
-       
-    </div>
-   </div>
-    
-    <footer class="footer">
-        <div class="grid">
-            <div class="footer_layout">
-                <div class="footer_head">
-                    <div class="footer_head-logo">
-                        <img class="logo-company" src="assets/img/logo.png"
-                            alt="logo-ominext">
-                            <div class="content_logo-footer">ncc</div>
-                        </div>
-                        <ul class="footer_head-category">
-                            <li class="footer_head-collection footer_head-collection-infomation ">
-                                <div class="footer_head-item--infomation">
-                                    <h6 class="footer_head-item-address-vi">ベトナム本社</h6>
-                                    <p class="footer_head-item-address-text">5F、Office Building、 58 To Huu、Nam Tu Liem、
-                                        Ha Noi
-                                    </p>
-                                    <div class="footer_head-item-phone-info">
-                                        <p class="footer_head-item-phone-text">(+84) 2466874606</p>
-                                        <p class="footer_head-item-email-text">info@ncc.asia
+                            <div class="container_management-card-list-item-info--card">
+                                <div class="container_management-card-item">
+                                    <div class="container_management-card-bar-avatar "><img
+                                            src="./assets/img/anhtien.png" alt="Pham Manh Tien"></div>
+                                    <div class="container_management-card-expla secondary">
+                                        <p class="container_management-content-member"> <span
+                                                class="manager-member">Pham
+                                                Manh
+                                                Tien</span><br><span>副社長</span>
                                         </p>
                                     </div>
                                 </div>
-                                <!-- <div>
-                                    <h6 class="footer_head-item-office">
-                                        ホーチミンオフィス
-                                    </h6>
-                                    <p class="footer_head-item-office-address">địa chỉ、Ho Chi Minh、Viet Nam</p>
-                                </div> -->
-                                <div>
-                                    <h6 class="footer_head-item-address-ja">日本オフィス</h6>
-                                    <p class="footer_head-item-address-text">〒145-0065 東京都　大田区 東雪谷2-35-5
-                                    </p>
-                                    <p class="footer_head-item-phone-text">(+81) 9024878796</p>
-                                    <p class="footer_head-item-email-text">info@nccsoft.jp
-                                    </p>
+                                <div class="container_management-card-item">
+                                    <div class="container_management-card-bar-avatar  "><img
+                                            src="./assets/img/anhphuc.png" alt="Duong Van Phuc"></div>
+                                    <div class="container_management-card-expla secondary">
+                                        <p class="container_management-content-member"><span
+                                                class="manager-member">Duong
+                                                Van
+                                                Phuc</span><br><span>最高技術担当者</span></p>
+                                    </div>
                                 </div>
-                            </li>
-                            
-                            <li class="footer_head-collection footer_head-collection-address">
-                                <ul class="footer_head-list-first flex-column no-padding">
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">HA NOI 2 オフィス： 7th Floor、8 Pham Hung St.、Cau Giay Dist.、Hanoi、Vietnam</a></li>
+                            </div>
+                            <div class="container_management-item-content desktop">
+                                <div class="container_management-item-content-wrapper margin-top">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Business Development Departments (Business Unit No.1~No.5)</p>
                                     </div>
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">SAI GON 1 オフィス： 5th Floor、The Office、340/15A Ung Van Khiem St.、Binh Thanh Dist.、HCMC、Vietnam</a></li>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Business Promotion Department</p>
                                     </div>
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">DA NANG オフィス： 4th Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da Nang、Vietnam
-                                        </a></li>
+                                </div>
+                                <div class="container_management-item-content-wrapper">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p> Quality Assurance Department</p>
                                     </div>
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">QUY NHON オフィス：  3th Floor、307 Nguyen Thi Minh Khai St.、Quy Nhon City、Binh Dinh Province、Vietnam 
-                                        </a></li>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Strategic Partnerships Departmen</p>
                                     </div>
-                                </ul>
-                            </li>
-                            <li class="footer_head-collection footer_head-collection-address ">
-                                    <ul class="footer_head-list-main flex-column">
-                                        <div class="header_footer">
-                                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                            <li class=" link-footer link-footer-first"><a href=""
-                                                class="bold-link" target="_self">HA NOI 3 オフィス： 5th Floor、Hong Ha Tower、89 Thinh Liet、Hoang Mai
-                                            </a></li>
-                                        </div>
-                                        <div class="header_footer">
-                                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                            <li class=" link-footer link-footer-first"><a href=""
-                                                class="bold-link" target="_self">SAI GON 2 オフィス： 1th Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu Ward、Thu Duc、HCMC、Vietnam
-                                            </a></li>
-                                        </div>
-                                        <div class="header_footer">
-                                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                            <li class=" link-footer link-footer-first"><a href=""
-                                                class="bold-link" target="_self">VINH オフィス： 4th Floor、138 Ha Huy Tap St.、Vinh City、Nghe An Province、Vietnam
-                                            </a></li>
-                                        </div>
-                                    </ul>
-                                    
-                             </li>
-                        </ul>
-                <div class="footer_bottom">
-                    <div class="footer_bottom-text">
-                        Copyright © 2022 NCC Company. All rights reserved.
-
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Finance - Accounting Department</p>
+                                    </div>
+                                </div>
+                                <div class="container_management-item-content-wrapper">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Public Relations Department</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p> Administration Department</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Organization Development Department</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container_management-item-content mobile">
+                                <div class="container_management-item-content-wrapper margin-top">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Business Development Departments (Business Unit No.1~No.5)</p>
+                                    </div>
+                                </div>
+                                <div class="container_management-item-content-wrapper mobile">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Business Promotion Department</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Quality Assurance Department</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Strategic Partnerships Departmen</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Finance - Accounting Department</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Public Relations Department</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Administration Department</p>
+                                    </div>
+                                </div>
+                                <div class="container_management-item-content-wrapper">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>Organization Development Department</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_management-cards-list" id="item-card-list-bottom">
+                        <div class="line-css"></div>
+                        <div class="container_management-card-list">
+                            <div class="container_management-card-list--item-title">
+                                <div class="about-head">日本法人</div>
+                            </div>
+                            <div class="container_management-card-list-item-info--card">
+                                <div class="container_management-card-item">
+                                    <div class="container_management-card-bar-avatar "><img
+                                            src="./assets/img/YThang.png" alt="Nguyen Quang Thang"></div>
+                                    <div class="container_management-card-expla secondary">
+                                        <p class="container_management-content-member"> <span
+                                                class="manager-member">Nguyen Quang
+                                                Thang</span><br><span>日本法人代表</span></p>
+                                    </div>
+                                </div>
+                                <div class="container_management-card-item">
+                                    <div class="container_management-card-bar-avatar"><img
+                                            src="./assets/img/yoshiki.png" alt="池谷 賀樹"></div>
+                                    <div class="container_management-card-expla secondary">
+                                        <p class="container_management-content-member"><span class="manager-member">池谷
+                                                賀樹</span><br><span>副社長</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container_management-item-content">
+                                <div class="container_management-item-content-wrappers">
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>QUALITY ASSURANCE DEPARTMENT</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>STRATEGIC PARTNERSHIPS DEPARTMEN</p>
+                                    </div>
+                                    <div class="container_management-item-content-bu-container">
+                                        <p>FINANCE ACCOUNTING DEPARTMENT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_head">
+            <div class="footer_head-logo">
+                <img class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
+            </div>
+            <ul class="footer_head-category">
+                <li class="footer_head-collection footer_head-collection-infomation ">
+                    <div class="footer_head-item--infomation">
+                        <h6 class="footer_head-item-address-vi">ベトナム本社</h6>
+                        <p class="footer_head-item-address-text">5F、Office Building、 58 To Huu、Nam Tu Liem、
+                            Ha Noi
+                        </p>
+                        <p class="footer_head-item-phone-text">(+84) 2466874606</p>
+                        <p class="footer_head-item-email-text">info@ncc.asia
+                        </p>
+                    </div>
+                    <div>
+                        <h6 class="footer_head-item-address-ja">日本オフィス</h6>
+                        <p class="footer_head-item-address-text">〒145-0065 東京都　大田区 東雪谷2-35-5
+                        </p>
+                        <p class="footer_head-item-phone-text">(+81) 9024878796</p>
+                        <p class="footer_head-item-email-text">info@nccsoft.jp
+                        </p>
+                    </div>
+                </li>
+
+                <li class="footer_head-collection footer_head-collection-address">
+                    <ul class="footer_head-list-first flex-column no-padding">
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">HA
+                                    NOI 2 オフィス： 7th Floor、8 Pham Hung St.、Cau Giay Dist.、Hanoi、Vietnam</a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">SAI
+                                    GON 1 オフィス： 5th Floor、The Office、340/15A Ung Van Khiem St.、Binh Thanh
+                                    Dist.、HCMC、Vietnam</a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">DA
+                                    NANG オフィス： 4th Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da
+                                    Nang、Vietnam
+                                </a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">QUY
+                                    NHON オフィス： 3th Floor、307 Nguyen Thi Minh Khai St.、Quy Nhon City、Binh Dinh
+                                    Province、Vietnam
+                                </a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="footer_head-collection footer_head-collection-address ">
+                    <ul class="footer_head-list-main flex-column">
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">HA
+                                    NOI 3 オフィス： 5th Floor、Hong Ha Tower、89 Thinh Liet、Hoang Mai
+                                </a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">SAI
+                                    GON 2 オフィス： 1th Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu Ward、Thu
+                                    Duc、HCMC、Vietnam
+                                </a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self">VINH
+                                    オフィス： 4th Floor、138 Ha Huy Tap St.、Vinh City、Nghe An Province、Vietnam
+                                </a></li>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
     </footer>
+    <script>
+        const maxHeightListTop = document.getElementById('item-card-list-top').offsetHeight;
+        const maxHeightListBottom = document.getElementById('item-card-list-bottom').offsetHeight;
+        const heightList = maxHeightListTop - maxHeightListBottom
+        const maxHeight = document.getElementById('item-cards').offsetHeight;
+        document.getElementById("line").style.height = `${maxHeight / 2}px`;
+        document.getElementById("line").style.marginTop = `${heightList / 2}px`;
+    </script>
     <script src="./assets/js/header.js"></script>
 </body>
 

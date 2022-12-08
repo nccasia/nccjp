@@ -2,377 +2,384 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
-    <title>お問い合わせ</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/responsize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
+  <title>お問い合わせ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="grid header_container">
-            <div class="header_language">
-                <button class="header_dropdown-language">
-                    <img src="./assets/img/english.png" alt="">
-                    English
-                    <i class="fa-solid fa-caret-down"></i>
-                </button>
-                <div class="dropdown-menu"><span class="dropdown-item"><img src="./assets/img/vi.png" alt=""> <span>
-                            Vietnam</span></span><span class="dropdown-item"><img src="./assets/img/english.png" alt="">
-                        <span> English</span></span><span class="dropdown-item"><img src="./assets/img/jp.png" alt="">
-                        <span>
-                            Japan</span></span>
+  <header class="header">
+    <navbar class="header_navbar">
+        <div class="header_logo">
+            <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
+        </div>
+        <ul class="navbar_list">
+            <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
+            <li class="navbar_list-item navbar_list-item--active"><a href="./overview.html"
+                    class="navbar_list-item-link">会社概要
+                </a>
+            </li>
+            <li class="navbar_list-item"><a href="./service.html" class="navbar_list-item-link">サービス</a></li>
+            <li class="navbar_list-item"><a href="./casestudy.html" class="navbar_list-item-link">開発実績</a></li>
+            <!-- <li class="navbar_list-item"><a href="./whyus.html" class="navbar_list-item-link">なぜnccなのか</a></li> -->
+            <li class="navbar_list-item"><a href="" class="navbar_list-item-link">問い合わせ</a></li>
+            <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
+            <div class="navbar_submenu">
+                <img src="./assets/img/english.png" alt="">
+                <div class="navbar_submenu-list">
+                    <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
+                    <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
+                    <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
                 </div>
             </div>
-            <navbar class="header_navbar">
-                <div class="header_logo">
-                    <a href="./index.html"><img class="logo-company" src="./assets/img/logo.png" alt=""></a>
-                    <div class="content_logo">ncc</div>
-                </div>
-
-                <ul class="navbar_list">
-                    <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
-                    <li class="navbar_list-item"><a href="./overview.html" class="navbar_list-item-link">会社概要
-                        </a>
-                    </li>
-                    <li class="navbar_list-item"><a href="./service.html" class="navbar_list-item-link">サービス</a></li>
-                    <li class="navbar_list-item"><a href="./casestudy.html" class="navbar_list-item-link">開発実績</a></li>
-                    <!-- <li class="navbar_list-item"><a href="./whyus.html" class="navbar_list-item-link">なぜnccなのか</a></li> -->
-                    <li class="navbar_list-item"><a href="" class="navbar_list-item-link">採用</a></li>
-                    <li class="navbar_list-item navbar_list-item--active"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
-                   
-                    <div class="navbar_submenu">
-                        <img src="./assets/img/english.png" alt="">
-                        <i class="fa-solid fa-caret-down"></i>
-                        <div class="navbar_submenu-list">
-                            <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
-                            <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
-                            <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="menu-icon">
-                        <button class="menu-icon-btn">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                    </div>
-                    <div class="navbar-collapse web-b collapse show nav_hiden">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t  active"><a
-                                        class="sub_menu-link" href="./index.html">ホーム</a>
-
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./overview.html">会社概要</a><span class="iconDrop"></span>
-
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./service.html">サービス</a>
-
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./casestudy.html">開発実績</a>
-
-                                </span>
-                            </li>
-                            <!-- <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                        class="sub_menu-link" href="./whyus.html">なぜNCCなのか</a>
-
-                                </span> -->
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank"
-                                        href="" class="sub_menu-link"
-                                        rel="noopener noreferrer">採用</a>
-
-                                </span>
-                            </li>
-                            <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
-                                        href="/contact-us">お問い合わせ</a>
-
-                                </span>
-                            </li>
-                           
-                            
-                        </ul>
-
-                    </div>
-                </ul>
-
-
-            </navbar>
-
+        </ul>
+        <div class="menu-icon">
+            <button class="menu-icon-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </div>
-    </header>
+        <div class="navbar-collapse web-b collapse show nav_hiden">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-l nav-item"><span class="nav-link hover title-t active"><a
+                            class="sub_menu-link" href="./index.html">ホーム</a>
+
+                    </span>
+                </li>
+                <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                            class="sub_menu-link" href="./overview.html">会社概要</a><span class="iconDrop"></span>
+
+                    </span>
+                </li>
+                <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                            class="sub_menu-link" href="./service.html">サービス</a>
+
+                    </span>
+                </li>
+                <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                            class="sub_menu-link" href="./casestudy.html">開発実績</a>
+
+                    </span>
+                </li>
+                <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank"
+                            href="" class="sub_menu-link"
+                            rel="noopener noreferrer">採用</a>
+                    </span>
+                </li>
+                <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
+                            class="sub_menu-link" href="./contact.html">お問い合わせ</a>
+
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </navbar>
+</header>
+  <div class="container">
     <div class="container_contact">
-        <div class="grid">
-            <div class="container_contact-address">
-                <div class="heading-text-contact ">
-                    <h1>お問い合わせ</h1>
-                </div>
-                <div class="modal-contact-map">
-                    <div class="modal-map-content">
-                        <div class="map-content">
-                            <div class="modal-map-name">Headquarters Map</div>
-                            <iframe class="frame-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.972760535623!2d105.7839363148412!3d20.993728994349397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad2d73aea7df%3A0xf14e98bb566e1d6b!2sCC%20Ecolife%20Capitol!5e0!3m2!1svi!2s!4v1669277471976!5m2!1svi!2s"   
-                                                         frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"
-                                style="border: 0px;"
-                                loading="lazy"
-                                ></iframe>
-                        </div>
-                        <div class="map-content">
-                            <div class="modal-map-name">Tokyo Office Map</div>
-                            <iframe class="frame-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.25867159025!2d139.68676511512214!3d35.596685342211735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f54b0c686827%3A0xbed13e8593a7a157!2s2-ch%C5%8Dme-35-5%20Higashiyukigaya%2C%20Ota%20City%2C%20Tokyo%20145-0065%2C%20Nh%E1%BA%ADt%20B%E1%BA%A3n!5e0!3m2!1svi!2s!4v1669277621647!5m2!1svi!2s"    
-                                                        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"
-                                style="border: 0px;"></iframe>
-                        </div>
-                        <div class="map-content">
-                            <div class="modal-map-name">SaiGon Office Map</div>
-                            <iframe class="frame-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.635542179932!2d106.77103581474445!3d10.839178060996332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175277d53583429%3A0xc4c96674363038da!2sPHONG%20PHU%20TOWER!5e0!3m2!1svi!2s!4v1669280737673!5m2!1svi!2s"                                                        
-                             frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"
-                                style="border: 0px;"
-                                loading="lazy"
-                                ></iframe>
-                        </div>
-                        <div class="map-content">
-                            <div class="modal-map-name">DaNang Office Map</div>
-                            <iframe class="frame-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.5574444986655!2d108.2079936147836!3d16.03653724457304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142191c2a83a2cd%3A0xff0abafa93d93f7f!2zVMOyYSBuaMOgIHbEg24gcGjDsm5nIFJpY2Nv!5e0!3m2!1svi!2s!4v1669280839777!5m2!1svi!2s"
-                                                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"
-                                style="border: 0px;"
-                                loading="lazy"
-                                ></iframe>
-                        </div>
-                        <div class="btn-close-modal"><i class="fa-solid fa-xmark"></i></div>
-                    </div>
-                </div>
-                <div class="container_office-map-list">
-                    <div class="container_office-map-item map-hanoi">
-                        <div class="contact-office-wrap">
-                            <p class="contact-office has-bold"> ベトナム本社</p>
-                            <p class="contact-text content-1">13F, 789 Office Building, 147 Hoang Quoc Viet, Cau Giay,
-                                Ha Noi, Viet Nam</p>
-                            <p class="contact-text content-2">(+84) 2466874606</p>
-                            <p class="contact-text content-3">info@ncc.asia</p>
-                            <p class="contact-link">View larger map</p>
-                        </div>
-                    </div>
-                  
-                    <div class="container_office-map-item map-jp">
-                        <div class="contact-office-wrap">
-                            <p class="contact-office has-bold">日本オフィス</p>
-                            <p class="contact-text content-1">〒145-0065 東京都　大田区 東雪谷2-35-5</p>
-                            <p class="contact-text content-2">(+81) 9024878796
-                            </p>
-                            <p class="contact-text content-3">info@nccsoft.jp</p>
-                            <p class="contact-link">View larger map</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container_office-map-list">
-                    <div class="container_office-map-item map-hanoi">
-                        <div class="contact-office-wrap">
-                            <p class="contact-office has-bold">SAI GON オフィス</p>
-                            <p class="contact-text content-1">
-                                1th Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu Ward、Thu Duc、HCM、Vietnam
-                            </p>
-                            <p class="contact-text content-2">(+84) 2466874606</p>
-                            <p class="contact-text content-3">info@ncc.asia</p>
-                            <p class="contact-link">View larger map</p>
-                        </div>
-                    </div>
-                  
-                    <div class="container_office-map-item map-jp">
-                        <div class="contact-office-wrap">
-                            <p class="contact-office has-bold">DA NANG オフィス</p>
-                            <p class="contact-text content-1">DA NANG オフィス <br>
-                                4th Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da Nang、Vietnam
-                            </p>
-                            <p class="contact-text content-2">(+84) 2466874606</p>
-                            <p class="contact-text content-3">info@nccsoft.jp</p>
-                            <p class="contact-link">View larger map</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="heading-text-contact">お問い合わせ</div>
+      <div class="modal-contact-map">
+        <div class="modal-map-content">
+          <div class="map-content">
+            <div class="modal-map-name">Headquarters Map</div>
+            <iframe class="frame-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.972760535623!2d105.7839363148412!3d20.993728994349397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad2d73aea7df%3A0xf14e98bb566e1d6b!2sCC%20Ecolife%20Capitol!5e0!3m2!1svi!2s!4v1669277471976!5m2!1svi!2s"
+              frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="border: 0px"
+              loading="lazy"></iframe>
+          </div>
+          <div class="map-content">
+            <div class="modal-map-name">Tokyo Office Map</div>
+            <iframe class="frame-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.25867159025!2d139.68676511512214!3d35.596685342211735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f54b0c686827%3A0xbed13e8593a7a157!2s2-ch%C5%8Dme-35-5%20Higashiyukigaya%2C%20Ota%20City%2C%20Tokyo%20145-0065%2C%20Nh%E1%BA%ADt%20B%E1%BA%A3n!5e0!3m2!1svi!2s!4v1669277621647!5m2!1svi!2s"
+              frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="border: 0px"></iframe>
+          </div>
+          <div class="map-content">
+            <div class="modal-map-name">SaiGon Office Map</div>
+            <iframe class="frame-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.635542179932!2d106.77103581474445!3d10.839178060996332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175277d53583429%3A0xc4c96674363038da!2sPHONG%20PHU%20TOWER!5e0!3m2!1svi!2s!4v1669280737673!5m2!1svi!2s"
+              frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="border: 0px"
+              loading="lazy"></iframe>
+          </div>
+          <div class="map-content">
+            <div class="modal-map-name">DaNang Office Map</div>
+            <iframe class="frame-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.5574444986655!2d108.2079936147836!3d16.03653724457304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142191c2a83a2cd%3A0xff0abafa93d93f7f!2zVMOyYSBuaMOgIHbEg24gcGjDsm5nIFJpY2Nv!5e0!3m2!1svi!2s!4v1669280839777!5m2!1svi!2s"
+              frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="border: 0px"
+              loading="lazy"></iframe>
+          </div>
+          <div class="btn-close-modal">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
         </div>
+      </div>
+      <div class="container_office-map-list">
+        <div class="container_office-map-item map-hanoi">
+          <div class="contact-office-wrap">
+            <p class="contact-office has-bold">ベトナム本社</p>
+            <div class="content">
+              <img src="./assets/img/icon_building.png" alt=""></img>
+              <p class="contact-text">
+                13F, 789 Office Building, 147 Hoang Quoc Viet, Cau Giay, Ha
+                Noi, Viet Nam
+              </p>
+            </div>
+            <div class="content-center">
+              <div class="content">
+                <img src="./assets/img/icon_Alternate_Phone.png" alt=""></img>
+                <p class="contact-text">(+84) 2466874606</p>
+              </div>
+              <div class="content">
+                <img src="./assets/img/icon_email.png" alt=""></img>
+                <p class="contact-text">info@ncc.asia</p>
+              </div>
+            </div>
+            <div class="content">
+              <img src="./assets/img/vector.png" alt=""></img>
+              <a class="contact-link" href="">View larger map</a>
+            </div>
+          </div>
+        </div>
+        <div class=" container_office-map-item map-jp">
+          <div class="contact-office-wrap">
+            <p class="contact-office has-bold">日本オフィス</p>
+            <div class="content">
+              <img src="./assets/img/icon_building.png" alt=""></img>
+              <p class="contact-text">
+                〒145-0065 東京都　大田区 東雪谷2-35-5
+              </p>
+            </div>
+            <div class="content-center">
+              <div class="content">
+                <img src="./assets/img/icon_Alternate_Phone.png" alt=""></img>
+                <p class="contact-text">(+81) 9024878796</p>
+              </div>
+              <div class="content">
+                <img src="./assets/img/icon_email.png" alt=""></img>
+                <p class="contact-text">info@nccsoft.jp</p>
+              </div>
+            </div>
+            <div class="content">
+              <img src="./assets/img/vector.png" alt=""></img>
+              <a class="contact-link" href="">View larger map</a>
+            </div>
+          </div>
+        </div>
+        <div class=" container_office-map-item map-hanoi">
+          <div class="contact-office-wrap">
+            <p class="contact-office has-bold">SAI GON オフィス</p>
+            <div class="content">
+              <img src="./assets/img/icon_building.png" alt=""></img>
+              <p class="contact-text">
+                1th Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu
+                Ward、Thu Duc、HCM、Vietnam
+              </p>
+            </div>
+            <div class="content-center">
+              <div class="content">
+                <img src="./assets/img/icon_Alternate_Phone.png" alt=""></img>
+                <p class="contact-text">(+84) 2466874606/p>
+              </div>
+              <div class="content">
+                <img src="./assets/img/icon_email.png" alt=""></img>
+                <p class="contact-text">info@nccsoft.jp</p>
+              </div>
+            </div>
+            <div class="content">
+              <img src="./assets/img/vector.png" alt=""></img>
+              <a class="contact-link" href="">View larger map</a>
+            </div>
+          </div>
+        </div>
+        <div class=" container_office-map-item map-jp">
+          <div class="contact-office-wrap">
+            <p class="contact-office has-bold">DA NANG オフィス</p>
+            <div class="content">
+              <img src="./assets/img/icon_building.png" alt=""></img>
+              <p class="contact-text">
+                DA NANG オフィス <br />
+                4th Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le
+                Dist.、Da Nang、Vietnam
+              </p>
+            </div>
+            <div class="content-center">
+              <div class="content">
+                <img src="./assets/img/icon_Alternate_Phone.png" alt=""></img>
+                <p class="contact-text">(+84) 2466874606/p>
+              </div>
+              <div class="content">
+                <img src="./assets/img/icon_email.png" alt=""></img>
+                <p class="contact-text">info@nccsoft.jp</p>
+              </div>
+            </div>
+            <div class="content">
+              <img src="./assets/img/vector.png" alt=""></img>
+              <a class="contact-link" href="">View larger map</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container-fluid" id="contact-form">
-        <div class="contact_form">
-            <div class="grid ">
-                <div class="contact_form-title">
-                    ご質問等がございましたら、お気軽にご連絡ください！
-                </div>
-                <div class="container_contact_form">
-                    <div class="contact-forms-list-img">
-                        <img src="./assets/img/images/img_sendcontact.png" alt="">
-                    </div>
-                    <div class="container_contact_form-content">
-                        
-                        <div class="contact-forms-list">
-                            <div class="contact-form-item">
-                                <div class="contact_form-item-group">
-                                    <div class="form-input-title">
-                                        <div class="icon-input"><img src="./assets/img/company-name.png" alt="icon-input"></div>
-                                        <span>会社名<span class="text-c-red"> *</span></span>
-                                    </div><input class="form__field" placeholder="会社名をご入力ください" type="text" value="">
-                                </div>
-                                <div class="contact_form-item-group">
-                                    <div class="form-input-title">
-                                        <div class="icon-input"><img src="./assets/img/customer-name.png" alt="icon-input"></div>
-                                        <span>お名前 <span class="text-c-red"> *</span></span>
-                                    </div><input class="form__field" placeholder="お名前をご入力ください" type="text" value="">
-                                </div>
-                                <div class="contact_form-item-group">
-                                    <div class="form-input-title">
-                                        <div class="icon-input"><img src="./assets/img/email.png" alt="icon-input"></div>
-                                        <span>Email<span class="text-c-red"> *</span></span>
-                                    </div><input class="form__field" placeholder="メールアドレスをご入力ください" type="text" value="">
-                                </div>
-                                <div class="contact_form-item-group">
-                                    <div class="form-input-title">
-                                        <div class="icon-input"><img src="./assets/img/note.png" alt="icon-input"></div><span>件名
-                                            <span class="text-c-red"> *</span></span>
-                                    </div><input class="form__field" placeholder="お問い合わせ件名" type="text" value="">
-                                </div>
-                            </div>
-                            <div class="contact-form-item">
-                                <div class="contact_form-item-group">
-                                    <div class="form-input-title">
-                                        <div class="icon-input"><img src="./assets/img/enquiry.png" alt="icon-input"></div><span>内容
-                                            <span class="text-c-red"> *</span></span>
-                                    </div><textarea class="form__field form_textarea" rows="4" cols="50" placeholder="お問い合わせ内容"></textarea>
-                                </div>
-            
-                            </div>
-                        </div>
-                        <div class="box-save"><button class="contact-form-btn">送信</button></div>
-                    </div>
-                </div>
-                
-            </div>
+    <div class=" container-fluid" id="contact-form">
+      <div class="contact_form-title">
+        ご質問等がございましたら、お気軽にご連絡ください！
+      </div>
+      <div class="container_contact_form">
+        <div class="contact-forms-list-img">
+          <img src="./assets/img/images/img_sendcontact.png" alt="" />
         </div>
-        
+        <div class="container_contact_form-content">
+          <div class="contact-form-item">
+            <div class="contact_form-item-group">
+              <div class="form-input-title">
+                <img src="./assets/img/company-name.png" alt="icon-input" />
+                <span>会社名<span class="text-c-red"> *</span></span>
+              </div>
+              <input class="form__field" placeholder="会社名をご入力ください" type="text" value="" />
+            </div>
+            <div class="contact_form-item-group">
+              <div class="form-input-title">
+                <img src="./assets/img/customer-name.png" alt="icon-input" />
+                <span>お名前 <span class="text-c-red"> *</span></span>
+              </div>
+              <input class="form__field" placeholder="お名前をご入力ください" type="text" value="" />
+            </div>
+            <div class="contact_form-item-group">
+              <div class="form-input-title">
+                <img src="./assets/img/email.png" alt="icon-input" />
+                <span>Email<span class="text-c-red"> *</span></span>
+              </div>
+              <input class="form__field" placeholder="メールアドレスをご入力ください" type="text" value="" />
+            </div>
+            <div class="contact_form-item-group">
+              <div class="form-input-title">
+                <img src="./assets/img/note.png" alt="icon-input" />
+                <span>件名 <span class="text-c-red"> *</span></span>
+              </div>
+              <input class="form__field" placeholder="お問い合わせ件名" type="text" value="" />
+            </div>
+            <div class="contact_form-item-group">
+              <div class="form-input-title">
+                <img src="./assets/img/enquiry.png" alt="icon-input" />
+                <span>内容 <span class="text-c-red"> *</span></span>
+              </div>
+              <textarea class="form__field form_textarea" rows="4" cols="50" placeholder="お問い合わせ内容"></textarea>
+            </div>
+          </div>
+          <div class="box-save">
+            <button class="contact-form-btn">送信</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer class="footer">
-        <div class="grid">
-            <div class="footer_layout">
-                <div class="footer_head">
-                    <div class="footer_head-logo">
-                        <img class="logo-company" src="assets/img/logo.png"
-                            alt="logo-ominext">
-                            <div class="content_logo-footer">ncc</div>
-                        </div>
-                    <ul class="footer_head-category">
-                        <li class="footer_head-collection footer_head-collection-infomation ">
-                            <div class="footer_head-item--infomation">
-                                <h6 class="footer_head-item-address-vi">ベトナム本社</h6>
-                                <p class="footer_head-item-address-text">5F、Office Building、 58 To Huu、Nam Tu Liem、
-                                    Ha Noi
-                                </p>
-                                <div class="footer_head-item-phone-info">
-                                    <p class="footer_head-item-phone-text">(+84) 2466874606</p>
-                                    <p class="footer_head-item-email-text">info@ncc.asia
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- <div>
-                                <h6 class="footer_head-item-office">
-                                    ホーチミンオフィス
-                                </h6>
-                                <p class="footer_head-item-office-address">địa chỉ、Ho Chi Minh、Viet Nam</p>
-                            </div> -->
-                            <div>
-                                <h6 class="footer_head-item-address-ja">日本オフィス</h6>
-                                <p class="footer_head-item-address-text">〒145-0065 東京都　大田区 東雪谷2-35-5
-                                </p>
-                                <p class="footer_head-item-phone-text">(+81) 9024878796</p>
-                                <p class="footer_head-item-email-text">info@nccsoft.jp
-                                </p>
-                            </div>
-                        </li>
-                        
-                        <li class="footer_head-collection footer_head-collection-address">
-                            <ul class="footer_head-list-first flex-column no-padding">
-                                <div class="header_footer">
-                                    <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                    <li class=" link-footer link-footer-first"><a href=""
-                                        class="bold-link" target="_self">HA NOI 2 オフィス： 7th Floor、8 Pham Hung St.、Cau Giay Dist.、Hanoi、Vietnam</a></li>
-                                </div>
-                                <div class="header_footer">
-                                    <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                    <li class=" link-footer link-footer-first"><a href=""
-                                        class="bold-link" target="_self">SAI GON 1 オフィス： 5th Floor、The Office、340/15A Ung Van Khiem St.、Binh Thanh Dist.、HCMC、Vietnam</a></li>
-                                </div>
-                                <div class="header_footer">
-                                    <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                    <li class=" link-footer link-footer-first"><a href=""
-                                        class="bold-link" target="_self">DA NANG オフィス： 4th Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da Nang、Vietnam
-                                    </a></li>
-                                </div>
-                                <div class="header_footer">
-                                    <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                    <li class=" link-footer link-footer-first"><a href=""
-                                        class="bold-link" target="_self">QUY NHON オフィス：  3th Floor、307 Nguyen Thi Minh Khai St.、Quy Nhon City、Binh Dinh Province、Vietnam 
-                                    </a></li>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="footer_head-collection footer_head-collection-address ">
-                                <ul class="footer_head-list-main flex-column">
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">HA NOI 3 オフィス： 5th Floor、Hong Ha Tower、89 Thinh Liet、Hoang Mai
-                                        </a></li>
-                                    </div>
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">SAI GON 2 オフィス： 1th Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu Ward、Thu Duc、HCMC、Vietnam
-                                        </a></li>
-                                    </div>
-                                    <div class="header_footer">
-                                        <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                                        <li class=" link-footer link-footer-first"><a href=""
-                                            class="bold-link" target="_self">VINH オフィス： 4th Floor、138 Ha Huy Tap St.、Vinh City、Nghe An Province、Vietnam
-                                        </a></li>
-                                    </div>
-                                </ul>
-                                
-                         </li>
-                    </ul>
-                </div>
-                <div class="footer_bottom">
-                    <div class="footer_bottom-text">
-                        Copyright © 2022 NCC Company. All rights reserved.
-
-                    </div>
-                </div>
+  </div>
+  <footer class="footer">
+    <div class="footer_head">
+      <div class="footer_head-logo">
+        <img class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
+      </div>
+      <ul class="footer_head-category">
+        <li class="footer_head-collection footer_head-collection-infomation ">
+          <div class="footer_head-item--infomation">
+            <p class="footer_head-item-address-vi">ベトナム本社</p>
+            <p class="footer_head-item-address-text">5F、Office Building、 58 To Huu、Nam Tu
+              Liem、
+              Ha Noi
+            </p>
+            <div class="footer_head_item_bottom">
+              <p class="footer_head-item-phone-text">(+84) 2466874606</p>
+              <p class="footer_head-item-email-text">info@ncc.asia
             </div>
-        </div>
-    </footer>
+            </p>
+          </div>
+          <div>
+            <p class="footer_head-item-address-ja">日本オフィス</p>
+            <p class="footer_head-item-address-text">〒145-0065 東京都　大田区 東雪谷2-35-5
+            </p>
+            <div class="footer_head_item_bottom">
+              <p class="footer_head-item-phone-text">(+81) 9024878796</p>
+            </div>
+            </p>
+          </div>
+        </li>
 
-    <script src="./assets/js/header.js"></script>
-    <script src="./assets/js/viewmap.js"></script>
+        <li class="footer_head-collection footer_head-collection-address">
+          <ul class="footer_head-list-first flex-column no-padding">
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">HA
+                    NOI 2 | </span> オフィス： 7th Floor、8 Pham Hung St.、Cau Giay
+                  Dist.、Hanoi、Vietnam</a></li>
+            </div>
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">SAI GON 1 | </span> オフィス： 5th
+                  Floor、The Office、340/15A Ung Van Khiem St.、Binh Thanh
+                  Dist.、HCMC、Vietnam</a></li>
+            </div>
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">DA NANG | </span> オフィス： 4th
+                  Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da
+                  Nang、Vietnam
+                </a></li>
+            </div>
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">QUY NHON | </span> オフィス： 3th
+                  Floor、307 Nguyen Thi Minh Khai St.、Quy Nhon City、Binh Dinh
+                  Province、Vietnam
+                </a></li>
+            </div>
+          </ul>
+        </li>
+        <li class="footer_head-collection footer_head-collection-address ">
+          <ul class="footer_head-list-main flex-column">
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">HA
+                    NOI 3 | </span> オフィス： 5th Floor、Hong Ha Tower、89 Thinh Liet、Hoang Mai
+                </a></li>
+            </div>
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">SAI GON 2 | </span> オフィス： 1th
+                  Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu
+                  Ward、Thu
+                  Duc、HCMC、Vietnam
+                </a></li>
+            </div>
+            <div class="header_footer">
+              <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+              <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                    class="text-footer">VINH | </span>
+                  オフィス： 4th Floor、138 Ha Huy Tap St.、Vinh City、Nghe An Province、Vietnam
+                </a></li>
+            </div>
+          </ul>
+        </li>
+      </ul>
+  </footer>
+  <script src="./assets/js/header.js"></script>
+  <script src="./assets/js/viewmap.js"></script>
 </body>
 
 </html>
