@@ -194,6 +194,7 @@
   color: #000000;
   padding: 90px 0 40px;
 }
+
 /* Footer */
 .footer {
   background-color: var(--black-color);
@@ -322,9 +323,11 @@
   margin-bottom: 0;
   margin-bottom: 12px;
 }
+
 .footer_head-item-phone-info {
   display: flex;
 }
+
 .footer_head-item-phone-text {
   white-space: pre-line;
   color: #fff;
@@ -335,6 +338,7 @@
   font-size: 14px;
   padding-left: 30px;
 }
+
 .footer_head-item-email-text {
   white-space: pre-line;
   line-height: 140%;
@@ -393,6 +397,10 @@
   gap: 6px;
   margin: 0;
   padding: 12px 0;
+}
+
+.container_company-overview-list-mobile {
+  display: none;
 }
 
 .container_company-overview-list-info--item i {
@@ -476,6 +484,10 @@
 
 .container_management-card-bar-avatar img {
   width: 50%;
+}
+
+.container_management-item-content.mobile {
+  display: none;
 }
 
 .container_management-item-content {
@@ -573,6 +585,7 @@ p.container_management-content {
   color: var(--red_vip-color);
   font-weight: 700;
 }
+
 .container_management-content-member span {
   font-size: 20px;
   color: #000;
@@ -598,6 +611,7 @@ p strong {
 .container-category {
   display: flex;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .container_management-card-item {
@@ -642,6 +656,7 @@ p strong {
   .container_company-overview-list {
     padding: 32px 0;
   }
+
   .container_heading-title {
     font-size: 32px;
     line-height: 43px;
@@ -673,21 +688,73 @@ p strong {
 }
 
 @media (max-width: 1024px) {
+  .container_management-item-content-bu-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .container_management-item-content.desktop {
+    display: none;
+  }
+
+  .container_management-item-content.mobile {
+    display: flex;
+    gap: 20px;
+  }
+
+  .container_management-item-content-wrapper.mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container_company-overview-list-mobile {
+    display: block;
+  }
+
+  .container_company-overview {
+    padding-bottom: 8px;
+  }
+
+  .container_company-overview-list-info--item {
+    padding: 4px 0;
+  }
+
+  .container_company-overview-item {
+    padding: 0 0 12px 0;
+  }
+
+  .container_company-overview-list-address {
+    display: none;
+  }
+
+  .container_company-overview-list-info {
+    display: none;
+  }
+
+  .container_company-overview-list-info--item i {
+    width: auto;
+  }
+
   .container-category {
     flex-direction: column;
   }
+
   .container_company-overview {
     padding-bottom: 60px;
   }
+
   .container_management {
     padding-top: 60px;
   }
+
   .container_management-card {
     flex-direction: column;
   }
+
   .line {
     display: none;
   }
+
   .line-css {
     height: 40px;
     width: 2px;
@@ -719,6 +786,7 @@ p strong {
   .navbar_list {
     display: none;
   }
+
   .navbar-collapse {
     position: absolute;
     top: 100%;
