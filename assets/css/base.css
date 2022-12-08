@@ -39,7 +39,7 @@ a {
 .grid {
     max-width: 100%;
     margin: 0 auto;
-    padding: 8px 99px;
+    padding: 0 82px;
 }
 
 .grid__full-width {
