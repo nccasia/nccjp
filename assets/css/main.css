@@ -288,16 +288,22 @@ a.sub_menu-link {
   height: 100%;
   white-space: nowrap;
 }
-.container_content {
-  margin: 96px 0;
-}
 
 .container_content_list_box {
   display: flex;
   justify-content: space-between;
   gap: 32px;
-  padding-top: 40px;
   width: 100%;
+}
+.grid-section-1{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.container_content_list{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .heading-service-p {
   display: flex;
@@ -312,7 +318,6 @@ a.sub_menu-link {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding-bottom: 96px;
 }
 .container_content_list_box-item {
   display: flex;
@@ -2336,14 +2341,24 @@ button.contact-form-btn {
 }
 
 /* SERVICE */
-
+.grid-section-1{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 96px 0;
+}
+.container_heading-service > p{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: center;
+}
 .container_heading-service {
   display: flex;
   flex-direction: column;
   gap: 8px;
   justify-content: center;
   align-items: center;
-  padding-top: 96px;
 }
 
 .container_heading-service .heading-service {
@@ -2363,7 +2378,6 @@ button.contact-form-btn {
   display: grid;
   grid-template-columns:  auto auto auto;
   gap: 32px;
-  padding-top: 40px;
 }
 
 .container_service-card {
@@ -2428,6 +2442,10 @@ button.contact-form-btn {
 }
 
 .container_service-item-flat > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 18px;
   color: #000;
   font-weight: 500;
@@ -2435,6 +2453,9 @@ button.contact-form-btn {
 }
 
 .container_service-item-flat > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 30px;
   border-radius: 4px;
@@ -2465,7 +2486,8 @@ button.contact-form-btn {
 }
 .container_field-item-link > img {
   width: 100%;
-  height: 287px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 /* WHY US */
@@ -2531,6 +2553,9 @@ a.container_field-item-link {
   text-align: center;
   font-size: var(--text-font);
   line-height: 2.6rem;
+}
+.container_field-item{
+  display: flex;
 }
 .container_field-item-content {
   display: flex;
@@ -2634,7 +2659,7 @@ a.container_field-item-link {
 }
 .section-content {
   display: flex;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   line-height: 43px;
   letter-spacing: -0.01em;
@@ -2646,7 +2671,7 @@ a.container_field-item-link {
   gap: 32px;
   width: 100%;
   height: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
   min-width: 404px;
 }
 .section-card-common {
@@ -2763,6 +2788,89 @@ a.container_field-item-link {
 .img-common {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+}
+
+
+.container_service-card {
+  padding: 16px 12px;
+  gap: 16px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+}
+.container_service-card-title {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+.container_service-card-number {
+  padding: 0;
+}
+.container_service-card-subtile .text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container_service-card {
+  margin-right: 0;
+}
+.container_service-item {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+  padding: 12px 8px;
+  background-color: #fbfbfb;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+.container_service-collection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.container_field-item-content {
+  width: 100%;
+}
+.container_service-item {
+  display: flex;
+}
+.container_service-item-flat {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  width: 100%;
+  gap: 3.08px;
+  width: 100%;
+}
+.number {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+}
+.container_service-item-customer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+}
+.service_customer-info-img {
+  padding: 0;
+  padding-left: 15px;
+}
+.container_service-item-customer-info {
+  margin: 0;
+  padding-left: 15px;
+}
+.img-jp {
+  margin-right: 0;
 }
 
 
