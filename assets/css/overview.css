@@ -166,6 +166,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: center;
 }
 
 .container_management-card-expla {
@@ -194,8 +195,9 @@
 
 .container_management-item-content-wrappers {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0fr);
   grid-gap: 20px;
+  justify-content: center;
 }
 
 .container_management-item-content-bu-container p {
@@ -299,13 +301,18 @@ p strong {
   width: 50%;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1024px) {
+  .container_management-item-content-bu-container.last-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
   .container_management-item-content-wrappers {
     grid-template-columns: repeat(2, 1fr);
   }
-}
 
-@media (max-width: 1024px) {
   .container_management--list {
     gap: 0;
   }
@@ -352,20 +359,6 @@ p strong {
 
   .container-category {
     padding-bottom: 108px;
-  }
-
-  .container_management-item-content-bu-container {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .container_management-item-content.desktop {
-    display: none;
-  }
-
-  .container_management-item-content.mobile {
-    display: flex;
-    gap: 20px;
   }
 
   .container_management-item-content-wrapper.mobile {
@@ -428,24 +421,39 @@ p strong {
 }
 
 @media (max-width: 768px) {
+  .container_management-item-content-bu-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container_management-item-content.desktop {
+    display: none;
+  }
+
+  .container_management-item-content.mobile {
+    display: flex;
+    gap: 20px;
+  }
+
   .container_management-card-bar-avatar img {
     width: 70%;
   }
 
-  .container_company-overview-list-info--item{
+  .container_company-overview-list-info--item {
     width: 29%;
   }
 
-  .container_company-overview-group-icon--lists{
-    gap: 5px
+  .container_company-overview-group-icon--lists {
+    gap: 5px;
   }
-  
+
   .logo_image-ncc img {
     max-height: 328px;
   }
 
   .container_management-item-content-bu-container {
-    padding: 8px 6px;
+    padding: 8px 12px;
   }
 
   .container_management-card-list-item-info--card {
@@ -479,7 +487,8 @@ p strong {
   }
 
   .container_management-item-content-wrappers {
-    grid-gap: 8px;
+    grid-gap:8px;
+    grid-row-gap: 8px;
   }
 
   .about-head {
@@ -510,6 +519,7 @@ p strong {
   .container_management-item-content-wrapper {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 

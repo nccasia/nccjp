@@ -607,7 +607,6 @@ b {
   margin-top: 35px;
 }
 
-
 .container_certification-purposes {
   background: var(--white-color);
   padding: 60px 0;
@@ -992,7 +991,6 @@ div .certification-awards-item-middle {
   flex: 3;
 }
 
-
 .slick-slide-title {
   font-size: 2rem;
   color: rgb(47, 120, 205);
@@ -1203,7 +1201,6 @@ p.container_management-content {
   color: var(--text-color);
   margin-bottom: 40px;
 }
-
 
 .company-details {
   border-radius: 10px;
@@ -1829,6 +1826,10 @@ button.contact-form-btn {
 }
 
 /* SERVICE */
+.grid {
+  padding-top: 60px;
+}
+
 .grid-section-1 {
   display: flex;
   flex-direction: column;
@@ -1874,7 +1875,7 @@ button.contact-form-btn {
 .container_service-card {
   border: 1px solid #000000;
   border-radius: 16px;
-  width: 100%
+  width: 100%;
 }
 
 .container_service-card-number {
@@ -1920,8 +1921,12 @@ button.contact-form-btn {
 
 .container_service-item-flat {
   padding: 0 15px;
-  flex: 1;
+  /* flex: 1; */
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .container_service-item-customer {
@@ -2054,10 +2059,6 @@ a.container_field-item-link {
   line-height: 2.6rem;
 }
 
-.container_field-item {
-  display: flex;
-}
-
 .container_field-item-content {
   display: flex;
   flex-direction: column;
@@ -2141,10 +2142,12 @@ a.container_field-item-link {
 }
 
 /* abcxzy */
+.container-section-card {
+  padding-top: 60px;
+}
 
 .section-card-web {
   display: flex;
-  flex-direction: column;
   flex-direction: column;
   gap: 40px;
   padding: 80px 82px;
@@ -2324,7 +2327,6 @@ a.container_field-item-link {
   border-top-right-radius: 12px;
 }
 
-
 .container_service-card {
   padding: 16px 12px;
   gap: 16px;
@@ -2387,9 +2389,8 @@ a.container_field-item-link {
   padding: 0;
   justify-content: flex-start;
   margin-bottom: 0;
-  width: 100%;
   gap: 3.08px;
-  width: 100%;
+  width: 30%;
 }
 
 .number {
