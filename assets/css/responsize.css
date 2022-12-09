@@ -1071,6 +1071,13 @@
     letter-spacing: -0.01em;
     color: black;
   }
+  .grid{
+    padding: 0 16px;
+  }
+  .container-section-card
+  {
+    overflow: hidden;
+  }
   .section-card {
     display: flex;
     align-items: flex-start;
@@ -1207,6 +1214,7 @@
   .container_service-card {
     border: 1px solid #000000;
     border-radius: 16px;
-    width: 100%
+    width: 100%;
+    min-width: 300px;
   }
 }
