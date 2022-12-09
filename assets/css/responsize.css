@@ -365,7 +365,7 @@
   }
   .section_banner-logo {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 80px;
     padding: 20px 0;
   }
 
@@ -383,6 +383,7 @@
   }
   .section_banner-text .decoration {
     /* padding: 6px; */
+    margin-bottom: 40px;
   }
 
   .container_top-choice-list {

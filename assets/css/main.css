@@ -2748,8 +2748,12 @@ a.container_field-item-link {
 }
 .number {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 65px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 57px;
+  text-align: center;
+  width: 202px;
 }
 .container_service-item-customer {
   display: flex;
