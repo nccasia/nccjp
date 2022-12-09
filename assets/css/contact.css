@@ -211,6 +211,18 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .contact_form-item-group {
+    margin: 0;
+  }
+
+  .content{
+    width: 100%;
+  }
+  
+  .contact-text{
+    width: min-content;
+  }
+
   .heading-text-contact {
     font-size: 32px;
     line-height: 43px;
