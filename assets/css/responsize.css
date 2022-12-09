@@ -134,9 +134,8 @@
     padding: 0;
     justify-content: flex-start;
     margin-bottom: 0;
-    width: 100%;
+    width: 20%;
     gap: 3.08px;
-    width: 100%;
   }
   .number {
     font-size: 48px;
@@ -1038,7 +1037,7 @@
     margin-bottom: 20px;
   }
 
-  /* abcxzy */
+  /* container_company-overview-group-iconxzy */
   .section-card-web {
     display: flex;
     flex-direction: column;
