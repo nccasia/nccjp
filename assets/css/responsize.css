@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   *{
     padding: 0;
     margin: 0;
@@ -49,9 +49,9 @@
     width: 384px;
   }
 
-  .layout_health-care-right-title {
+  /* .layout_health-care-right-title {
     margin-left: 15px;
-  }
+  } */
 
   .container_review-item-content {
     font-size: 1.8rem;
@@ -59,9 +59,9 @@
     margin-right: 20px;
   }
 
-  .container_review-item-img-image img {
+  /* .container_review-item-img-image img {
     height: 164px;
-  }
+  } */
 
   .container_review-item-img-inter {
     padding-right: 0px;
@@ -72,9 +72,7 @@
     width: 100%;
   }
 
-  .layout_health-care-right-content {
-    margin-left: 17px;
-  }
+ 
 
 
   .slick-slide-content {
@@ -304,7 +302,7 @@
     height: 56px !important;
   }
   .container_parters-list {
-    margin: 0 31px;
+    margin: 20px 0;
   }
   /* .bar_bottom {
     display: none;
@@ -345,7 +343,7 @@
   }
   .header_navbar {
     /* align-items: center; */
-    padding-top: 4px;
+    padding: 0 16px;
   }
 
   .navbar_submenu > img {
@@ -503,10 +501,10 @@
   .container_background-top {
     /* margin: 0; */
   }
-  .layout_health-care {
+  /* .layout_health-care {
     flex-wrap: wrap;
     padding: 0 15px;
-  }
+  } */
   .layout_health-care-right {
     background-color: var(--white-color);
   }
@@ -618,6 +616,7 @@
     font-weight: 500;
     text-align: center;
     line-height: 35px;
+    padding: 0;
   }
   .container_post-home-list {
     width: 100%;
@@ -626,7 +625,7 @@
   .container_post-home-item {
     min-width: 100%;
     margin-top: 10px;
-    min-height: 437px;
+    min-height: 375px;
     /* height: 300px; */
   }
   .container_post-home-item-title h3 {
