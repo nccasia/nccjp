@@ -216,7 +216,7 @@
 }
 
 .line-css {
-  width: 20px;
+  width: 60px;
   height: 2px;
   background-color: #fc6061;
 }
@@ -428,6 +428,10 @@ p strong {
 }
 
 @media (max-width: 768px) {
+  .container_management-card-bar-avatar img {
+    width: 70%;
+  }
+
   .container_company-overview-list-info--item{
     width: 29%;
   }
@@ -510,6 +514,10 @@ p strong {
 }
 
 @media (max-width: 540px) {
+  .container_management-card-bar-avatar img {
+    width: 90%;
+  }
+
   .container_management {
     max-width: 328px;
   }
