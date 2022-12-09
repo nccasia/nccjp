@@ -140,12 +140,14 @@
 }
 
 .container_post-home {
-    background-color: #fbfbfb;
-    padding         : 88px 0px;
+    background-color   : #fbfbfb;
+    /* padding         : 88px 0px; */
+    padding-top        : 0px;
 }
 
 .container-choice {
     background-color: white;
+    padding-top     : 0px;
 }
 
 .container_heading {
@@ -192,9 +194,8 @@
 }
 
 .container_health-care {
-    height        : auto;
-    padding-bottom: 15px;
-    padding-top   : 0px;
+    height : auto;
+    padding: 0px;
 }
 
 .layout_health-care-right-content {
@@ -766,8 +767,6 @@ div#\#whyus {
     background-color: #fff;
 }
 
-
-
 @media (max-width: 1440px) {
     .header_navbar {
         max-width: 1200px;
@@ -944,7 +943,6 @@ div#\#whyus {
         margin        : 0 0 40px 0;
         display       : flex;
         flex-direction: column;
-        align-items   : flex-start;
         padding       : 40px 16px;
         gap           : 40px;
     }
