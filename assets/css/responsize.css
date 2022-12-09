@@ -3,26 +3,8 @@
     padding: 0;
     margin: 0;
   }
-  .logo-ncc {
-    width: auto;
-    height: 36px;
-  }
+  
   /* adasdadasd*/
-
-
-
-  .header_fixed {
-    height: 100px !important;
-  }
-  .navbar_list-item-link {
-    margin: 0px 12px;
-    font-size: 14px;
-  }
-
-  .logo-company {
-    width: 62px;
-  }
-
   .content_logo {
     font-size: 95px;
     top: -15px;
@@ -188,12 +170,7 @@
   .img-jp {
     margin-right: 0;
   }
-  .header_navbar {
-    height: 56px;
-  }
-  .logo-ncc {
-    height: 28px;
-  }
+  
   .p-content {
     font-weight: 400;
     font-size: 16px;
@@ -295,62 +272,11 @@
     gap: 10px;
     border: none;
   }
-  .grid,
-  .header_fixed {
-    padding: 0px 16px;
-  }
-
-  .header_fixed {
-    height: 56px !important;
-  }
+ 
   .container_parters-list {
     margin: 0 31px;
   }
-  /* .bar_bottom {
-    display: none;
-  } */
-  .header_language {
-    display: none;
-  }
-  .content_logo {
-    font-size: 58px;
-    top: -12px;
-    left: 49px;
-  }
-  li.navbar_list-item {
-    display: none;
-  }
-  .header {
-    height: 56px;
-  }
-  .header_logo > img.logo-company {
-    width: 109.5px;
-    height: 28px;
-  }
-  .footer_head-logo > img.logo-company {
-    width: 200px;
-    height: 57.61px;
-  }
-  .menu-icon {
-    display: block;
-  }
-
-  .menu-icon > button {
-    color: var(--black-color);
-  }
-  .navbar_submenu {
-    display: block;
-    height: 60px;
-    margin: 0;
-  }
-  .header_navbar {
-    /* align-items: center; */
-    padding-top: 4px;
-  }
-
-  .navbar_submenu > img {
-    display: none;
-  }
+ 
   .section_banner {
     display: flex;
     justify-content: center;
@@ -382,9 +308,6 @@
     margin: 4px 0 24px 0;
     font-size: 32px;
     line-height: 43px;
-  }
-  .section_banner-text .decoration {
-    /* padding: 6px; */
   }
 
   .container_top-choice-list {
