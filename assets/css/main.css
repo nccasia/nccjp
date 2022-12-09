@@ -2168,6 +2168,13 @@ a.container_field-item-link {
 .img-bottom-line img {
   width: 100%;
 }
+/* container_company-overview-group-iconxzy */
+.section-card-web {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px 82px;
+}
 /* abcxzy */
 
 .section-card-web {
