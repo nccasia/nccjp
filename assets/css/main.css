@@ -1967,8 +1967,12 @@ button.contact-form-btn {
 
 .container_service-item-flat {
   padding: 0 15px;
-  flex: 1;
+  /* flex: 1; */
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .container_service-item-customer {
@@ -2389,9 +2393,8 @@ a.container_field-item-link {
   padding: 0;
   justify-content: flex-start;
   margin-bottom: 0;
-  width: 100%;
   gap: 3.08px;
-  width: 100%;
+  width: 30%;
 }
 .number {
   font-size: 48px;
