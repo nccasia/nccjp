@@ -428,10 +428,7 @@
   .container_background-top {
     /* margin: 0; */
   }
-  /* .layout_health-care {
-    flex-wrap: wrap;
-    padding: 0 15px;
-  } */
+
   .layout_health-care-right {
     background-color: var(--white-color);
   }
@@ -554,6 +551,7 @@
     margin-top: 10px;
     min-height: 375px;
     /* height: 300px; */
+    min-height: 420px ;
   }
   .container_post-home-item-title h3 {
     font-size: 24px;
@@ -875,6 +873,9 @@
     /* margin-top: 15px; */
     padding: 32px 0;
   }
+  .grid.content-feedback{
+    padding: 0 ;
+  }
   .heading-text-certification-purposes > h1 {
     padding: 0 0 40px 0;
   }
@@ -887,11 +888,11 @@
     padding-right: 0;
   }
 
-  .layout_certification-purposes-image img {
+  /* .layout_certification-purposes-image img {
     width: 100%;
     height: 395px;
     margin-bottom: 30px;
-  }
+  } */
 
   .layout_certification-purposes-list {
     width: 100%;
