@@ -194,8 +194,12 @@
 }
 
 @media (max-width: 768px) {
+  .header_navbar {
+    max-width: 721px !important;
+  }
   .header {
     height: 60px;
+    padding: 0 16px ;
   }
 
   .navbar_list {

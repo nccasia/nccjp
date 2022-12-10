@@ -14,7 +14,13 @@
 
 * {
   box-sizing: inherit;
-  font-family: Satoshi;
+  /* font-family: Satoshi; */
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 html {
@@ -45,5 +51,5 @@ p {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 44px;
+  padding: 0 82px;
 }

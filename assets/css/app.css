@@ -1,0 +1,1230 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding: 80px 0 90px 0;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section_main {
+    background-color: #fbfbfb;
+    padding: 88px 76px;
+}
+
+.section_content-title {
+    display: flex;
+    justify-content: center;
+}
+
+.section_banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_banner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.section_banner-text .decoration {
+    display: flex;
+    width: 143px;
+    /* border       : 1px solid #fff; */
+    padding: 19px;
+    border-radius: 28px;
+    background-color: var(--black-color);
+}
+
+.color-text {
+    color: #ef0c0e;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 500;
+    padding: 7px 10px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.section_content-info-item>p {
+    color: var(--black-color);
+    /* font-size: var(--text-font); */
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.btn-download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 25px;
+    gap: 10px;
+    background: #000000;
+    border-radius: 48px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.btn-download:hover {
+    background: #4C4C4C;
+}
+
+.btn-download:active {
+    background: #757575;
+}
+
+.text-download {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.container_heading-text {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.container_heading-text-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.section_content-info {
+    display: flex;
+}
+
+.section_content-image {
+    /* margin-right: 32px; */
+    margin-top: 90px;
+}
+
+.section_content-image>img {
+    margin-top: 70px;
+    width: 88%;
+}
+
+.section_content-info-item {
+    background-color: var(--white-color);
+    width: 100%;
+    border: 1.5px solid #d1d1d1;
+    border-radius: 24px;
+    gap: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 12px;
+}
+
+
+.section_content-info-item:hover {
+    opacity: 0.5;
+}
+
+.container_post-home {
+    background-color: #fbfbfb;
+    padding: 88px 0px;
+}
+
+.container-choice {
+    /* padding         : 88px 0px; */
+    background-color: white;
+    padding: 88px 76px;
+}
+
+.container_heading {
+    margin-top: 0;
+    min-height: 80px;
+    white-space: pre-line;
+    margin-bottom: 37px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.container_top-choice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_top-choice-item {
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 20px;
+    align-items: center;
+    padding: 40px 24px 24px;
+    gap: 32px;
+}
+
+.container_top-choice-item-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_top-choice-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.container_top-choice-item.scroll-animation {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+}
+
+.container_health-care {
+    height: auto;
+    padding: 0 76px 15px 76px;
+    padding-top: 0px;
+}
+
+.layout_health-care-right-content {
+    position: relative;
+}
+
+.vector_down_care.vector-downup {
+    left: -10px;
+}
+
+.vector-downup {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.layout_health-care-right-content-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 52px;
+    margin-bottom: 121px;
+}
+
+.slick-slide-content {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.layout_health-care-right-content-list--item .vector_arrow {
+    position: absolute;
+    right: -88px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-bottom-line {
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.img-bottom-line img {
+    width: 100%;
+}
+
+.img-bottom-line img {
+    width: 100%;
+}
+
+.container_certification-purposes {
+    background: var(--white-color);
+    padding: 60px 0px;
+    /* background-color: #eeeeee; */
+}
+
+.container_parters-list {
+    /* margin: 0 99px; */
+    display: block;
+    margin: 0px;
+}
+
+.container_post-home-item-title {
+    margin-bottom: 20px;
+}
+
+.container_post-home-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.icon-d {
+    margin-bottom: 33px;
+    /* height: 70px; */
+    position: relative;
+    display: flex;
+}
+
+.icon-c {
+    margin-top: 7px;
+    margin-right: 8px;
+}
+
+.section_content-info-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1.067fr);
+    grid-template-rows: 290px 290px;
+    margin-top: 28px;
+    grid-gap: 32px 32px;
+    margin-bottom: 25px;
+}
+
+.text-title {
+    color: var(--black-color);
+    font-size: 45px;
+    white-space: pre-line;
+    line-height: 55.8px;
+    margin: 155px 20px 0 0;
+}
+
+.text-title-child {
+    color: var(--red_vip-color);
+}
+
+.container_health-care-main {
+    padding: 96px 0px;
+    background-color: #fff;
+}
+
+.layout_health-care-right-title {
+    transition: all 0.5s ease;
+}
+
+.layout_certification-purposes-main {
+    display: flex;
+}
+
+.layout_health-care-right-title .heading-text {
+
+    padding: 0 157px;
+    margin-bottom: 60px;
+
+}
+
+.container_partners-item-img {
+    /* width: calc((100% - 186px) / 6); */
+    width: 100%
+   
+}
+
+.layout_health-care-right-title .heading-text>h1 {
+    line-height: 65px;
+    font-size: 48px;
+    font-weight: 700;
+    padding-right: 28px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.layout_health-care-right-title .heading-text>h1>span {
+    color: #2f78cd;
+    font-size: 5rem;
+}
+
+.slick-slide-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.layout_health-care-right-content-list--item {
+    position: relative;
+    width: 293px;
+    max-height: 198px;
+    border: 1px solid #4C4C4C;
+    border-radius: 20px;
+    z-index: 10;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+}
+
+.slick-slide-chip {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 12px;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 57px;
+}
+
+.layout_health-care-right {
+    background: white;
+    /* width: 50%; */
+}
+
+.heading-text>h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0;
+    /* padding-bottom: 45px; */
+    text-align: center;
+}
+
+div#\#whyus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.container_post-home-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 28px;
+    gap: 10px;
+    width: 404px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+
+.container_post-home-item {
+    width: calc((100% - 90px) / 3);
+    background-color: var(--white-color);
+}
+
+.container_post-home-item {
+    position: relative;
+    min-height: 470px;
+}
+
+.container_post-home-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-text-certification-purposes>h1 {
+    padding: 28px 0 50px 0;
+    margin: auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.layout_certification-purposes-image img {
+    width: 100%;
+    /* padding-right: 50px;  */
+     margin-top: 9px; 
+}
+
+.layout_certification-purposes-list {
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 32px; */
+}
+
+.layout_certification-purposes-item {
+    background-color: #fff;
+    width: 100%;
+    margin: 10px 0 15px 0;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 20px;
+    gap: 6px;
+}
+
+.layout_certification-purposes-item>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.title-section-we-value {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.container_partners {
+    padding: 50px 0;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 60px;
+}
+
+.container_review {
+    background-color: var(--white-color);
+    padding: 96px 0px;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px; */
+}
+
+.content-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+.container_review-heading-title .creview-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.container_review-item--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+
+.content-name-review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+
+.container_review-main {
+    /* padding: 0 200px;
+    position: relative; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 51px;
+}
+
+.container_review-btn {
+    /* position: absolute; */
+    top: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ccc;
+    border: none;
+    font-size: 3rem;
+}
+
+.container_review-item-content {
+    word-break: break-word;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #4C4C4C;
+    font-style: italic;
+}
+
+.container_review-item-author {
+    text-transform: uppercase;
+    color: var(--red_vip-color);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.container_review-item-author--co {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.container_review-item-img>img {
+
+    border-radius: 100%;
+    height: 100%;
+    max-width: 75%;
+}
+
+.container_top-choice-list {
+    /* width: 500px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 32px;
+}
+
+.container_parters-list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+    /* margin-top: 40px; */
+}
+
+.container_top-choice-item-img {
+    width: 100%;
+
+}
+
+.content-name-review-mobile {
+    display: none;
+}
+
+.layout_certification-purposes-image {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.box_slide {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.box_lide-left {
+    width: 12px;
+    height: 12px;
+    background: rgba(252, 96, 97, 0.2);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.box_lide-right {
+    width: 12px;
+    height: 12px;
+    background: rgba(252, 96, 97, 0.2);
+    border-radius: 50%;
+}
+
+.active :hover, .dot:hover {
+    background-color: rgba(252, 96, 97, 0.7);
+    width: 24px;
+    border-radius: 42px;
+  }
+  .dot{
+    background-color: rgba(252, 96, 97, 0.7);
+    width: 24px;
+    border-radius: 42px;
+  }  
+.section_banner-image>img {
+    width: 100%;
+}
+
+.section_banner-logo {
+    position: relative;
+    width: 50%;
+    padding: 60px 0;
+}
+
+.container_top-choice-item-info>h3 {
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 16px;
+    margin-top: 35px;
+}
+
+.container_top-choice-item-info p {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 18px;
+    /* white-space: pre-line; */
+    margin: 0;
+    color: var(--text-color);
+    margin-bottom: 16px;
+    line-height: 23px;
+}
+
+.layout_health-care-right-content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 318px;
+    border: 2px solid rgba(237, 27, 35, 0.5);
+    border-radius: 46px;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-left {
+    left: 5%;
+}
+
+.container_review-btn>img {
+    width: 40px;
+    height: 40px;
+}
+
+.container_review-carousel {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.container_review-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    transition: all 0.5s ease 0s;
+}
+
+.container_review-item {
+    display: flex;
+    min-width: 100%;
+}
+
+.icon-d>p {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 21px;
+}
+
+.container_post-home-item-title h3 {
+    /* text-transform: uppercase; */
+    font-size: 34px;
+    color: var(--red_vip-color);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 44px;
+}
+
+.layout_health-care-left {
+    width: 50%;
+    margin-top: 82px;
+    padding-bottom: 100px;
+}
+
+.layout_health-care-left-cricle {
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    border: 2px solid #2867b1;
+    position: relative;
+    margin: 0 auto;
+}
+
+.layout_health-care-left-cricle .circle-c>img {
+    border-radius: 50%;
+    top: 25%;
+    right: 25%;
+    position: absolute;
+}
+
+.layout_health-care-left-cricle .icon-b>p {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+    white-space: pre-line;
+}
+
+.grid.content-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.section_header {
+    background-color: #fff;
+    padding: 0 76px;
+}
+
+
+
+@media (max-width: 1440px) {
+    .header_navbar {
+        max-width: 1200px;
+    }
+
+    .footer_head {
+        max-width: 1200px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        max-width: 750px;
+    }
+    .section_main {
+        padding: 70px 0;
+    }
+    .container_health-care {
+        padding: 0 0 15px 0;
+    }
+
+    .container_certification-purposes{
+        padding-top: 60px 0;
+    }
+    .section_banner-text {
+        width: 100%;
+        padding: 0;
+    }
+    /* .box_slide{
+        display: none;
+    } */
+
+    
+
+    .container_heading-text {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        padding: 0px;
+    }
+
+    .container-choice {
+        margin-top: 620px;
+        padding: 40px 0;
+    }
+
+    .container_parters-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .container_top-choice-item-img img {
+        max-width: 100%;
+        min-width: 30%;
+    }
+
+    .layout_health-care-right-content-list--item {
+        width: 100%;
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+    .layout_health-care-right {
+        background-color: var(--white-color);
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .container_post-home {
+        padding: 32px 0;
+    }
+
+    .heading-text>h1 {
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 35px;
+        padding: 0 80px;
+    }
+
+    .container_post-home-item {
+        min-width: 100%;
+        margin-top: 10px;
+    }
+
+    .container_post-home-list {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+        gap: 20px;
+    }
+
+    .layout_health-care-right-title .heading-text {
+        padding: 0;
+    }
+
+    /* home */
+
+    .section_content-info {
+        display: block;
+        position: relative;
+    }
+
+    section.section_header {
+        padding: 40px 0px;
+    }
+
+    .section_header {
+        background-color: #fff;
+    }
+
+    .grid.section_content {
+        padding: 0px 16px;
+    }
+
+    .section_content-image>img {
+        margin-top: 48px;
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .section_content-image {
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+
+    .heading-text-certification-purposes>h1 {
+        padding: 0 0 40px 0;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+        color: #000000;
+        text-align: start;
+    }
+
+    div#\#whyus {
+
+        padding: 0 15px;
+        gap: 0px;
+    }
+
+    .grid.layout_certification-purposes {
+        padding: 0 15px;
+    }
+
+    .layout_certification-purposes-image {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+
+    .layout_certification-purposes-image img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .layout_certification-purposes-list {
+        width: 100%;
+        padding-left: 0;
+        gap: 12px;
+    }
+
+    .layout_certification-purposes-item {
+        width: 100%;
+        height: auto;
+        margin: 0
+    }
+
+    .container_partners-item {
+        margin-top: 0px;
+    }
+
+    .layout_health-care-right-title .heading-text>h1 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+        padding-right: 0;
+    }
+
+
+    .container_partners {
+        margin: 0 0 40px 0;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 16px;
+        gap: 40px;
+    }
+
+    .container_review-heading-title .creview-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+    }
+
+    .container_review-item-img {
+        padding: 0;
+        margin: 10px 16px;
+    }
+
+    .container_review-btn>img {
+        display: none;
+    }
+
+    .container_review-list {
+        width: 100%;
+        /* overflow: hidden; */
+        overflow-x: scroll;
+    }
+
+    .container_review-item--content {
+        padding: 0 16px;
+    }
+
+    .container_review-item-author {
+        padding-right: 50px;
+        /* margin-left: 31px; */
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .container_review-item-author--co {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .container_review-item-content {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .container_top-choice-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .title-section-we-value {
+        margin: 0;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .container_partners-item {
+        flex-wrap: wrap;
+    }
+
+    .section_banner-text {
+        gap: 24px;
+    }
+
+    .text-title {
+        white-space: inherit;
+    }
+
+    .section_content-info-list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 225px 225px 225px;
+        grid-gap: 16px;
+        position: absolute;
+        /* top: 315px; */
+        background: #fbfbfb;
+    }
+
+    .grid.top-choice {
+        padding: 40px 15px;
+        margin: 0;
+    }
+
+    .container_health-care-main {
+        padding: 40px 0;
+    }
+
+    .content-name-review-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 16px;
+        gap: 4px;
+    }
+
+    .content-name-review {
+        display: none;
+    }
+
+    /* .container_review-item-image {
+        display: flex;
+        justify-content: center;
+      } */
+    .container_review-main {
+        display: block;
+    }
+
+    .layout_health-care-right-content-list {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .layout_certification-purposes-main {
+        display: block;
+    }
+
+    .container_review-item-img-inter {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .section_banner-logo {
+        position: relative;
+        width: 100%;
+        padding: 60px 0;
+    }
+
+    .layout_health-care {
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+
+    .icon-d {
+        margin: 0;
+    }
+
+    .icon-d>p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        color: var(--black-color);
+    }
+
+    .container_post-home-item-title h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .container_review {
+        padding: 20px 15px;
+    }
+
+    /* img.container_partners-item-img {
+        width: 40%;
+        height: 40%;
+        margin-bottom: 10px;
+    } */
+
+    .container_review-item {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .container_review-btn {
+        display: block;
+    }
+
+    .btn-right {
+        right: 0;
+    }
+
+    .grid.section_banner {
+        flex-wrap: wrap;
+        padding: 0 16px;
+    }
+
+    .section_banner-logo {
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+
+    h1.text-title {
+        /* margin: 4px 0 24px 0; */
+        font-size: 32px;
+        line-height: 43px;
+        margin: 0px;
+    }
+
+    .text-title {
+        white-space: inherit;
+    }
+
+    .section_banner-image>img {
+        width: 100%;
+    }
+
+    .container_review-carousel::after {
+        width: 0;
+    }
+
+    .grid.content-feedback {
+        gap: 40px
+    }
+
+    .container_review-item-image {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .section_content-info-item>p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section_banner {
+        flex-direction: column-reverse;
+    }
+
+    .layout_health-care-right-content::after {
+        border: none;
+    }
+
+    .vector_down_care.vector-downup {
+        display: none;
+    }
+
+    .vector_up_care.vector-downup {
+        display: none;
+    }
+
+    .container_post-home-item-info {
+        gap: 16px;
+    }
+
+    .layout_health-care-right-content-list--item .vector_arrow {
+        display: none;
+    }
+
+    .color-text {
+        font-size: 32px;
+
+    }
+}

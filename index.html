@@ -2,307 +2,307 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <title>ホーム</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/app.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/responsize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 </head>
 
 <body>
+    <header class="header">
+        <navbar class="header_navbar">
+            <div class="header_logo">
+                <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
+            </div>
+            <ul class="navbar_list">
+                <li class="navbar_list-item  navbar_list-item--active"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
+                <li class="navbar_list-item "><a href="./overview.html"
+                        class="navbar_list-item-link">会社概要
+                    </a>
+                </li>
+                <li class="navbar_list-item"><a href="./service.html" class="navbar_list-item-link">サービス</a></li>
+                <li class="navbar_list-item"><a href="./casestudy.html" class="navbar_list-item-link">開発実績</a></li>
+                <!-- <li class="navbar_list-item"><a href="./whyus.html" class="navbar_list-item-link">なぜnccなのか</a></li> -->
+                <li class="navbar_list-item"><a href="" class="navbar_list-item-link">問い合わせ</a></li>
+                <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
+                <div class="navbar_submenu">
+                    <img src="./assets/img/images/flat_JP.png" alt="">
+                    <!-- <div class="navbar_submenu-list">
+                        <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
+                        <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
+                    </div> -->
+                </div>
+            </ul>
+            <div class="menu-icon">
+                <button class="menu-icon-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse web-b collapse show nav_hiden">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t active"><a class="sub_menu-link"
+                                href="./index.html">ホーム</a>
 
-    <div class="wrapper">
-        <div class="back-to-top">
-            <svg class="w-6 h-6 arrow-back" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-            </svg>
-        </div>
-    
-        <header class="header">
-            <navbar class="header_navbar">
-                <div class="header_logo">
-                    <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
-                </div>
-                <ul class="navbar_list">
-                    <li class="navbar_list-item navbar_list-item--active"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
-                    <li class="navbar_list-item "><a href="./overview.html"
-                            class="navbar_list-item-link">会社概要
-                        </a>
+                        </span>
                     </li>
-                    <li class="navbar_list-item"><a href="./service.html" class="navbar_list-item-link">サービス</a></li>
-                    <li class="navbar_list-item"><a href="./casestudy.html" class="navbar_list-item-link">開発実績</a></li>
-                    <li class="navbar_list-item"><a href="" class="navbar_list-item-link">問い合わせ</a></li>
-                    <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
-                    <div class="navbar_submenu">
-                        <img src="./assets/img/english.png" alt="">
-                        <div class="navbar_submenu-list">
-                            <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
-                            <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
-                            <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
-                        </div>
-                    </div>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./overview.html">会社概要</a><span class="iconDrop"></span>
+
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./service.html">サービス</a>
+
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./casestudy.html">開発実績</a>
+
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank" href=""
+                                class="sub_menu-link" rel="noopener noreferrer">採用</a>
+                        </span>
+                    </li>
+                    <li class="nav-l nav-item"><span class="nav-link hover title-t "><a class="sub_menu-link"
+                                href="./contact.html">お問い合わせ</a>
+
+                        </span>
+                    </li>
                 </ul>
-                <div class="menu-icon">
-                    <button class="menu-icon-btn">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                </div>
-                <div class="navbar-collapse web-b collapse show nav_hiden">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-l nav-item"><span class="nav-link hover title-t active"><a
-                                    class="sub_menu-link" href="./index.html">ホーム</a>
-        
-                            </span>
-                        </li>
-                        <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                    class="sub_menu-link" href="./overview.html">会社概要</a><span class="iconDrop"></span>
-        
-                            </span>
-                        </li>
-                        <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                    class="sub_menu-link" href="./service.html">サービス</a>
-        
-                            </span>
-                        </li>
-                        <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                    class="sub_menu-link" href="./casestudy.html">開発実績</a>
-        
-                            </span>
-                        </li>
-                        <li class="nav-l nav-item"><span class="nav-link hover title-t "><a target="_blank"
-                                    href="" class="sub_menu-link"
-                                    rel="noopener noreferrer">採用</a>
-                            </span>
-                        </li>
-                        <li class="nav-l nav-item"><span class="nav-link hover title-t "><a
-                                    class="sub_menu-link" href="./contact.html">お問い合わせ</a>
-        
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </navbar>
-        </header>
-        <section  class="section_header">
+            </div>
+        </navbar>
+    </header>
+    <div class="container">
+        <section class="section_header">
             <div class="grid section_banner">
                 <div class="section_banner-text">
-
-                    <h1 class="text-title">ITベテランとして、お客様に高品質で、リーズナブルな価格とプロフェッショナルなサービスの通じた創造的な開発を提供します。</h1>
-                    <a class="decoration" href="overview.html">
-                        <div class="icon_download">
-                            <img src="./assets/img/images/icon_download.svg" alt="">
-                        </div>
-                        <span class="see-more">資料ダウンロード </span></a>
+                    <h1 class="text-title">
+                        ITベテランとして、お客様に高品質で、リーズナブルな価格とプロフェッショナルなサービスの通じた創造的な開発を提供します。
+                        <!-- As an <span class="text-title-child">IT veteran</span>, we provide
+                        our customers with
+                        <span class="text-title-child">creative development</span> through
+                        high quality, reasonable prices and professional services. -->
+                    </h1>
+                    <a href="overview.html">
+                        <button class="btn-download">
+                            <img src="./assets/img/images/icon_download.svg" alt="" class="icon_download" />
+                            <span class="text-download">資料ダウンロード </span>
+                        </button>
+                    </a>
                 </div>
                 <div class="section_banner-logo">
                     <div class="section_banner-image">
-                        <img src="./assets/img/images/Rectangle 85.png" alt="">
+                        <img src="./assets/img/images/Rectangle 85.png" alt="" />
                     </div>
                 </div>
             </div>
-
         </section>
 
         <div class="section_main">
             <div class="grid section_content">
-                <div class="section_content-title ">
-                    <h1 class="container_heading-text">システム・ゲーム・アプリ開発に特化したIT企業です。</h1>
+                <div class="section_content-title">
+                    <h1 class="container_heading-text">
+                        システム・ゲーム・アプリ開発に特化したIT企業です。
+                    </h1>
                 </div>
-                <div class="section_content-info"> 
+                <div class="section_content-info">
                     <div class="section_content-image">
-                        <img src="./assets/img/images/system-img.png" alt="">
+                        <img src="./assets/img/images/system-img.png" alt="" />
                     </div>
                     <div class="section_content-info-list">
-                            <div class="section_content-info-item">
-                                    <div class="number-home">8</div>
-                                    <h3 class="color-text ">07</h3>
-                                    <p>経験年数</p>
-                                
-                            </div>
-                            <div class="section_content-info-item">
-                                <div class="number-home">+300</div>
-                                    <h3 class="color-text ">1000+ </h3>
-                                    <p>+システム・ゲーム・アプリ開発の注文 </p>
-                            </div>
-                            <div class="section_content-info-item">
-                                <div class="number-home">+10000</div>
+                        <div class="section_content-info-item">
+                            <div class="number-home">8</div>
+                            <h3 class="color-text ">07</h3>
+                            <p>経験年数</p>
+                        </div>
+                        <div class="section_content-info-item">
+                            <div class="number-home">+300</div>
+                            <h3 class="color-text ">1000+ </h3>
+                            <p>+システム・ゲーム・アプリ開発の注文</p>
+                        </div>
+                        <div class="section_content-info-item">
+                            <div class="number-home">+10000</div>
                                     <h3 class="color-text ">300</h3>
-                                    <p>ゲーム・アプリのダウンロード
-                                    </p>
-                            </div>
-                            <div class="section_content-info-item">
-                                <div class="number-home">+350</div>
+                            <p>ゲーム・アプリのダウンロード</p>
+                        </div>
+                        <div class="section_content-info-item">
+                            <div class="number-home">+350</div>
                                     <h3 class="color-text ">100%  </h3>
-                                    <p>ソフトウェアのエンジニア </p>
-                            </div>
-                            <div class="section_content-info-item">
-                                <div class="number-home">9</div>
-                                    <h3 class="color-text ">3000+ </h3>
-                                    <p> オフィス </p>
-                               
-                            </div>
-                            <div class="section_content-info-item">
-                                    <h3 class="color-text ">10</h3>
-                                    <p> 業務上の英語・日本語対応</p>
-                            </div>
-                        
+                            <p>ソフトウェアのエンジニア</p>
+                        </div>
+                        <div class="section_content-info-item">
+                            <div class="number-home">9</div>
+                            <h3 class="color-text ">3000+ </h3>
+                            <p>オフィス</p>
+                        </div>
+                        <div class="section_content-info-item">
+                            <h3 class="color-text">10</h3>
+                            <p>業務上の英語・日本語対応</p>
+                        </div>
                     </div>
-                    
                 </div>
-                
             </div>
         </div>
-
-
-        <div class="container">
-           <div class="container-choice">
+        <!-- <div class="container container-child"> -->
+        <div class="container-choice">
             <div id="top-choice" class="grid top-choice">
-
-                <div class="container_heading ">
-                    <h1 class="container_heading-text">システム・ゲーム・アプリ開発ならお任せください！</h1>
+                <div class="container_heading">
+                    <h1 class="container_heading-text">
+                        システム・ゲーム・アプリ開発ならお任せください！
+                    </h1>
                 </div>
                 <div class="container_top-choice">
-                   
-
-                        <div class="container_top-choice-list">
-                            <div class="container_top-choice-item ">
-                                <div class="container_top-choice-item-img"><img
-                                        src="./assets/img/images/design_img.png" alt=""></div>
-                                <div class="container_top-choice-item-info">
-                                    <h3>詳細設計</h3>
-                                    <p>約７年でシステム・ゲーム・アプリの開発の経験を持ち、豊富な実績により、要件定義、 システム設計から対応致します。
-                                    </p>
-                                </div>
+                    <div class="container_top-choice-list">
+                        <div class="container_top-choice-item">
+                            <div class="container_top-choice-item-img">
+                                <img src="./assets/img/images/design_img.png" alt="" />
                             </div>
-                            <div class="container_top-choice-item">
-                                <div class="container_top-choice-item-img"><img
-                                        src="./assets/img/images/develop_img.png" alt=""></div>
-                                <div class="container_top-choice-item-info">
-                                    <h3>高品質なシステム開発</h3>
-                                    <p>
-                                        日本語・英語でコミュニケーション出来る体制を維持しながら、プロセスの見える化で高品質のシステムを 作り出します。
-                                    </p>
-                                </div>
+                            <div class="container_top-choice-item-info">
+                                <h3>詳細設計</h3>
+                                <p>
+                                    約７年でシステム・ゲーム・アプリの開発の経験を持ち、豊富な実績により、要件定義、
+                                    システム設計から対応致します。
+                                </p>
                             </div>
-                            <div class="container_top-choice-item">
-                                <div class="container_top-choice-item-img"><img
-                                        src="./assets/img/images/assur_img.png" alt=""></div>
-                                <div class="container_top-choice-item-info">
-                                    <h3>システムの安定性、安全性の保証</h3>
-                                    <p>
-                                        クラウド型のシステムを運用する前に日本のガイドラインに従って システムの安定性、安全性を担保して本番を開始します。 </p>
-                                </div>
-                            </div>
-                            <div class="container_top-choice-item">
-                                <div class="container_top-choice-item-img"><img
-                                        src="./assets/img/images/settimg_img.png" alt=""></div>
-                                <div class="container_top-choice-item-info">
-                                    <h3>システム保守</h3>
-                                    <p>
-                                        新規開発及び既存のシステムに対して、 サーバ監視しています。バグ修正、機能追加がある場合、 速やかに保守開発サービスを提供しています。
-                                    </p>
-                                </div>
-                            </div>
-
                         </div>
-
-                  
+                        <div class="container_top-choice-item">
+                            <div class="container_top-choice-item-img">
+                                <img src="./assets/img/images/develop_img.png" alt="" />
+                            </div>
+                            <div class="container_top-choice-item-info">
+                                <h3>高品質なシステム開発</h3>
+                                <p>
+                                    日本語・英語でコミュニケーション出来る体制を維持しながら、プロセスの見える化で高品質のシステムを
+                                    作り出します。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container_top-choice-item">
+                            <div class="container_top-choice-item-img">
+                                <img src="./assets/img/images/assur_img.png" alt="" />
+                            </div>
+                            <div class="container_top-choice-item-info">
+                                <h3>システムの安定性、安全性の保証</h3>
+                                <p>
+                                    クラウド型のシステムを運用する前に日本のガイドラインに従って
+                                    システムの安定性、安全性を担保して本番を開始します。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container_top-choice-item">
+                            <div class="container_top-choice-item-img">
+                                <img src="./assets/img/images/settimg_img.png" alt="" />
+                            </div>
+                            <div class="container_top-choice-item-info">
+                                <h3>システム保守</h3>
+                                <p>
+                                    新規開発及び既存のシステムに対して、
+                                    サーバ監視しています。バグ修正、機能追加がある場合、
+                                    速やかに保守開発サービスを提供しています。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-           </div>
-            <div class="container_health-care">
-                <div class="container_health-care-main">
-                    <div class="grid">
-                        <div class="layout_health-care">
-                            
-                            <div class="layout_health-care-right ">
-
-                                <div class="layout_health-care-right-title">
-                                    <div class="layout_health-care-right-title">
-                                        <div class="heading-text ">
-                                            <h1><span> 7年間、</span>システム・ゲーム・アプリ開発を行ってきたサービスの流れ
-                                                </h1>
-                                        </div>
+        </div>
+        <div class="container_health-care">
+            <div class="container_health-care-main">
+                <div class="grid">
+                    <div class="layout_health-care">
+                        <div class="layout_health-care-right">
+                            <div class="layout_health-care-right-title">
+                                <!-- <div class="layout_health-care-right-title"> -->
+                                <div class="heading-text">
+                                    <h1>
+                                        <span> 7年間、</span>システム・ゲーム・アプリ開発を行ってきたサービスの流れ
+                                    </h1>
                                 </div>
+                                <!-- </div> -->
                                 <div class="layout_health-care-right-content">
-                                    <img class="vector_down_care vector-downup " src="./assets/img/images/Vector_down.png" alt="">
-                                    <img class="vector_up_care vector-downup " src="./assets/img/images/Vector_up.png" alt="">
-                                    
-                                   <div class="layout_health-care-right-content-box-list">
+                                    <img class="vector_down_care vector-downup"
+                                        src="./assets/img/images/Vector_down.png" alt="" />
+                                    <img class="vector_up_care vector-downup" src="./assets/img/images/Vector_up.png"
+                                        alt="" />
+
+                                    <div class="layout_health-care-right-content-box-list">
                                         <div class="layout_health-care-right-content-list">
                                             <div class="layout_health-care-right-content-list--item">
-                                                <div class="temp">ステップ ①</div>
-                                                <h4 class="slick-slide-title">
-                                                    要件ヒアリング </h4>
+                                                <div class="slick-slide-chip">ステップ ①</div>
+                                                <h4 class="slick-slide-title">要件ヒアリング</h4>
                                                 <p class="slick-slide-content">
                                                     ヒアリングはプロジェクトを成功させるための重要なフェーズです。お客様の情報や事情の聞き取り調査や、問題解決のための事情聴取を行います。
                                                 </p>
-                                                <img class="vector_right vector_arrow" src="./assets/img/images/Vector_right.png" alt="">
+                                                <img class="vector_right vector_arrow"
+                                                    src="./assets/img/images/Vector_right.png" alt="" />
                                             </div>
                                             <div class="layout_health-care-right-content-list--item">
-                                                <div class="temp">ステップ ➁</div>
-                                                <h4 class="slick-slide-title">
-                                                    提案書・試作品 </h4>
+                                                <div class="slick-slide-chip">ステップ ➁</div>
+                                                <h4 class="slick-slide-title">提案書・試作品</h4>
                                                 <p class="slick-slide-content">
                                                     お客様に対して、既に抱えている課題や問題を解決できるよアイデアが実現可能かどうかを確認するため、提案書・試作品（プロトタイプ）を提案します。
                                                 </p>
-                                                <img class="vector_right vector_arrow" src="./assets/img/images/Vector_right.png" alt="">
+                                                <img class="vector_right vector_arrow"
+                                                    src="./assets/img/images/Vector_right.png" alt="" />
                                             </div>
                                             <div class="layout_health-care-right-content-list--item">
-                                                <div class="temp">ステップ ③</div>
-                                                <h4 class="slick-slide-title">
-                                                    開発 </h4>
-                                                <p class="slick-slide-content"> プロジェクトの実装と実行を開始します。</p>
+                                                <div class="slick-slide-chip">ステップ ③</div>
+                                                <h4 class="slick-slide-title">開発</h4>
+                                                <p class="slick-slide-content">
+                                                    プロジェクトの実装と実行を開始します。
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="layout_health-care-right-content-list">
                                             <div class="layout_health-care-right-content-list--item">
-                                                <div class="temp">ステップ ④</div>
-                                                <h4 class="slick-slide-title">
-                                                    Q&Aテスト </h4>
+                                                <div class="slick-slide-chip">ステップ ④</div>
+                                                <h4 class="slick-slide-title">Q&Aテスト</h4>
                                                 <p class="slick-slide-content">
                                                     品質保証（QA）プロセスを実行し、アプリケーションの安定性、安全性を確保します。
                                                 </p>
-                                                <img class="vector_left vector_arrow" src="./assets/img/images/Vector_letf.png" alt="">
+                                                <img class="vector_left vector_arrow"
+                                                    src="./assets/img/images/Vector_letf.png" alt="" />
                                             </div>
                                             <div class="layout_health-care-right-content-list--item">
-                                                <div class="temp">ステップ ⑤</div>
-                                                <h4 class="slick-slide-title">
-                                                    報告 </h4>
+                                                <div class="slick-slide-chip">ステップ ⑤</div>
+                                                <h4 class="slick-slide-title">報告</h4>
                                                 <p class="slick-slide-content">
                                                     プロセス品質の報告を行います。
                                                 </p>
-                                                <img class="vector_left vector_arrow" src="./assets/img/images/Vector_letf.png" alt="">
+                                                <img class="vector_left vector_arrow"
+                                                    src="./assets/img/images/Vector_letf.png" alt="" />
                                             </div>
                                             <div class="layout_health-care-right-content-list--item">
-                                                <div class="temp">ステップ ➅</div>
-                                                <h4 class="slick-slide-title">
-                                                    改善 </h4>
+                                                <div class="slick-slide-chip">ステップ ➅</div>
+                                                <h4 class="slick-slide-title">改善</h4>
                                                 <p class="slick-slide-content">
                                                     プロセス品質の継続的改善を行います。
                                                 </p>
                                             </div>
                                         </div>
-                                   </div>
-
-
-                                  
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -311,92 +311,123 @@
             </div>
 
             <div class="container_post-home">
-                <div id="#whyus" class="grid ">
-                    <div class="heading-text ">
-                        <h1>なぜ<b style="color: #ED1B23;">NCC</b>が選ばれるのか。</h1>
+                <div id="#whyus" class="grid">
+                    <div class="heading-text">
+                        <h1>なぜ<b style="color: #ed1b23">ncc</b>が選ばれるのか。</h1>
                     </div>
                     <div class="container_post-home-list">
                         <div class="container_post-home-item">
-                            <div class="container_post-home-item-title">
-                                <h3> なぜ<b style="font-size: 34px;" >NCC</b>が選ばれるのか。 </h3>
-                            </div>
-                            <div class="container_post-home-item-desc">
-                               
-                                <div class="container_post-home-item-info">
-                                    <div class="icon-d box-0">
-                                        <div class="icon-c icon-c0"><i class="fa-regular fa-circle"></i></div>
-                                        <p>  システム・ゲーム・アプリ開発の豊富なノウハウでコンサルティングします。
-                                        </p>
-                                    </div>
-                                    <div class="icon-d box-1">
-                                        <div class="icon-c icon-c1"><i class="fa-regular fa-circle"></i></div>
-                                        <p>  システム・ゲーム・アプリ開発の豊富なノウハウでコンサルティングします。</p>
-                                    </div>
-                                    <div class="icon-d box-2">
-                                        <div class="icon-c icon-c2"><i class="fa-regular fa-circle"></i></div>
-                                        <p> システム・ゲーム・アプリ開発の豊富な経験によりスピーディーに開発ができます。</p>
+                            <div class="container_post-home-item-child">
+                                <div class="container_post-home-item-title">
+                                    <h3>
+                                        なぜ<b style="font-size: 20px">ncc</b>が選ばれるのか。
+                                    </h3>
+                                </div>
+                                <div class="container_post-home-item-desc">
+                                    <div class="container_post-home-item-info">
+                                        <div class="icon-d box-0">
+                                            <div class="icon-c icon-c0">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                システム・ゲーム・アプリ開発の豊富なノウハウでコンサルティングします。
+                                            </p>
+                                        </div>
+                                        <div class="icon-d box-1">
+                                            <div class="icon-c icon-c1">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                システム・ゲーム・アプリ開発の豊富なノウハウでコンサルティングします。
+                                            </p>
+                                        </div>
+                                        <div class="icon-d box-2">
+                                            <div class="icon-c icon-c2">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                システム・ゲーム・アプリ開発の豊富な経験によりスピーディーに開発ができます。
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="img-bottom-line">
-                                <img class="img-line_first"  src="./assets/img/images/quality_img.png" alt="">
+                                <img class="img-line_first" src="./assets/img/images/quality_img.png" alt="" />
                             </div>
                         </div>
                         <div class="container_post-home-item">
-                            <div class="container_post-home-item-title">
-                                <h3> 品質第一</h3>
-                            </div>
-                            <div class="container_post-home-item-desc">
-                                <div class="container_post-home-item-info">
-                                    <div class="icon-d box-0">
-                                        <div class="icon-c icon-c0"><i class="fa-regular fa-circle"></i></div>
-                                        <p>  セキュリティ対策を実施しています。
-                                        </p>
-                                    </div>
-                                    <div class="icon-d box-1">
-                                        <div class="icon-c icon-c1"><i class="fa-regular fa-circle"></i></div>
-                                        <p>  プロセスを実施することで進捗・課題・品質を可視化して、プロジェクトの進行中でも安心して状況をモニタリング出来ます。
-                                        </p>
-                                    </div>
-                                    <div class="icon-d box-2">
-                                        <div class="icon-c icon-c2"><i class="fa-regular fa-circle"></i></div>
-                                        <p>  生産性、バグ密度のデータを元に品質を管理し、日本で求められている高品質の成果物を作り出します。</p>
+                            <div class="container_post-home-item-child">
+                                <div class="container_post-home-item-title">
+                                    <h3>品質第一</h3>
+                                </div>
+                                <div class="container_post-home-item-desc">
+                                    <div class="container_post-home-item-info">
+                                        <div class="icon-d box-0">
+                                            <div class="icon-c icon-c0">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>セキュリティ対策を実施しています。</p>
+                                        </div>
+                                        <div class="icon-d box-1">
+                                            <div class="icon-c icon-c1">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                プロセスを実施することで進捗・課題・品質を可視化して、プロジェクトの進行中でも安心して状況をモニタリング出来ます。
+                                            </p>
+                                        </div>
+                                        <div class="icon-d box-2">
+                                            <div class="icon-c icon-c2">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                生産性、バグ密度のデータを元に品質を管理し、日本で求められている高品質の成果物を作り出します。
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="img-bottom-line">
-                                <img class="img-line" src="./assets/img/images/quality_img.png" alt="">
+                                <img class="img-line" src="./assets/img/images/quality_img.png" alt="" />
                             </div>
                         </div>
                         <div class="container_post-home-item">
-                            <div class="container_post-home-item-title">
-                                <h3> 低価格 </h3>
-                            </div>
-                            <div class="container_post-home-item-desc">
-                                <div class="container_post-home-item-info">
-                                    <div class="icon-d box-0">
-                                        <div class="icon-c icon-c0"><i class="fa-regular fa-circle"></i></div>
-                                        <p> オフショアの単価で提供します。開発コストを節約出来ます。</p>
-                                    </div>
-                                    <div class="icon-d box-1"><img class="img-line" src=" " alt="">
-                                        <div class="icon-c icon-c1"><i class="fa-regular fa-circle"></i></div>
-                                        <p>  オフショアの単価で提供します。開発コストを節約出来ます。</p>
+                            <div class="container_post-home-item-child">
+                                <div class="container_post-home-item-title">
+                                    <h3>低価格</h3>
+                                </div>
+                                <div class="container_post-home-item-desc">
+                                    <div class="container_post-home-item-info">
+                                        <div class="icon-d box-0">
+                                            <div class="icon-c icon-c0">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                オフショアの単価で提供します。開発コストを節約出来ます。
+                                            </p>
+                                        </div>
+                                        <div class="icon-d box-1">
+                                            <img class="img-line" src=" " alt="" />
+                                            <div class="icon-c icon-c1">
+                                                <i class="fa-regular fa-circle"></i>
+                                            </div>
+                                            <p>
+                                                オフショアの単価で提供します。開発コストを節約出来ます。
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="img-bottom-line">
-                                <img class="img-line-last" src="./assets/img/images/low_img.png" alt="">
+                                <img class="img-line-last" src="./assets/img/images/low_img.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-
-
 
             <div class="container_certification-purposes">
-
                 <div class="grid layout_certification-purposes">
                     <div class="layout_certification-purposes-sidebar">
                         <div class="heading-text-certification-purposes">
@@ -404,288 +435,283 @@
                         </div>
                     </div>
                     <div class="layout_certification-purposes-main">
-
-                        <div class="layout_certification-purposes-image">
-                            <img src="./assets/img/images/purposes.png" alt="">
+                        <div class="layout_certification-purposes-image bg-purpose">
+                            <img src="./assets/img/images/purposes.png" alt="" />
                         </div>
                         <div class="layout_certification-purposes-list">
-
                             <div class="layout_certification-purposes-item certification-purposes-item-middle">
-                                 <h3>1. お客様の成功</h3>
-                                <p>お客様の成功こそ、私たちにとって最重要事項です。システム開発のそれぞれの過程において、
-                                    このことを心にとめ、<b style="font-size: 16px;">NCC</b>はあなたのビジネスに本当の価値をもたらす製品をお届けします。
+                                <h3 class="title-section-we-value">1. お客様の成功</h3>
+                                <p>
+                                    お客様の成功こそ、私たちにとって最重要事項です。システム開発のそれぞれの過程において、
+                                    このことを心にとめ、<b style="font-size: 16px">ncc</b>はあなたのビジネスに本当の価値をもたらす製品をお届けします。
                                     またお客様を成功に導くため、私たちはシステム開発を超えたお客様との深い関係を築きます。
                                 </p>
                             </div>
-                            
+
                             <div class="layout_certification-purposes-item certification-purposes-item-middle">
-                                <h3>2. 敬意とプロ意識
-                                </h3>
-                                <p>仕事の能率と関係する人々のウェルビーイングを確保するため、<b style="font-size: 16px; ">NCC</b>はすべての従業員に誠実さを求めています。 お互いを尊重すること、プロ意識を保つこと。これらは私たちが仕事をする上で欠かすことのできない二つの重要な価値観です。
-                                </p>
-                           </div>
-
-                           <div class="layout_certification-purposes-item certification-purposes-item-middle">
-                                <h3>3. 個人の成長</h3>
-                                <p><b style="font-size: 16px;">NCC</b>は、最高品質のサービスを提供するために必要な環境を従業員に提供することにより、従業員の自己啓発をサポートしています。 また、チームワークこそが成功の鍵であると信じており、チームの絆を深める活動を通じて関係を深めていくことを非常に重要視しています。
-
-                                </p>
-                            </div>
-                           <div class="layout_certification-purposes-item certification-purposes-item-middle">
-                                <h3>4. 多様性と柔軟性</h3>
-                                <p><b style="font-size: 16px;">NCC</b>の従業員は異なるバックグラウンドを持っており、インクルーシブな職場を提供することが重要だと考えています。今後も従業員の多様性を大事にするため、革新的な働き方の実践に努めていきます。
+                                <h3 class="title-section-we-value">2. 敬意とプロ意識</h3>
+                                <p>
+                                    仕事の能率と関係する人々のウェルビーイングを確保するため、<b style="font-size: 16px">ncc</b>はすべての従業員に誠実さを求めています。
+                                    お互いを尊重すること、プロ意識を保つこと。これらは私たちが仕事をする上で欠かすことのできない二つの重要な価値観です。
                                 </p>
                             </div>
 
-                            
+                            <div class="layout_certification-purposes-item certification-purposes-item-middle">
+                                <h3 class="title-section-we-value">3. 個人の成長</h3>
+                                <p>
+                                    <b
+                                        style="font-size: 16px">ncc</b>は、最高品質のサービスを提供するために必要な環境を従業員に提供することにより、従業員の自己啓発をサポートしています。
+                                    また、チームワークこそが成功の鍵であると信じており、チームの絆を深める活動を通じて関係を深めていくことを非常に重要視しています。
+                                </p>
+                            </div>
+                            <div class="layout_certification-purposes-item certification-purposes-item-middle">
+                                <h3 class="title-section-we-value">4. 多様性と柔軟性</h3>
+                                <p>
+                                    <b
+                                        style="font-size: 16px">ncc</b>の従業員は異なるバックグラウンドを持っており、インクルーシブな職場を提供することが重要だと考えています。今後も従業員の多様性を大事にするため、革新的な働き方の実践に努めていきます。
+                                </p>
+                            </div>
                         </div>
-                        
                     </div>
                 </div>
-
             </div>
-
-            
 
             <div class="grid container_partners">
                 <div class="heading-text heading-text-title">
                     <h1>重要な取引先</h1>
                 </div>
                 <div class="container_parters-list">
-                    <!-- <div class="container_partners-item  row range"> -->
                         <img class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/itware_logo.png" alt=""><img
+                            src="./assets/img/client/itware_logo.png" alt="" /><img
                             class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/MeetingHub_logo.png" alt=""><img
+                            src="./assets/img/client/MeetingHub_logo.png" alt="" /><img
                             class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/Mailerr_logo.png" alt=""><img
+                            src="./assets/img/client/Mailerr_logo.png" alt="" /><img
                             class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/zestif_logo.png" alt=""><img
+                            src="./assets/img/client/zestif_logo.png" alt="" /><img
                             class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/the_mytel_logo_1.png" alt="">
-                            <img
-                            class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/logo_astrolab.png" alt="">
-                    <!-- </div>
-                    <div class="container_partners-item row range"> -->
+                            src="./assets/img/client/the_mytel_logo_1.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-left x-visible"
+                            src="./assets/img/client/logo_astrolab.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-right hide-mb x-visible"
-                            src="./assets/img/client/kids_logo.png" alt=""><img
+                            src="./assets/img/client/kids_logo.png" alt="" /><img
                             class="container_partners-item-img x-slide-effect x-right x-visible"
-                            src="./assets/img/client/Gasbot_logo.png" alt="">
+                            src="./assets/img/client/Gasbot_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-right x-visible"
-                            src="./assets/img/client/viettel_logo.png" alt="">
-                            <img
-                            class="container_partners-item-img x-slide-effect x-right x-visible"
-                            src="./assets/img/client/Fortna_logo.png" alt="">
+                            src="./assets/img/client/viettel_logo.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-right x-visible"
+                            src="./assets/img/client/Fortna_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-right hide-web x-visible"
-                            src="./assets/img/client/mission_logo.png" alt="">
-                            <img class="container_partners-item-img x-slide-effect x-right hide-web x-visible"
-                            src="./assets/img/client/Finggalink_lô.png" alt="">
-                    <!-- </div>
-                    <div class="container_partners-item  row range"> -->
+                            src="./assets/img/client/mission_logo.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-right hide-web x-visible"
+                            src="./assets/img/client/Finggalink_lô.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-left hide-mb x-visible"
-                            src="./assets/img/client/core_logo.png" alt="">
+                            src="./assets/img/client/core_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/bcg_logo.png" alt="">
+                            src="./assets/img/client/bcg_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/IMG_15.png" alt="">
+                            src="./assets/img/client/IMG_15.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/spritely_logo.png" alt="">
+                            src="./assets/img/client/spritely_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/gfm_logo.png" alt="">
-                            <img
-                            class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/oucg_logo.png" alt="">
-
-                    <!-- </div>
-                    <div class="container_partners-item  row range"> -->
+                            src="./assets/img/client/gfm_logo.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-left x-visible"
+                            src="./assets/img/client/oucg_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-right hide-mb x-visible"
-                            src="./assets/img/client/volve_logo.png" alt="">
-                        <img
-                            class="container_partners-item-img x-slide-effect x-right hide-mb x-visible"
-                            src="./assets/img/client/gas_logo.png" alt="">
+                            src="./assets/img/client/volve_logo.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-right hide-mb x-visible"
+                            src="./assets/img/client/gas_logo.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-right x-visible"
-                            src="./assets/img/client/IMG_21.png" alt="">
-                        <img
-                            class="container_partners-item-img x-slide-effect x-right x-visible"
-                            src="./assets/img/client/mps_logo.png" alt="">
+                            src="./assets/img/client/IMG_21.png" alt="" />
                         <img class="container_partners-item-img x-slide-effect x-right x-visible"
-                            src="./assets/img/client/zestifs_logo.png" alt="">
-                        <img
-                            class="container_partners-item-img x-slide-effect x-left x-visible"
-                            src="./assets/img/client/IMG_24.png" alt="">
-
-                        <!-- </div> -->
+                            src="./assets/img/client/mps_logo.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-right x-visible"
+                            src="./assets/img/client/zestifs_logo.png" alt="" />
+                        <img class="container_partners-item-img x-slide-effect x-left x-visible"
+                            src="./assets/img/client/IMG_24.png" alt="" />
+                
                 </div>
             </div>
 
             <div class="container_review">
-                <div class="grid">
-
+                <div class="grid content-feedback">
                     <div class="container_review-heading-title">
                         <h2 class="creview-heading">お客様からの声</h2>
-                       
                     </div>
-                    <div class="container_review-main">
-                        <button class="container_review-btn btn-left">
-                            <img src="./assets/img/images/IMG_Arrow Left.png" alt="">
-                        </button>
-                        <div class="container_review-carousel">
-                            <div class="container_review-list">
-                                <div class="container_review-item">
-                                    <div class="container_review-item-image">
-                                        <div class="container_review-item-img container_review-item-img-image"><img
-                                            src=".//assets//img/images/img_jasonPang.png"
-                                            alt=""></div>
-                                    </div> 
-                                    <div class="container_review-item--content">
-                                        <p class="container_review-item-content">
-                                            “The NCC team has shown me professionalism and passion for the projects that we
-                                            working on together. I would highly recommend them to my business partners and
-                                            anyone who needs help with software development.”
-                                        </p>
-                                        
-                                        <h3 class="container_review-item-author">
-                                            Jason Pang
-                                        </h3>
-                                        <h3 class="container_review-item-author--co">
-                                            Co-founder LYNKED 株式会社
-                                        </h3>
-                                    </div>    
-                                  
+                    <div class="content-review">
+                        <div class="client">
+                            <div class="container_review-main">
+                                <button class="container_review-btn btn-left">
+                                    <img src="./assets/img/images/IMG_Arrow Left.png" alt="" />
+                                </button>
+                                <div class="container_review-carousel">
+                                    <div class="container_review-list">
+                                        <div class="container_review-item  mySlides">
+                                            <div class="container_review-item-image">
+                                                <div class="container_review-item-img container_review-item-img-inter">
+                                                    <img src="./assets/img/rade.png" alt="" />
+                                                </div>
+                                                <div class="content-name-review-mobile">
+                                                    <h3 class="container_review-item-author">RADE VUJICIC</h3>
+                                                    <h3 class="container_review-item-author--co">
+                                                        CEO, 911 INTERPRETERS INC
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="container_review-item--content">
+                                                <p class="container_review-item-content">
+                                                    NCC の納入の成功は、ビジネスに多大な影響を与えました。
+                                                    このソリューションにより、クライアントの生産性と精度が大幅に向上し、コストが削減されました。
+                                                    有能な専門家のチームは、迅速かつシームレスなコミュニケーションを維持しました。
+                                                    彼らの顧客サービスは本当に誰にも負けませんでした。
+                                                </p>
+                                                <div class="content-name-review">
+                                                    <h3 class="container_review-item-author">RADE VUJICIC</h3>
+                                                    <h3 class="container_review-item-author--co">
+                                                        CEO, 911 INTERPRETERS INC
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container_review-item  mySlides">
+                                            <div class="container_review-item-image">
+                                                <div class="container_review-item-img container_review-item-img-image">
+                                                    <img src="./assets/img/jason.png" alt="" />
+                                                </div>
+                                                <div class="content-name-review-mobile">
+                                                    <h3 class="container_review-item-author">Jason Pang</h3>
+                                                    <h3 class="container_review-item-author--co">
+                                                        Co-founder LYNKED 株式会社
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="container_review-item--content">
+                                                <p class="container_review-item-content">
+                                                    “The NCC team has shown me professionalism and passion
+                                                    for the projects that we working on together. I would
+                                                    highly recommend them to my business partners and anyone
+                                                    who needs help with software development.”
+                                                </p>
+                                                <div class="content-name-review">
+                                                    <h3 class="container_review-item-author">Jason Pang</h3>
+                                                    <h3 class="container_review-item-author--co">
+                                                        Co-founder LYNKED 株式会社
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="container_review-item">
-                                    <div class="container_review-item-image">
-                                        <div class="container_review-item-img container_review-item-img-inter"> <img
-                                            src="https://uploads-ssl.webflow.com/633d14fa9849966befd0b07e/633e9a56208c99e5f50e3a4d_Rade%20Vujicic.jpg"
-                                            alt=""></div>
-                                    </div> 
-                                    <div class="container_review-item--content">
-                                        <p class="container_review-item-content">
-                                            NCC の納入の成功は、ビジネスに多大な影響を与えました。 このソリューションにより、クライアントの生産性と精度が大幅に向上し、コストが削減されました。
-                                            有能な専門家のチームは、迅速かつシームレスなコミュニケーションを維持しました。 彼らの顧客サービスは本当に誰にも負けませんでした。
-                                        </p>
-                                        
-                                        <h3 class="container_review-item-author">
-                                            RADE VUJICIC
-                                        </h3>
-                                        <h3 class="container_review-item-author--co">
-                                            CEO, 911 INTERPRETERS INC
-                                        </h3>
-                                    </div>    
-                                  
-                                </div>
-                                
+                                <button class="container_review-btn btn-right">
+                                    <img src="./assets/img/images/IMG_Arrow Right.png" alt="" />
+                                </button>
                             </div>
                         </div>
-                        <button class="container_review-btn btn-right">
-                            <img src="./assets/img/images/IMG_Arrow Right.png" alt="">
-                        </button>
-
-                    </div>
-
-                    <div class="box_slide">
-                        <div class="box_lide-left"></div>
-                        <div class="box_lide-right"></div>
+                        <div class="box_slide">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-           
         </div>
-        <footer class="footer">
-            <div class="footer_head">
-              <div class="footer_head-logo">
+        <!-- </div> -->
+    </div>
+    <footer class="footer">
+        <div class="footer_head">
+            <div class="footer_head-logo">
                 <img class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
-              </div>
-              <ul class="footer_head-category">
+            </div>
+            <ul class="footer_head-category">
                 <li class="footer_head-collection footer_head-collection-infomation ">
-                  <div class="footer_head-item--infomation">
-                    <p class="footer_head-item-address-vi">ベトナム本社</p>
-                    <p class="footer_head-item-address-text">5F、Office Building、 58 To Huu、Nam Tu Liem、Ha Noi
-                    </p>
-                    <div class="footer_head_item_bottom">
-                      <p class="footer_head-item-phone-text">(+84) 2466874606</p>
-                      <p class="footer_head-item-email-text">info@ncc.asia
+                    <div class="footer_head-item--infomation">
+                        <p class="footer_head-item-address-vi">ベトナム本社</p>
+                        <p class="footer_head-item-address-text">5F、Office Building、 58 To Huu、Nam Tu Liem、Ha Noi
+                        </p>
+                        <div class="footer_head_item_bottom">
+                            <p class="footer_head-item-phone-text">(+84) 2466874606</p>
+                            <p class="footer_head-item-email-text">info@ncc.asia
+                        </div>
+                        </p>
                     </div>
-                    </p>
-                  </div>
-                  <div>
-                    <p class="footer_head-item-address-ja">日本オフィス</p>
-                    <p class="footer_head-item-address-text">〒145-0065 東京都　大田区 東雪谷2-35-5
-                    </p>
-                    <div class="footer_head_item_bottom">
-                      <p class="footer_head-item-phone-text">(+81) 9024878796</p>
+                    <div>
+                        <p class="footer_head-item-address-ja">日本オフィス</p>
+                        <p class="footer_head-item-address-text">〒145-0065 東京都　大田区 東雪谷2-35-5
+                        </p>
+                        <div class="footer_head_item_bottom">
+                            <p class="footer_head-item-phone-text">(+81) 9024878796</p>
+                            <p class="footer_head-item-email-text">info@ncc.jp
+                        </div>
+                        </p>
                     </div>
-                    </p>
-                  </div>
                 </li>
-        
+
                 <li class="footer_head-collection footer_head-collection-address">
-                  <ul class="footer_head-list-first flex-column no-padding">
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">HA
-                            NOI 2 | </span> オフィス： 7th Floor、8 Pham Hung St.、Cau Giay
-                          Dist.、Hanoi、Vietnam</a></li>
-                    </div>
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">SAI GON 1 | </span> オフィス： 5th
-                          Floor、The Office、340/15A Ung Van Khiem St.、Binh Thanh
-                          Dist.、HCMC、Vietnam</a></li>
-                    </div>
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">DA NANG | </span> オフィス： 4th
-                          Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da
-                          Nang、Vietnam
-                        </a></li>
-                    </div>
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">QUY NHON | </span> オフィス： 3th
-                          Floor、307 Nguyen Thi Minh Khai St.、Quy Nhon City、Binh Dinh
-                          Province、Vietnam
-                        </a></li>
-                    </div>
-                  </ul>
+                    <ul class="footer_head-list-first flex-column no-padding">
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">HA
+                                        NOI 2 | </span> オフィス： 7th Floor、8 Pham Hung St.、Cau Giay
+                                    Dist.、Hanoi、Vietnam</a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">SAI GON 1 | </span> オフィス： 5th
+                                    Floor、The Office、340/15A Ung Van Khiem St.、Binh Thanh
+                                    Dist.、HCMC、Vietnam</a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">DA NANG | </span> オフィス： 4th
+                                    Floor、Ricco Building、363 Nguyen Huu Tho St.、Cam Le Dist.、Da
+                                    Nang、Vietnam
+                                </a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">QUY NHON | </span> オフィス： 3th
+                                    Floor、307 Nguyen Thi Minh Khai St.、Quy Nhon City、Binh Dinh
+                                    Province、Vietnam
+                                </a></li>
+                        </div>
+                    </ul>
                 </li>
                 <li class="footer_head-collection footer_head-collection-address ">
-                  <ul class="footer_head-list-main flex-column">
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">HA
-                            NOI 3 | </span> オフィス： 5th Floor、Hong Ha Tower、89 Thinh Liet、Hoang Mai
-                        </a></li>
-                    </div>
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">SAI GON 2 | </span> オフィス： 1th
-                          Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu
-                          Ward、Thu
-                          Duc、HCMC、Vietnam
-                        </a></li>
-                    </div>
-                    <div class="header_footer">
-                      <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                      <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
-                            class="text-footer">VINH | </span>
-                          オフィス： 4th Floor、138 Ha Huy Tap St.、Vinh City、Nghe An Province、Vietnam
-                        </a></li>
-                    </div>
-                  </ul>
+                    <ul class="footer_head-list-main flex-column">
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">HA
+                                        NOI 3 | </span> オフィス： 5th Floor、Hong Ha Tower、89 Thinh Liet、Hoang Mai
+                                </a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">SAI GON 2 | </span> オフィス： 1th
+                                    Floor、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu
+                                    Ward、Thu
+                                    Duc、HCMC、Vietnam
+                                </a></li>
+                        </div>
+                        <div class="header_footer">
+                            <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
+                            <li class=" link-footer link-footer-first"><a href="" class="bold-link" target="_self"><span
+                                        class="text-footer">VINH | </span>
+                                    オフィス： 4th Floor、138 Ha Huy Tap St.、Vinh City、Nghe An Province、Vietnam
+                                </a></li>
+                        </div>
+                    </ul>
                 </li>
-              </ul>
-          </footer>
-        <script src="./assets/js/main.js"></script>
-        <script src="./assets/js/review.js"></script>
-        <script src="./assets/js/header.js"></script>
+            </ul>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/review.js"></script>
+    <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/slide.js"></script>
 </body>
 
 </html>
