@@ -252,7 +252,7 @@
 
 .container_certification-purposes {
   background: var(--white-color);
-  padding: 60px 0;
+  /* padding: 60px 0; */
   /* background-color: #eeeeee; */
 }
 
@@ -781,7 +781,7 @@
 
 .section_header {
   background-color: #fff;
-  padding: 130px 110px;
+  padding: 130px 76px 60px 76px;
 }
 
 .statical-section {
@@ -812,11 +812,14 @@
     padding: 0;
   }
 
+  .container_heading{
+    margin-top: 120px;
+  }
   .container_heading-text {
     font-weight: 500;
     font-size: 32px;
     line-height: 43px;
-    padding: 96px 0 0 0;
+    padding: 0;
   }
 
   .container-choice {
@@ -880,6 +883,9 @@
     position: relative;
   }
 
+  .section_content-image{
+    margin-top: 40px;
+  }
   section.section_header {
     padding: 60px 0;
   }
