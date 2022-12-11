@@ -421,6 +421,15 @@ p strong {
 }
 
 @media (max-width: 768px) {
+  .container, .container_management {
+    max-width: 727px !important;
+ }
+  .container, .container-category{
+    padding: 0 16px;
+  }
+  .container{
+    margin-top: 70px;
+  }
   .container_management-item-content-bu-container {
     width: 100%;
     justify-content: center;

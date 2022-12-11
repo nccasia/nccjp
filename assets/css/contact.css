@@ -359,6 +359,11 @@
   font-size: 17px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 727px !;
+  }
+}
 @media (min-width: 376px) {
   .container {
     max-width: 375px;

@@ -113,7 +113,8 @@
 }
 
 .section-system {
-    width: 30%;
+    width        : 30%;
+    padding-right: 12px;
 }
 
 .section_content-image {
@@ -442,9 +443,12 @@
 }
 
 .layout_certification-purposes-list {
-    width      : 50%;
-    align-items: flex-start;
-    padding    : 0px;
+    width            : 50%;
+    align-items      : flex-start;
+    padding          : 0px;
+    /* display       : flex; */
+    /* flex-direction: column; */
+    /* gap           : 32px; */
 }
 
 .layout_certification-purposes-item {
@@ -635,7 +639,7 @@
 .section_banner-logo {
     position: relative;
     width   : 50%;
-    padding : 60px 0;
+    padding : 0px 0px;
 }
 
 .container_top-choice-item-info>h3 {
@@ -752,6 +756,7 @@
 
 .section_header {
     background-color: #fff;
+    padding         : 60px 0px;
 }
 
 @media (max-width: 1440px) {
@@ -850,6 +855,7 @@
     section.section_header {
         /* padding: 40px 0px; */
         padding-bottom: 40px;
+        padding-top   : 0px;
     }
 
     .section_main {
@@ -868,6 +874,7 @@
         display        : flex;
         justify-content: center;
         width          : 100%;
+        padding-right  : 0px;
     }
 
     .section_content-image {
@@ -1070,7 +1077,7 @@
     .section_banner-logo {
         position: relative;
         width   : 100%;
-        padding : 60px 0;
+        padding : 0px 0px;
     }
 
     .layout_health-care {

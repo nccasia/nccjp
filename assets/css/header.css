@@ -8,6 +8,9 @@
   box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.05);
 }
 
+.navbar_list-item--active {
+  border-bottom: 1px solid var(--red_vip-color);
+}
 .menu-icon {
   display: none;
 }
@@ -191,8 +194,12 @@
 }
 
 @media (max-width: 768px) {
+  .header_navbar {
+    max-width: 721px !important;
+  }
   .header {
     height: 60px;
+    padding: 0 16px ;
   }
 
   .navbar_list {
