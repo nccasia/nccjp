@@ -13,6 +13,15 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://kenwheeler.github.io/slick/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kenwheeler.github.io/slick/slick/slick-theme.css"
+    /> -->
+    <link href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/home.css" />
@@ -22,6 +31,7 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
 </head>
 
 <body>
@@ -124,8 +134,9 @@
                     </h1>
                 </div>
                 <div class="section_content-info">
-                    <div class="section_content-image">
-                        <img src="./assets/img/images/system-img.png" alt="" />
+                    <div class="section-system">
+                        <div class="section_content-image">
+                        </div>
                     </div>
                     <div class="section_content-info-list">
                         <div class="section_content-info-item">
@@ -156,7 +167,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container container-child"> -->
         <div class="container-choice">
             <div id="top-choice" class="grid top-choice">
                 <div class="container_heading">
@@ -220,89 +230,88 @@
             </div>
         </div>
         <div class="container_health-care">
-            <div class="container_health-care-main">
-                <div class="grid">
-                    <div class="layout_health-care">
-                        <div class="layout_health-care-right">
-                            <div class="layout_health-care-right-title">
-                                <!-- <div class="layout_health-care-right-title"> -->
-                                <div class="heading-text">
-                                    <h1>
-                                        <span> 7年間、</span>システム・ゲーム・アプリ開発を行ってきたサービスの流れ
-                                    </h1>
-                                </div>
-                                <!-- </div> -->
-                                <div class="layout_health-care-right-content">
-                                    <img class="vector_down_care vector-downup"
-                                        src="./assets/img/images/Vector_down.png" alt="" />
-                                    <img class="vector_up_care vector-downup" src="./assets/img/images/Vector_up.png"
-                                        alt="" />
+            <div class="grid layout_health-care">
+                <!-- <div class="layout_health-care"> -->
+                    <div class="layout_health-care-right">
+                        <div class="layout_health-care-right-title">
+                            <!-- <div class="layout_health-care-right-title"> -->
+                            <div class="heading-text">
+                                <h1>
+                                    <span> 7年間、</span>システム・ゲーム・アプリ開発を行ってきたサービスの流れ
+                                </h1>
+                            </div>
+                            <!-- </div> -->
+                            <div class="layout_health-care-right-content">
+                                <img class="vector_down_care vector-downup"
+                                    src="./assets/img/images/Vector_down.png" alt="" />
+                                <img class="vector_up_care vector-downup" src="./assets/img/images/Vector_up.png"
+                                    alt="" />
 
-                                    <div class="layout_health-care-right-content-box-list">
-                                        <div class="layout_health-care-right-content-list">
-                                            <div class="layout_health-care-right-content-list--item">
-                                                <div class="slick-slide-chip">Step1</div>
-                                                <h4 class="slick-slide-title">要件ヒアリング</h4>
-                                                <p class="slick-slide-content">
-                                                    ヒアリングはプロジェクトを成功させるための重要なフェーズです。お客様の情報や事情の聞き取り調査や、問題解決のための事情聴取を行います。
-                                                </p>
-                                                <img class="vector_right vector_arrow"
-                                                    src="./assets/img/images/Vector_right.png" alt="" />
-                                            </div>
-                                            <div class="layout_health-care-right-content-list--item">
-                                                <div class="slick-slide-chip">Step2</div>
-                                                <h4 class="slick-slide-title">提案書・試作品</h4>
-                                                <p class="slick-slide-content">
-                                                    お客様に対して、既に抱えている課題や問題を解決できるよアイデアが実現可能かどうかを確認するため、提案書・試作品（プロトタイプ）を提案します。
-                                                </p>
-                                                <img class="vector_right vector_arrow"
-                                                    src="./assets/img/images/Vector_right.png" alt="" />
-                                            </div>
-                                            <div class="layout_health-care-right-content-list--item">
-                                                <div class="slick-slide-chip">Step3</div>
-                                                <h4 class="slick-slide-title">開発</h4>
-                                                <p class="slick-slide-content">
-                                                    プロジェクトの実装と実行を開始します。
-                                                </p>
-                                            </div>
+                                <div class="layout_health-care-right-content-box-list">
+                                    <div class="layout_health-care-right-content-list">
+                                        <div class="layout_health-care-right-content-list--item">
+                                            <div class="slick-slide-chip">Step1</div>
+                                            <h4 class="slick-slide-title">要件ヒアリング</h4>
+                                            <p class="slick-slide-content">
+                                                ヒアリングはプロジェクトを成功させるための重要なフェーズです。お客様の情報や事情の聞き取り調査や、問題解決のための事情聴取を行います。
+                                            </p>
+                                            <img class="vector_right vector_arrow"
+                                                src="./assets/img/images/Vector_right.png" alt="" />
                                         </div>
-                                        <div class="layout_health-care-right-content-list">
-                                            <div class="layout_health-care-right-content-list--item">
-                                                <div class="slick-slide-chip">Step4</div>
-                                                <h4 class="slick-slide-title">Q&Aテスト</h4>
-                                                <p class="slick-slide-content">
-                                                    品質保証（QA）プロセスを実行し、アプリケーションの安定性、安全性を確保します。
-                                                </p>
-                                                <img class="vector_left vector_arrow"
-                                                    src="./assets/img/images/Vector_letf.png" alt="" />
-                                            </div>
-                                            <div class="layout_health-care-right-content-list--item">
-                                                <div class="slick-slide-chip">Step5</div>
-                                                <h4 class="slick-slide-title">報告</h4>
-                                                <p class="slick-slide-content">
-                                                    プロセス品質の報告を行います。
-                                                </p>
-                                                <img class="vector_left vector_arrow"
-                                                    src="./assets/img/images/Vector_letf.png" alt="" />
-                                            </div>
-                                            <div class="layout_health-care-right-content-list--item">
-                                                <div class="slick-slide-chip">Step6</div>
-                                                <h4 class="slick-slide-title">改善</h4>
-                                                <p class="slick-slide-content">
-                                                    プロセス品質の継続的改善を行います。
-                                                </p>
-                                            </div>
+                                        <div class="layout_health-care-right-content-list--item">
+                                            <div class="slick-slide-chip">Step2</div>
+                                            <h4 class="slick-slide-title">提案書・試作品</h4>
+                                            <p class="slick-slide-content">
+                                                お客様に対して、既に抱えている課題や問題を解決できるよアイデアが実現可能かどうかを確認するため、提案書・試作品（プロトタイプ）を提案します。
+                                            </p>
+                                            <img class="vector_right vector_arrow"
+                                                src="./assets/img/images/Vector_right.png" alt="" />
+                                        </div>
+                                        <div class="layout_health-care-right-content-list--item">
+                                            <div class="slick-slide-chip">Step3</div>
+                                            <h4 class="slick-slide-title">開発</h4>
+                                            <p class="slick-slide-content">
+                                                プロジェクトの実装と実行を開始します。
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="layout_health-care-right-content-list">
+                                        <div class="layout_health-care-right-content-list--item">
+                                            <div class="slick-slide-chip">Step4</div>
+                                            <h4 class="slick-slide-title">Q&Aテスト</h4>
+                                            <p class="slick-slide-content">
+                                                品質保証（QA）プロセスを実行し、アプリケーションの安定性、安全性を確保します。
+                                            </p>
+                                            <img class="vector_left vector_arrow"
+                                                src="./assets/img/images/Vector_letf.png" alt="" />
+                                        </div>
+                                        <div class="layout_health-care-right-content-list--item">
+                                            <div class="slick-slide-chip">Step5</div>
+                                            <h4 class="slick-slide-title">報告</h4>
+                                            <p class="slick-slide-content">
+                                                プロセス品質の報告を行います。
+                                            </p>
+                                            <img class="vector_left vector_arrow"
+                                                src="./assets/img/images/Vector_letf.png" alt="" />
+                                        </div>
+                                        <div class="layout_health-care-right-content-list--item">
+                                            <div class="slick-slide-chip">Step6</div>
+                                            <h4 class="slick-slide-title">改善</h4>
+                                            <p class="slick-slide-content">
+                                                プロセス品質の継続的改善を行います。
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
+        </div>
 
-            <div class="container_post-home">
-                <div id="#whyus" class="grid">
+        <div class="container_post-home">
+                <div id="#whyus" class="grid section_content">
                     <div class="heading-text">
                         <h1>なぜ<b style="color: #ed1b23">ncc</b>が選ばれるのか。</h1>
                     </div>
@@ -416,17 +425,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
 
-            <div class="container_certification-purposes">
+        <div class="container_certification-purposes">
                 <div class="grid layout_certification-purposes">
-                    <div class="layout_certification-purposes-sidebar">
-                        <div class="heading-text-certification-purposes">
-                            <h1>わたしたちが大切にしていること</h1>
-                        </div>
+                    <div class="layout_certification-purposes-heading">
+                        <h1>わたしたちが大切にしていること</h1>
                     </div>
                     <div class="layout_certification-purposes-main">
-                        <div class="layout_certification-purposes-image bg-purpose">
+                        <div class="layout_certification-purposes-image">
+                            <!-- <div class="bg-purpose">vvvv</div> -->
                             <img src="./assets/img/images/purposes.png" alt="" />
                         </div>
                         <div class="layout_certification-purposes-list">
@@ -465,9 +473,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
 
-            <div class="grid container_partners">
+        <div class="grid container_partners">
                 <div class="heading-text heading-text-title">
                     <h1>重要な取引先</h1>
                 </div>
@@ -529,9 +537,9 @@
                             src="./assets/img/client/IMG_24.png" alt="" />
                     </div>
                 </div>
-            </div>
+        </div>
 
-            <div class="container_review">
+        <div class="container_review">
                 <div class="grid content-feedback">
                     <div class="container_review-heading-title">
                         <h2 class="creview-heading">お客様からの声</h2>
@@ -543,7 +551,7 @@
                                     <img src="./assets/img/images/IMG_Arrow Left.png" alt="" />
                                 </button>
                                 <div class="container_review-carousel">
-                                    <div class="container_review-list">
+                                    <div class="container_review-list responsive">
                                         <div class="container_review-item">
                                             <div class="container_review-item-image">
                                                 <div class="container_review-item-img container_review-item-img-inter">
@@ -615,6 +623,7 @@
         </div>
         <!-- </div> -->
     </div>
+  
     <footer class="footer">
         <div class="footer_head">
             <div class="footer_head-logo">
@@ -709,6 +718,17 @@
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/review.js"></script>
     <script src="./assets/js/header.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+
+    <script>
+    
+    // $('.responsive').slick({
+    //     autoplay: true,
+    //     mobileFirst: true
+    // })
+    </script>
+   
 </body>
 
 </html>

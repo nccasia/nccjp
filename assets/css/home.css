@@ -2,7 +2,7 @@
     max-width: 330px;
     width    : 100%;
     margin   : auto;
-    padding  : 80px 0 160px 0;
+    padding  : 80px 0 80px 0;
 }
 
 .grid {
@@ -28,17 +28,17 @@
 }
 
 .section_banner {
-    display        : flex;
-    justify-content: space-between;
+    display    : flex;
+    align-items: center;
 }
 
 .section_banner-text {
-    width         : 50%;
-    display       : flex;
-    flex-direction: column;
-    align-items   : flex-start;
-    padding       : 0px;
-    gap           : 40px;
+    width            : 50%;
+    display          : flex;
+    flex-direction   : column;
+    align-items      : flex-start;
+    padding          : 0px;
+    /* gap           : 40px; */
 }
 
 .section_banner-text .decoration {
@@ -112,14 +112,17 @@
     display: flex;
 }
 
-.section_content-image {
-    margin-right: 32px;
-    margin-top  : 90px;
+.section-system {
+    width: 30%;
 }
 
-.section_content-image>img {
-    margin-top: 70px;
-    width     : 100%;
+.section_content-image {
+    margin-top       : 90px;
+    background-image : url('../img/images/system-img.png');
+    background-repeat: no-repeat;
+    background-size  : contain;
+    aspect-ratio     : 836/1404;
+
 }
 
 .section_content-info-item {
@@ -193,11 +196,6 @@
     animation-duration: 1s;
 }
 
-.container_health-care {
-    height : auto;
-    padding: 0px;
-}
-
 .layout_health-care-right-content {
     position: relative;
 }
@@ -255,7 +253,6 @@
 }
 
 .container_parters-list {
-    /* margin: 0 99px; */
     display: block;
     margin : 0px;
 }
@@ -284,13 +281,12 @@
 }
 
 .section_content-info-list {
-    width                : 100%;
-    display              : grid;
-    grid-template-columns: repeat(3, 1.067fr);
-    grid-template-rows   : 250px 250px;
-    margin-top           : 28px;
-    grid-gap             : 32px 32px;
-    margin-bottom        : 25px;
+    width                      : 100%;
+    display                    : grid;
+    grid-template-columns      : repeat(3, 1.067fr);
+    /* grid-template-rows      : 250px 250px; */
+    margin-top                 : 28px;
+    grid-gap                   : 32px 32px;
 }
 
 .text-title {
@@ -305,7 +301,9 @@
     color: var(--red_vip-color);
 }
 
-.container_health-care-main {
+.container_health-care {
+    height          : auto;
+    padding         : 0px;
     padding         : 96px 0px;
     background-color: #fff;
 }
@@ -315,7 +313,8 @@
 }
 
 .layout_certification-purposes-main {
-    display: flex;
+    display    : flex;
+    align-items: center;
 }
 
 .layout_health-care-right-title .heading-text {
@@ -393,13 +392,13 @@
     text-align       : center;
 }
 
-div#\#whyus {
+/* div#\#whyus {
     display        : flex;
     flex-direction : column;
     justify-content: center;
     align-items    : center;
     gap            : 60px;
-}
+} */
 
 .container_post-home-item {
     display        : flex;
@@ -429,7 +428,7 @@ div#\#whyus {
     justify-content: space-between;
 }
 
-.heading-text-certification-purposes>h1 {
+.layout_certification-purposes-heading>h1 {
     padding    : 28px 0 50px 0;
     margin     : auto;
     font-weight: 700;
@@ -439,35 +438,23 @@ div#\#whyus {
 }
 
 .layout_certification-purposes-image img {
-    width           : 100%;
-    /* padding-right: 50px; */
-    /* margin-top   : 9px; */
+    width: 100%;
 }
 
 .layout_certification-purposes-list {
-    width         : 50%;
-    padding-left  : 20px;
-    display       : flex;
-    flex-direction: column;
-    align-items   : flex-start;
-    padding       : 0px;
-    /* gap        : 32px; */
+    width      : 50%;
+    align-items: flex-start;
+    padding    : 0px;
 }
 
 .layout_certification-purposes-item {
     background-color: #fff;
     width           : 100%;
-    /* padding      : 20px 27px;
-    margin-bottom   : 28px;
-    margin-top      : 10px; */
     border-radius   : 20px;
     border          : 1px solid #000000;
-    /* height       : 166px; */
-    display         : flex;
-    flex-direction  : column;
+    height          : auto;
     align-items     : flex-start;
     padding         : 24px 20px;
-    gap             : 6px;
 }
 
 .layout_certification-purposes-item>p {
@@ -495,7 +482,8 @@ div#\#whyus {
 
 .container_review {
     background-color: var(--white-color);
-    padding         : 96px 0px;
+    padding         : 0;
+    padding-top     : 96px;
 
     /* display: flex;
     flex-direction: column;
@@ -718,7 +706,6 @@ div#\#whyus {
 }
 
 .container_post-home-item-title h3 {
-    /* text-transform: uppercase; */
     font-size    : 34px;
     color        : var(--red_vip-color);
     font-weight  : 700;
@@ -800,12 +787,8 @@ div#\#whyus {
     }
 
     .container-choice {
-        margin-top: 620px;
+        margin-top: 450px;
         padding   : 40px 0;
-    }
-
-    .container_parters-list {
-        /* margin: 0 31px; */
     }
 
     .container_top-choice-item-img img {
@@ -826,7 +809,7 @@ div#\#whyus {
     }
 
     .container_post-home {
-        padding: 32px 0;
+        padding: 40px 0;
     }
 
     .heading-text>h1 {
@@ -848,6 +831,11 @@ div#\#whyus {
         gap       : 20px;
     }
 
+    .container_certification-purposes {
+        padding: 40px 0px;
+        ;
+    }
+
     .layout_health-care-right-title .heading-text {
         padding: 0;
     }
@@ -860,6 +848,11 @@ div#\#whyus {
     }
 
     section.section_header {
+        /* padding: 40px 0px; */
+        padding-bottom: 40px;
+    }
+
+    .section_main {
         padding: 40px 0px;
     }
 
@@ -871,31 +864,27 @@ div#\#whyus {
         padding: 0px 16px;
     }
 
-    .section_content-image>img {
-        margin-top  : 48px;
-        width       : 50%;
-        margin-right: 0;
+    .section-system {
+        display        : flex;
+        justify-content: center;
+        width          : 100%;
     }
 
     .section_content-image {
-        display        : flex;
-        justify-content: center;
-        margin-right   : 0px;
+        background-image : url('../img/images/sytem-img-mobile.png');
+        background-repeat: no-repeat;
+        background-size  : contain;
+        aspect-ratio     : 816/949;
+        width            : 70%;
     }
 
-    .heading-text-certification-purposes>h1 {
+    .layout_certification-purposes-heading>h1 {
         padding    : 0 0 40px 0;
         font-weight: 500;
         font-size  : 32px;
         line-height: 43px;
         text-align : center;
         color      : #000000;
-    }
-
-    div#\#whyus {
-
-        padding: 0 15px;
-        gap    : 0px;
     }
 
     .grid.layout_certification-purposes {
@@ -907,22 +896,25 @@ div#\#whyus {
         padding-right: 0px;
     }
 
-
     .layout_certification-purposes-image img {
         width        : 100%;
         margin-bottom: 30px;
     }
 
     .layout_certification-purposes-list {
-        width       : 100%;
-        padding-left: 0;
-        gap         : 12px;
+        width         : 100%;
+        display       : flex;
+        flex-direction: column;
+        gap           : 12px;
     }
 
     .layout_certification-purposes-item {
-        width : 100%;
-        height: auto;
-        margin: 0
+        display       : flex;
+        flex-direction: column;
+        gap           : 6px;
+        width         : 100%;
+        height        : auto;
+        margin        : 0
     }
 
     .container_partners-item {
@@ -964,9 +956,13 @@ div#\#whyus {
     }
 
     .container_review-list {
-        width      : 100%;
-        /* overflow: hidden; */
-        overflow-x : scroll;
+        width         : 100%;
+        /* overflow   : hidden; */
+        overflow-x    : scroll;
+    }
+
+    .box_slide {
+        display: none;
     }
 
     .container_review-item--content {
@@ -974,10 +970,9 @@ div#\#whyus {
     }
 
     .container_review-item-author {
-        padding-right : 50px;
-        /* margin-left: 31px; */
-        font-size     : 20px;
-        line-height   : 27px;
+        padding-right: 50px;
+        font-size    : 20px;
+        line-height  : 27px;
     }
 
     .container_review-item-author--co {
@@ -1018,22 +1013,22 @@ div#\#whyus {
     }
 
     .section_content-info-list {
-        width                : 100%;
-        display              : grid;
-        grid-template-columns: 48% 48%;
-        grid-template-rows   : 225px 225px 225px;
-        grid-gap             : 16px;
-        position             : absolute;
-        /* top               : 315px; */
-        background           : #fbfbfb;
+        width                   : 100%;
+        display                 : grid;
+        grid-template-columns   : 48% 48%;
+        /* grid-template-rows   : 225px 225px 225px; */
+        grid-gap                : 16px;
+        position                : absolute;
+        /* top                  : 315px; */
+        background              : #fbfbfb;
     }
 
     .grid.top-choice {
-        padding: 40px 15px;
+        padding: 40px 16px;
         margin : 0;
     }
 
-    .container_health-care-main {
+    .container_health-care {
         padding: 40px 0;
     }
 
@@ -1080,7 +1075,7 @@ div#\#whyus {
 
     .layout_health-care {
         flex-wrap: wrap;
-        padding  : 0 15px;
+        padding  : 0 16px;
     }
 
     .icon-d {
@@ -1100,7 +1095,7 @@ div#\#whyus {
     }
 
     .container_review {
-        padding: 20px 15px;
+        padding: 20px 16px;
     }
 
     img.container_partners-item-img {
@@ -1127,6 +1122,7 @@ div#\#whyus {
     .grid.section_banner {
         flex-wrap: wrap;
         padding  : 0 16px;
+        gap      : 24px;
     }
 
     .section_banner-logo {
