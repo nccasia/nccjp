@@ -19,7 +19,11 @@
 
 .section_main {
     background-color: #fbfbfb;
-    padding         : 88px 0;
+    padding         : 0px;
+}
+
+.section-why-ncc {
+    background-color: #fbfbfb;
 }
 
 .section_content-title {
@@ -146,11 +150,12 @@
 .container_post-home {
     background-color   : #fbfbfb;
     /* padding         : 88px 0px; */
-    padding-top        : 0px;
+    padding            : 0px;
 }
 
 .container-choice {
     background-color: white;
+    padding         : 96px 0px;
     padding-top     : 0px;
 }
 
@@ -258,6 +263,10 @@
     margin : 0px;
 }
 
+.container_parters-list-mobile {
+    display: none;
+}
+
 .container_post-home-item-title {
     margin-bottom: 20px;
 }
@@ -304,9 +313,9 @@
 
 .container_health-care {
     height          : auto;
-    padding         : 0px;
     padding         : 96px 0px;
     background-color: #fff;
+    padding-bottom  : 0px;
 }
 
 .layout_health-care-right-title {
@@ -759,6 +768,10 @@
     padding         : 60px 0px;
 }
 
+.statical-section {
+    background-color: #fbfbfb;
+}
+
 @media (max-width: 1440px) {
     .header_navbar {
         max-width: 1200px;
@@ -792,8 +805,9 @@
     }
 
     .container-choice {
-        margin-top: 450px;
-        padding   : 40px 0;
+        margin-top    : 400px;
+        padding       : 0px 0;
+        padding-bottom: 40px;
     }
 
     .container_top-choice-item-img img {
@@ -814,7 +828,7 @@
     }
 
     .container_post-home {
-        padding: 40px 0;
+        padding: 0px;
     }
 
     .heading-text>h1 {
@@ -853,13 +867,12 @@
     }
 
     section.section_header {
-        /* padding: 40px 0px; */
-        padding-bottom: 40px;
+        padding-bottom: 0px;
         padding-top   : 0px;
     }
 
     .section_main {
-        padding: 40px 0px;
+        padding: 0px;
     }
 
     .section_header {
@@ -968,8 +981,11 @@
         overflow-x    : scroll;
     }
 
-    .box_slide {
+    /* .box_slide {
         display: none;
+    } */
+    .heading-text-title>h1 {
+        padding: 0px;
     }
 
     .container_review-item--content {
@@ -1036,7 +1052,8 @@
     }
 
     .container_health-care {
-        padding: 40px 0;
+        padding       : 40px 0;
+        padding-bottom: 0px;
     }
 
     .content-name-review-mobile {
@@ -1106,8 +1123,8 @@
     }
 
     img.container_partners-item-img {
-        width        : 40%;
-        height       : 40%;
+        width        : 23%;
+        height       : 23%;
         margin-bottom: 10px;
     }
 
@@ -1199,6 +1216,14 @@
     .color-text {
         font-size: 32px;
 
+    }
+
+    .container_parters-list {
+        display: none;
+    }
+
+    .container_parters-list-mobile {
+        display: block;
     }
 }
 
