@@ -584,10 +584,7 @@ b {
   width: 50px;
 }
 
-.container_post-home-item {
-  width: calc((100% - 90px) / 3);
-  background-color: var(--white-color);
-}
+
 
 .container_post-home-item-title {
   margin-bottom: 20px;
@@ -603,11 +600,6 @@ b {
 
 .container_post-home-item-info {
   margin-top: 35px;
-}
-
-.container_certification-purposes {
-  background: var(--white-color);
-  padding: 60px 0;
 }
 
 .heading-text-certification-purposes > h1 {
@@ -1128,7 +1120,16 @@ h2.title {
   background: rgba(252, 96, 97, 0.2);
   border-radius: 50%;
 }
-
+.active :hover, .dot:hover {
+  background-color: rgba(252, 96, 97, 0.7);
+  width: 24px;
+  border-radius: 42px;
+}
+.dot{
+  background-color: rgba(252, 96, 97, 0.7);
+  width: 24px;
+  border-radius: 42px;
+}  
 /* COMPANYY */
 .container_company-overview-list {
   display: flex;
@@ -1919,6 +1920,7 @@ button.contact-form-btn {
   align-items: center;
   white-space: nowrap;
 }
+
 
 .container_service-item-customer {
   display: flex;
