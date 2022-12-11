@@ -335,7 +335,7 @@
   }
   .section_content-info {
     display: block;
-    position: relative;
+    /* position: relative; */
   }
 
   .section_content-image > img {
@@ -350,8 +350,6 @@
     grid-template-columns: 48% 48%;
     grid-template-rows: 225px 225px 225px;
     grid-gap: 16px;
-    position: absolute;
-    top: 460px;
     background: #fbfbfb;
   }
   .color-text {

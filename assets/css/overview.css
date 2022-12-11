@@ -459,6 +459,7 @@ p strong {
 
   .logo_image-ncc img {
     max-height: 328px;
+    padding-right: 0;
   }
 
   .container_management-item-content-bu-container {

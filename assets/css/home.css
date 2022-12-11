@@ -19,7 +19,7 @@
 
 .section_main {
     background-color: #fbfbfb;
-    padding: 88px 110px;
+    padding: 88px 76px;
 }
 
 .section_content-title {
@@ -141,13 +141,13 @@
 
 .container_post-home {
     background-color   : #fbfbfb;
-    padding         : 88px 110px;
+    padding         : 88px 76px;
     padding-top        : 0px;
 }
 
 .container-choice {
     background-color: white;
-    padding: 88px 110px;
+    padding: 88px 76px;
 }
 
 .container_heading {
@@ -251,7 +251,7 @@
 
 .container_certification-purposes {
     background: var(--white-color);
-    padding: 60px 110px;
+    padding: 60px 76px;
     /* background-color: #eeeeee; */
 }
 
@@ -307,7 +307,7 @@
 }
 
 .container_health-care-main {
-    padding         : 96px 110px;
+    padding         : 88px 76px;
     background-color: #fff;
 }
 
@@ -775,8 +775,9 @@ div#\#whyus {
 }
 
 .section_header {
-    background-color: #fff;
-    padding: 0 110px;
+    /* background-color: #fff; */
+    padding: 88px 76px;
+    background: #f5f5f5;
 }
 
 @media (max-width: 1440px) {
