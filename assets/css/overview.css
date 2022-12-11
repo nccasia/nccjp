@@ -21,7 +21,6 @@
 
 .logo_image-ncc img {
   width: 100%;
-  padding-right: 40px;
   max-height: 600px;
 }
 
@@ -104,6 +103,7 @@
   width: 100%;
   align-items: center;
   padding-bottom: 95px;
+  gap: 32px;
 }
 
 /* Organization system */
@@ -335,7 +335,6 @@ p strong {
 
   .container_company-overview-list {
     width: 100%;
-    padding-top: 32px;
   }
 
   .container_company-overview {
@@ -458,7 +457,7 @@ p strong {
   }
 
   .logo_image-ncc img {
-    max-height: 328px;
+    /* max-height: 328px; */
   }
 
   .container_management-item-content-bu-container {
