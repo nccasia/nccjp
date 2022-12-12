@@ -170,6 +170,10 @@
     padding-bottom: 25px;
     padding-top: 45px;
   }
+  footer.footer {
+    margin-top: 50px;
+    padding: 47px 16px 20px 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -217,7 +221,9 @@
 
 @media (min-width: 769px) {
   .footer_head {
-    max-width: 730px;
+    min-width: 730px;
+    width: auto;
+    max-width: 1024px;
   }
 }
 
