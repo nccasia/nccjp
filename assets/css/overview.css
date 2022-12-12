@@ -350,10 +350,6 @@ p strong {
     grid-row-end: 2;
   }
 
-  .container_management-item-content-wrappers {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .container_management--list {
     gap: 0;
   }
@@ -549,6 +545,7 @@ p strong {
     grid-gap: 8px;
     grid-row-gap: 8px;
     width: 100%;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .about-head {
