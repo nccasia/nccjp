@@ -548,6 +548,7 @@ p strong {
   .container_management-item-content-wrappers {
     grid-gap: 8px;
     grid-row-gap: 8px;
+    width: 100%;
   }
 
   .about-head {

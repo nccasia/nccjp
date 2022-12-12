@@ -1011,15 +1011,6 @@ p.container_management-content {
   margin-top: 24px;
 }
 
-.container_management-item-content-bu-container p {
-  font-size: 10px;
-  line-height: 14px;
-  font-weight: 700;
-  background: #f0f0f0;
-  padding: 12px 16px;
-  border-radius: 57px;
-}
-
 .line-tree {
   position: absolute;
   top: 464px;
