@@ -21,7 +21,6 @@
 
 .logo_image-ncc img {
   width: 100%;
-  max-height: 600px;
 }
 
 .container_company-overview-list {
@@ -420,13 +419,15 @@ p strong {
 }
 
 @media (max-width: 768px) {
-  .container, .container_management {
+  .container,
+  .container_management {
     max-width: 727px !important;
- }
-  .container, .container-category{
+  }
+  .container,
+  .container-category {
     padding: 0 16px;
   }
-  .container{
+  .container {
     margin-top: 70px;
   }
   .container_management-item-content-bu-container {
@@ -495,7 +496,7 @@ p strong {
   }
 
   .container_management-item-content-wrappers {
-    grid-gap:8px;
+    grid-gap: 8px;
     grid-row-gap: 8px;
   }
 
@@ -563,11 +564,17 @@ p strong {
 
 @media (min-width: 769px) {
   .container_management {
-    max-width: 730px;
+    max-width: 1024px;
+    min-width: 730px;
+    width: auto;
+    padding: 0 16px;
   }
 
   .container {
-    max-width: 730px;
+    min-width: 730px;
+    max-width: 1024px;
+    width: auto;
+    padding: 0 16px;
   }
 }
 
