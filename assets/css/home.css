@@ -627,6 +627,7 @@
   background: rgba(252, 96, 97, 0.2);
   border-radius: 50%;
   margin-right: 10px;
+  border: 0;
 }
 
 .box_lide-right {
@@ -682,12 +683,6 @@
 }
 
 /* .active :hover, */
-.dot:hover {
-  background-color: rgba(252, 96, 97, 0.7);
-  width: 24px;
-  border-radius: 42px;
-}
-
 .dot {
   background-color: rgba(252, 96, 97, 0.7);
   width: 24px;
@@ -1000,15 +995,9 @@
 
   .container_review-list {
     width: 100%;
-    /* overflow   : hidden; */
-    overflow-x: scroll;
   }
 
-  .box_slide {
-    display: none;
-  }
-
-  .heading-text-title>h1 {
+  .heading-text-title > h1 {
     padding: 0px;
   }
 

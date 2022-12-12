@@ -1,7 +1,9 @@
 const box = document.querySelectorAll(".icon-b");
 const btnDropDown = document.querySelector(".header_dropdown-language");
 const menuLanguage = document.querySelector(".dropdown-menu");
-const heathCareSlideList = document.querySelector(".health-care-right-slide-list");
+const heathCareSlideList = document.querySelector(
+  ".health-care-right-slide-list"
+);
 const slickNext = document.querySelector(".slick-next");
 const slickPrev = document.querySelector(".slick-prev");
 const slickSlide = document.querySelector(".slick-track");
@@ -29,63 +31,66 @@ const containerPartnerItem = document.querySelectorAll(
   ".container_partners-item "
 );
 
-
-
 const widthBody = document.body.offsetWidth;
 
-if(1005 <= widthBody && widthBody <= 1140 )
-  {
-    heathCareSlideList.style.width = "610px"
-  
-  }else {
-    heathCareSlideList.style.width = "auto"
+if (heathCareSlideList) {
+  if (1005 <= widthBody && widthBody <= 1140) {
+    heathCareSlideList.style.width = "610px";
+  } else {
+    heathCareSlideList.style.width = "auto";
   }
-  
+}
+
 let countNext = 0;
 let countPrev = 6;
-slickNext.addEventListener("click", () => {
-  countNext++;
-  if (countNext === 6) {
-    countNext = 0;
-  }
-  let dem = -610 * countNext;
-  slickSlide.style.transform = "translate3d(" + dem + "px, 0px, 0px)";
-});
+slickNext &&
+  slickNext.addEventListener("click", () => {
+    countNext++;
+    if (countNext === 6) {
+      countNext = 0;
+    }
+    let dem = -610 * countNext;
+    slickSlide.style.transform = "translate3d(" + dem + "px, 0px, 0px)";
+  });
 
-slickPrev.addEventListener("click", () => {
-  countPrev--;
-  if (countPrev == -1) {
-    countPrev = 5;
-  }
-  let dem = -610 * countPrev;
-  slickSlide.style.transform = "translate3d(" + dem + "px, 0px, 0px)";
-});
+slickPrev &&
+  slickPrev.addEventListener("click", () => {
+    countPrev--;
+    if (countPrev == -1) {
+      countPrev = 5;
+    }
+    let dem = -610 * countPrev;
+    slickSlide.style.transform = "translate3d(" + dem + "px, 0px, 0px)";
+  });
 
-console.log("barBottom ", barBottomIcon)
-barBottomIcon.addEventListener("click", () => {
-  barBottom.style.display = "none";
-});
-
-
+barBottomIcon &&
+  barBottomIcon.addEventListener("click", () => {
+    barBottom.style.display = "none";
+  });
 
 window.addEventListener("scroll", () => {
- 
   scrollFunction();
-  if (window.pageYOffset > 300) {
-    btnBackToTop.style.display = "block";
-  } else {
-    btnBackToTop.style.display = "none";
+  if (btnBackToTop) {
+    if (window.pageYOffset > 300) {
+      btnBackToTop.style.display = "block";
+    } else {
+      btnBackToTop.style.display = "none";
+    }
   }
 });
-
 
 window.onscroll = () => scrollFunction();
 
 const scrollFunction = () => {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnBackToTop.style.display = "block";
-  } else {
-    btnBackToTop.style.display = "none";
+  if (btnBackToTop) {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      btnBackToTop.style.display = "block";
+    } else {
+      btnBackToTop.style.display = "none";
+    }
   }
 
   //root
@@ -142,24 +147,30 @@ const scrollFunction = () => {
     }
   });
 
-  windowBottom > footerItem[0].offsetTop
-    ? (footerItem[0].style.animation = "fadeInLeft ease 0.8s forwards")
-    : (footerItem[0].style.animation = "none");
+  if (footerItem[0]) {
+    windowBottom > footerItem[0].offsetTop
+      ? (footerItem[0].style.animation = "fadeInLeft ease 0.8s forwards")
+      : (footerItem[0].style.animation = "none");
+  }
 
-  windowBottom > footerItem[1].offsetTop 
-    ? (footerItem[1].style.animation = "fadeInRight ease 0.8s forwards")
-    : (footerItem[1].style.animation = "none");
+  if (footerItem[1]) {
+    windowBottom > footerItem[1].offsetTop
+      ? (footerItem[1].style.animation = "fadeInRight ease 0.8s forwards")
+      : (footerItem[1].style.animation = "none");
+  }
 };
 
-btnBackToTop.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
+btnBackToTop &&
+  btnBackToTop.addEventListener("click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
 
-btnScrollTopFooter.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
+btnScrollTopFooter &&
+  btnScrollTopFooter.addEventListener("click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
 
 // hover
 for (let i = 0; i < box.length; ++i) {
@@ -170,17 +181,15 @@ for (let i = 0; i < box.length; ++i) {
   });
 }
 
-btnDropDown.addEventListener("click", () => {
-  console.log("hello");
-  menuLanguage.classList.toggle("dropdown-menu-show");
-});
-
-
-
+btnDropDown &&
+  btnDropDown.addEventListener("click", () => {
+    console.log("hello");
+    menuLanguage.classList.toggle("dropdown-menu-show");
+  });
 
 const slider = document.querySelector(".slick-track");
 
-slider.addEventListener("mousedown", (e) => {});
-slider.addEventListener("mouseleave", () => {});
-slider.addEventListener("mouseup", () => {});
-slider.addEventListener("mousemove", (e) => {});
+slider && slider.addEventListener("mousedown", (e) => {});
+slider && slider.addEventListener("mouseleave", () => {});
+slider && slider.addEventListener("mouseup", () => {});
+slider && slider.addEventListener("mousemove", (e) => {});
