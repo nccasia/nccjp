@@ -8,6 +8,7 @@ let direction = 0;
 let indexReviewList = 1;
 function replaceBoxSlide(){
     box_slide.innerHTML = ''
+    console.log("nnnn")
     for(let i=0; i < reviewList.childElementCount; i++){
     
         if(i+1 == indexReviewList ){

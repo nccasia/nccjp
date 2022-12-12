@@ -361,18 +361,20 @@
 
 @media (max-width: 768px) {
   .container {
-    max-width: 727px !;
+    max-width: 727px ;
   }
 }
 @media (min-width: 376px) {
   .container {
     max-width: 375px;
+    padding: 80px 13px 160px 13px;
   }
 }
 
 @media (min-width: 450px) {
   .container {
     max-width: 430px;
+    
   }
 }
 

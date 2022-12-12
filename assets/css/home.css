@@ -690,7 +690,7 @@
   left: 5%;
 }
 
-.active :hover,
+/* .active :hover, */
 .dot:hover {
   background-color: rgba(252, 96, 97, 0.7);
   width: 24px;
@@ -999,9 +999,9 @@
     overflow-x: scroll;
   }
 
-  /* .box_slide {
+  .box_slide {
         display: none;
-    } */
+    }
   .heading-text-title > h1 {
     padding: 0px;
   }

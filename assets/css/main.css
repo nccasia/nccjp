@@ -1100,36 +1100,7 @@ h2.title {
   right: 10%;
 }
 
-.box_slide {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.box_lide-left {
-  width: 24px;
-  height: 12px;
-  background: rgba(252, 96, 97, 0.7);
-  border-radius: 42px;
-  margin-right: 10px;
-}
-
-.box_lide-right {
-  width: 12px;
-  height: 12px;
-  background: rgba(252, 96, 97, 0.2);
-  border-radius: 50%;
-}
-.active :hover, .dot:hover {
-  background-color: rgba(252, 96, 97, 0.7);
-  width: 24px;
-  border-radius: 42px;
-}
-.dot{
-  background-color: rgba(252, 96, 97, 0.7);
-  width: 24px;
-  border-radius: 42px;
-}  
+  
 /* COMPANYY */
 .container_company-overview-list {
   display: flex;
