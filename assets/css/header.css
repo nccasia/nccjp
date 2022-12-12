@@ -272,7 +272,10 @@
 
 @media (min-width: 769px) {
   .header_navbar {
-    max-width: 730px;
+    min-width: 730px;
+    max-width: 1024px;
+    width: auto;
+    padding: 0 16px;
   }
 }
 
