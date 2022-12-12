@@ -1,6 +1,6 @@
 /* main-view */
 .container {
-  max-width: 330px;
+  /* max-width: 330px; */
   width: 100%;
   margin: auto;
   padding: 80px 0 160px 0;
@@ -193,7 +193,6 @@
   padding-top: 40px;
   gap: 10px;
   flex: none;
-  margin: 0 16px;
   flex-grow: 0;
 }
 
@@ -367,21 +366,12 @@
 }
 @media (min-width: 376px) {
   .container {
-    max-width: 375px;
-    padding: 80px 13px 160px 13px;
+    padding: 0 16px;
   }
 }
 
-@media (min-width: 450px) {
-  .container {
-    max-width: 430px;
-  }
-}
 
 @media (min-width: 769px) {
-  .container {
-    max-width: 730px;
-  }
 
   .modal-contact-map {
     max-width: 500px;
