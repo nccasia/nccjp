@@ -19,12 +19,13 @@
 
 .section_main {
   background-color: #fbfbfb;
-  padding: 0px;
+  /* padding: 0px; */
+  padding: 130px 76px 60px 76px;
 }
 
 .section-why-ncc {
   background-color: #fbfbfb;
-  padding: 130px 76px 60px 76px;
+  /* padding: 130px 76px 60px 76px; */
 }
 
 .section_content-title {
@@ -149,7 +150,7 @@
 .container_post-home {
   background-color: #fbfbfb;
   /* padding         : 88px 0px; */
-  padding: 0px;
+  padding: 130px 76px 60px 76px;
 }
 
 .container-choice {
@@ -844,7 +845,7 @@
   }
 
   .container_post-home {
-    padding: 0px;
+    padding: 40px 0px;
   }
 
   .heading-text>h1 {
@@ -868,7 +869,7 @@
 
   .section-why-ncc {
     background-color: #fbfbfb;
-    padding: 60px 0;
+    /* padding: 60px 0; */
   }
 
   .container_certification-purposes {
