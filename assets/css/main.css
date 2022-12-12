@@ -34,8 +34,6 @@
   transform: translate(-50%, -50%);
 }
 
-
-
 .section_banner {
   display: flex;
   justify-content: space-between;
@@ -45,14 +43,6 @@
   margin: 0;
   font-size: 3rem;
   color: var(--white-color);
-}
-
-.text-title {
-  color: var(--black-color);
-  font-size: 45px;
-  white-space: pre-line;
-  line-height: 55.8px;
-  margin: 65px 20px 0 0;
 }
 
 .section_banner-text {
@@ -243,11 +233,6 @@ b {
   padding-bottom: 35px;
 }
 
-.container_top-choice {
-  display: flex;
-  justify-content: space-between;
-}
-
 .container_top-choice-left {
   width: 35%;
 }
@@ -258,21 +243,6 @@ b {
 
 .container_top-choice-right {
   width: 65%;
-}
-
-.container_top-choice-list {
-  /* width: 500px; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 42px;
-}
-
-.container_top-choice-item {
-  width: 100%;
-  /* margin-bottom: 35px; */
-  border: 1px solid #d1d1d1;
-  border-radius: 20px;
-  padding: 20px;
 }
 
 .container_top-choice-item.scroll-animation {
@@ -309,41 +279,6 @@ b {
   }
 }
 
-.container_top-choice-item-img {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.container_top-choice-item-img > img {
-  width: 37%;
-
-  width: 37%;
-  margin-bottom: 15px;
-  height: 200px;
-}
-
-.container_top-choice-item-info {
-}
-
-.container_top-choice-item-info > h3 {
-  font-size: 32px;
-  margin: 0;
-  margin-bottom: 16px;
-  margin-top: 35px;
-  /* margin-top: 35px; */
-}
-
-.container_top-choice-item-info p {
-  text-align: justify;
-  font-weight: 500;
-  font-size: 18px;
-  /* white-space: pre-line; */
-  margin: 0;
-  color: var(--text-color);
-  margin-bottom: 16px;
-  line-height: 23px;
-}
 
 .container_health-care .container_background-top {
   height: auto;
@@ -483,12 +418,6 @@ b {
   position: relative;
 }
 
-.layout_health-care-right-content-list {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 52px;
-  margin-bottom: 121px;
-}
 
 .layout_health-care-right-content-list--item {
   position: relative;
@@ -583,8 +512,6 @@ b {
 .container_post-home-item-desc-image > img {
   width: 50px;
 }
-
-
 
 .container_post-home-item-title {
   margin-bottom: 20px;
@@ -974,15 +901,7 @@ div .certification-awards-item-middle {
   flex: 3;
 }
 
-.slick-slide-title {
-  font-size: 2rem;
-  color: rgb(47, 120, 205);
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: var(--black-color);
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
+
 
 .slick-slide-content {
   font-size: 14px;
@@ -1100,7 +1019,6 @@ h2.title {
   right: 10%;
 }
 
-  
 /* COMPANYY */
 .container_company-overview-list {
   display: flex;
@@ -1892,7 +1810,6 @@ button.contact-form-btn {
   white-space: nowrap;
 }
 
-
 .container_service-item-customer {
   display: flex;
   flex-direction: column;
@@ -2069,18 +1986,7 @@ a.container_field-item-link {
   width: 100%;
 }
 
-.layout_health-care-right-content::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 318px;
-  border: 2px solid rgba(237, 27, 35, 0.5);
-  border-radius: 46px;
-  display: block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .container_post-home-item {
   position: relative;
