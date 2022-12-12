@@ -1011,10 +1011,6 @@ p.container_management-content {
   margin-top: 24px;
 }
 
-.container_management-cards .margin-top-box {
-  margin-bottom: 80px;
-}
-
 .container_management-item-content-bu-container p {
   font-size: 10px;
   line-height: 14px;
@@ -1046,19 +1042,6 @@ p.container_management-content {
   justify-content: space-between;
 }
 
-.container_management-card-ceo-bar {
-  border: 1px solid #d1d1d1;
-  padding: 24px;
-  border-radius: 16px;
-  margin-top: 540px;
-}
-
-.container_management-card-ceo-bar-avatar > img {
-  width: 280px;
-  height: 320px;
-  border-radius: 20px;
-}
-
 span.manager-name {
   font-size: 32px;
   color: var(--red_vip-color);
@@ -1070,64 +1053,6 @@ p strong {
   font-size: 28px;
   line-height: 37px;
   text-align: center;
-}
-
-.container_management-card-list--item {
-  width: 840px;
-  border: 1px solid #d6d6d6;
-  border-radius: 24px;
-  padding: 28px 40px;
-}
-
-.container_management-card-list-item-info--card {
-  display: flex;
-  justify-content: space-around;
-}
-
-.container_management-card-bar-avatar > img {
-  width: 184px;
-  height: 271px;
-  border-radius: 24px;
-}
-
-.container_management-content-member {
-  text-align: center;
-}
-
-.container_management-content-member .manager-member {
-  font-size: 28px;
-  color: var(--red_vip-color);
-  font-weight: 700;
-}
-
-.container_management-content-member span {
-  font-size: 20px;
-  color: #000;
-  font-weight: 400;
-  line-height: 27px;
-  line-height: 36px;
-  margin-bottom: 24px;
-}
-
-.container_management-item {
-  margin-top: 20px;
-  flex: 1;
-}
-
-.container_management-item-card {
-  flex: 1;
-  margin-top: 53px;
-}
-
-.container_management-item-content {
-  flex: 1;
-  margin-top: 30px;
-  border-top: 1px solid rgba(252, 96, 97, 0.7);
-}
-
-.management-item-info {
-  display: flex;
-  align-items: center;
 }
 
 /* RESULT */
@@ -2162,12 +2087,12 @@ a.container_field-item-link {
   margin-right: 0;
 }
 
-.content-card-1{
+.content-card-1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.content-card-2{
+.content-card-2 {
   display: flex;
   flex-direction: column;
   gap: 8px;

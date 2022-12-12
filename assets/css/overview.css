@@ -107,7 +107,7 @@
 
 /* Organization system */
 .container_management-cards {
-  width: 70%;
+  width: 65%;
   display: flex;
   align-items: center;
 }
@@ -206,7 +206,7 @@
 }
 
 .container_management-card {
-  width: 30%;
+  width: 35%;
   display: flex;
   align-items: center;
 }
@@ -300,7 +300,49 @@ p strong {
   width: 50%;
 }
 
+@media (max-width: 1280px) {
+  .container_management-content-member .manager-member {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .container_management-content-member span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  span.manager-name {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  p strong {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+
 @media (max-width: 1024px) {
+  .container_management-content-member .manager-member {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .container_management-content-member span {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  span.manager-name {
+    font-size: 32px;
+    line-height: 43px;
+  }
+
+  p strong {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
   .container_management-item-content-bu-container.last-item {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -347,9 +389,7 @@ p strong {
     text-align: left;
     padding: 40px 0 40px;
   }
-}
 
-@media (max-width: 1024px) {
   .container_company-overview-list-address {
     flex-direction: column;
     gap: 0;
@@ -485,7 +525,17 @@ p strong {
     display: none;
   }
 
-  .span.manager-name {
+  .container_management-content-member .manager-member {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .container_management-content-member span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  span.manager-name {
     font-size: 28px;
     line-height: 38px;
   }
