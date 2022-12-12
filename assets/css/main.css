@@ -2170,4 +2170,5 @@ a.container_field-item-link {
 .content-card-2{
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
