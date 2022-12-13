@@ -1175,6 +1175,7 @@
 
   .p-card {
     margin: 0;
+    white-space: normal;
   }
 
   .button-card {
