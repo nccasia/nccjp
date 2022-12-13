@@ -1,9 +1,8 @@
 /* container-overview */
 .container {
-  max-width: 330px;
   width: 100%;
   margin: auto;
-  padding-top: 80px;
+  padding: 80px 16px 96px;
 }
 
 .container_heading-title {
@@ -12,7 +11,7 @@
   line-height: 65px;
   text-align: center;
   color: #000000;
-  padding: 95px 0 60px;
+  padding: 96px 0 60px;
 }
 
 .logo_image-ncc {
@@ -234,10 +233,9 @@
 }
 
 .container_management {
-  max-width: 330px;
   width: 100%;
   margin: auto;
-  padding-top: 95px;
+  padding: 96px 16px 0px;
 }
 
 .heading-text {
@@ -420,10 +418,6 @@ p strong {
     padding-bottom: 28px;
   }
 
-  .container_management {
-    padding-top: 40px;
-  }
-
   .container_management-card {
     flex-direction: column;
   }
@@ -456,15 +450,8 @@ p strong {
 
 @media (max-width: 768px) {
   .container,
-  .container_management {
-    max-width: 727px !important;
-  }
-  .container,
   .container-category {
     padding: 0 16px;
-  }
-  .container {
-    margin-top: 70px;
   }
   .container_management-item-content-bu-container {
     width: 100%;
@@ -583,56 +570,6 @@ p strong {
 @media (max-width: 540px) {
   .container_management-card-bar-avatar img {
     width: 90%;
-  }
-
-  .container_management {
-    max-width: 328px;
-  }
-}
-
-@media (min-width: 376px) {
-  .container_management {
-    max-width: 375px;
-  }
-
-  .container {
-    max-width: 375px;
-  }
-}
-
-@media (min-width: 450px) {
-  .container_management {
-    max-width: 430px;
-  }
-
-  .container {
-    max-width: 430px;
-  }
-}
-
-@media (min-width: 769px) {
-  .container_management {
-    max-width: 1024px;
-    min-width: 730px;
-    width: auto;
-    padding: 0 16px;
-  }
-
-  .container {
-    min-width: 730px;
-    max-width: 1024px;
-    width: auto;
-    padding: 0 16px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .container_management {
-    max-width: 1024px;
-  }
-
-  .container {
-    max-width: 1024px;
   }
 }
 
