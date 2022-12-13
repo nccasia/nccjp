@@ -2,7 +2,8 @@
 .container {
   width: 100%;
   margin: auto;
-  padding: 80px 16px 96px;
+  padding: 80px 82px 96px;
+  max-width: 1440px;
 }
 
 .container_heading-title {
@@ -39,7 +40,7 @@
   display: flex;
   margin: 0;
   padding: 12px 0;
-  width: 15%;
+  width: 17%;
 }
 
 .container_company-overview-list-info--item i {
@@ -79,6 +80,7 @@
 }
 
 .basic-info-title {
+  white-space: nowrap;
   width: 90%;
   font-size: 20px;
   line-height: 28px;
@@ -235,7 +237,8 @@
 .container_management {
   width: 100%;
   margin: auto;
-  padding: 96px 16px 0px;
+  padding: 96px 82px 0px;
+  max-width: 1440px;
 }
 
 .heading-text {
@@ -321,6 +324,10 @@ p strong {
 }
 
 @media (max-width: 1024px) {
+  .container_management {
+    padding: 96px 16px 0px;
+  }
+
   .container_management-content-member .manager-member {
     font-size: 28px;
     line-height: 38px;
@@ -354,6 +361,14 @@ p strong {
 
   .container_company-overview-list-info--item {
     padding: 0;
+  }
+
+  .container_company-overview-group---item {
+    justify-content: normal;
+  }
+
+  .container_company-overview-group-icon--items {
+    width: 10%;
   }
 
   .container_company-overview-item {
@@ -446,13 +461,13 @@ p strong {
   .container_management-cards-list {
     flex-direction: column;
   }
+
+  .container {
+    padding: 60px 16px 96px;
+  }
 }
 
 @media (max-width: 768px) {
-  .container,
-  .container-category {
-    padding: 0 16px;
-  }
   .container_management-item-content-bu-container {
     width: 100%;
     justify-content: center;
@@ -570,15 +585,5 @@ p strong {
 @media (max-width: 540px) {
   .container_management-card-bar-avatar img {
     width: 90%;
-  }
-}
-
-@media (min-width: 1281px) {
-  .container_management {
-    max-width: 1280px;
-  }
-
-  .container {
-    max-width: 1280px;
   }
 }
