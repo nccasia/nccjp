@@ -1,6 +1,5 @@
 /* main-view */
 .container {
-  /* max-width: 330px; */
   width: 100%;
   margin: auto;
   padding: 80px 16px 160px;
@@ -209,6 +208,10 @@
 }
 
 @media (max-width: 1024px) {
+  .container {
+    padding: 80px 16px 90px;
+  }
+
   .container_office-map-list {
     grid-template-columns: repeat(1, 1fr);
   }
