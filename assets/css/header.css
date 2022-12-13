@@ -131,10 +131,13 @@
   position: relative;
 }
 
-.navbar_submenu > img {
+
+.navbar_submenu .link-page > img {
+  display: flex;
+  align-items: center;
   border-radius: 4px;
   width: 36px;
-  height: 24px;
+  height: 100%;
 }
 
 .navbar_submenu-show {
