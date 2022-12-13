@@ -3,7 +3,7 @@
   /* max-width: 330px; */
   width: 100%;
   margin: auto;
-  padding: 80px 0 160px 0;
+  padding: 80px 16px 160px;
 }
 
 .heading-text-contact {
@@ -358,33 +358,12 @@
   color: green;
   font-size: 17px;
 }
-@media (max-width: 375px) {
-  .container {
-    padding: 0 16px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    max-width: 727px;
-  }
-}
-@media (min-width: 376px) {
-  .container {
-    padding: 0 16px;
-  }
-}
 
 
 @media (min-width: 769px) {
 
   .modal-contact-map {
     max-width: 500px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .container {
-    max-width: 1024px;
   }
 }
 
