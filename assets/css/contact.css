@@ -358,11 +358,7 @@
   color: green;
   font-size: 17px;
 }
-@media (max-width: 375px) {
-  .container {
-    padding: 0 16px;
-  }
-}
+
 @media (max-width: 768px) {
   .container {
     max-width: 727px;
@@ -370,7 +366,7 @@
 }
 @media (min-width: 376px) {
   .container {
-    padding: 0 16px;
+    padding: 80px 16px;
   }
 }
 
