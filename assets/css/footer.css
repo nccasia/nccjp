@@ -35,7 +35,7 @@
 }
 
 .link-footer-first > a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 140%;
   color: #fff;
 }
@@ -117,7 +117,7 @@
   font-weight: 400;
   background: url(../img/building.png) no-repeat 0 2px;
   padding-left: 30px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
   margin-bottom: 12px;
 }
@@ -131,7 +131,7 @@
   font-weight: 400;
   background: url(../img/images/icon_phone.svg) no-repeat 0 2px;
   padding: 5px 0px 0 20px;
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 30px;
 }
 .footer_head-item-email-text {
@@ -141,7 +141,7 @@
   font-weight: 400;
   background: url(../img/images/icon_mail.svg) no-repeat 0 2px;
   padding: 5px 0 0 25px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
