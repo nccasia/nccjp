@@ -9,9 +9,9 @@ formEl.addEventListener('submit', event => {
     const lastName = document.getElementById('lastName').value;
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
-    const message = document.getElementById('message').value;
+    const content = document.getElementById('content').value;
 
-    if (firstName === '' || lastName === "" || email === '' || phone === '' || message === '') {
+    if (firstName === '' || lastName === "" || email === '' || phone === '' || content === '') {
         printMess('valueMiss', 'Please fill out all required fields.');
         return;
     }

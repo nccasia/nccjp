@@ -6,6 +6,10 @@
   max-width: 1440px;
 }
 
+.d-none {
+  display: none !important
+}
+
 .heading-text-contact {
   font-weight: 700;
   font-size: 48px;
