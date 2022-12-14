@@ -18,8 +18,9 @@ formEl.addEventListener('submit', event => {
 
     Array.from(formEl.elements).forEach(formElement => formElement.disabled = true);
     const data = {
-        email: document.getElementById('email').value,
-        content: document.getElementById('content').value,
+        email: email,
+        // content: "First Name: " + firstName + "\n" + " Last Name: " + lastName + "\n" + " Phone: " + phone + "\n" + " Content: " + content,
+        content: `First Name: ${firstName}\n Last Name: ${lastName}\n Phone: ${phone}\n Content: ${content}`
     }
     const btnSubmit = formEl.querySelector('button[type="submit"]');
     const btnLoading = formEl.querySelector('button[type="button"]');
@@ -50,3 +51,11 @@ formEl.addEventListener('submit', event => {
     })
 
 })
+
+// function onClick(e) {
+//     e.preventDefault();
+//     grecaptcha.ready(function () {
+//         grecaptcha.execute('reCAPTCHA_site_key', { action: 'submit' }).then(function (token) {
+//         });
+//     });
+// }

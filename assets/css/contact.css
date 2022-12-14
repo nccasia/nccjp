@@ -10,6 +10,10 @@
   display: none !important
 }
 
+.spin {
+  font-size: 20px;
+}
+
 .heading-text-contact {
   font-weight: 700;
   font-size: 48px;
