@@ -1618,7 +1618,13 @@ button.contact-form-btn {
 }
 
 /* WHY US */
-
+.section-container-title{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: var(--black-color);
+}
 .container_whyus-list {
   background-image: url(../img/whyusbg.png);
   background-position: 100%;
