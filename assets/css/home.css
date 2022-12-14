@@ -352,7 +352,7 @@
 }
 
 .layout_health-care-right-title .heading-text>h1>span {
-  color: #2f78cd;
+  color: var(--red_vip-color);
   font-size: 5rem;
 }
 
