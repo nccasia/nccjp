@@ -1267,4 +1267,8 @@
     width: 100%;
     min-width: 300px;
   }
+
+  .title_card {
+    min-height: 75px;
+  }
 }
