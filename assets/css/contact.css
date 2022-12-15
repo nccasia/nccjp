@@ -378,11 +378,7 @@
   color: green;
   font-size: 17px;
 }
-.g-recaptcha{
-  display: flex;
-  justify-content: center;
-  padding: 20px 16px;
-}
+
 @media (min-width: 769px) {
   .modal-contact-map {
     max-width: 500px;

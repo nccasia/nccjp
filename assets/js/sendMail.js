@@ -10,8 +10,9 @@ formEl.addEventListener('submit', event => {
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const content = document.getElementById('content').value;
+    const gresponse = grecaptcha.getResponse();
 
-    if (firstName === '' || lastName === "" || email === '' || phone === '' || content === '') {
+    if (firstName === '' || lastName === "" || email === '' || phone === '' || content === '' || gresponse === '') {
         printMess('valueMiss', 'Please fill out all required fields.');
         return;
     }
@@ -20,7 +21,8 @@ formEl.addEventListener('submit', event => {
     const data = {
         email: email,
         // content: "First Name: " + firstName + "\n" + " Last Name: " + lastName + "\n" + " Phone: " + phone + "\n" + " Content: " + content,
-        content: `First Name: ${firstName}\n Last Name: ${lastName}\n Phone: ${phone}\n Content: ${content}`
+        content: `First Name: ${firstName}\n Last Name: ${lastName}\n Phone: ${phone}\n Content: ${content}`,
+        gresponse: gresponse
     }
     const btnSubmit = formEl.querySelector('button[type="submit"]');
     const btnLoading = formEl.querySelector('button[type="button"]');
@@ -40,6 +42,7 @@ formEl.addEventListener('submit', event => {
         else {
             printMess('valueSuccess', 'Thank you, your submission has been received.');
             document.getElementById("valueMiss").remove();
+            formEl.reset();
         }
     }).catch(err => {
         printMess('valueError', 'Oops, something went wrong. Please try again later.')
