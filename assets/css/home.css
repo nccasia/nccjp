@@ -835,6 +835,9 @@
   .layout_health-care-right-content{
     display: none;
   }
+  .layout_health-care-right-content_mobile{
+    display: block;
+  }
   .layout_health-care-right-content-list--item_mobile {
     width: 100%;
     margin-bottom: 40px;

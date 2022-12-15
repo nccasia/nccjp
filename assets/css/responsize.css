@@ -1056,6 +1056,20 @@
   }
 
   /* container_company-overview-group-iconxzy */
+  .section-container-link, .section-container-link-bottan>ul{
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  .section-container-link-bottan>ul li{
+    margin-bottom: 10px;
+  }
+  .section-container-link-bottan>ul li a p{
+    width: 100%;
+  }
+  .section-container-link-title>p {
+    margin-bottom: 25px;
+  }
   .section-card-web {
     display: flex;
     flex-direction: column;
