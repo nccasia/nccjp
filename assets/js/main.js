@@ -12,6 +12,8 @@ const barBottomIcon = document.querySelector(".bar_bottom-info-close-icon");
 
 const ulMobile = document.querySelector(".navbar-nav");
 
+
+
 const btnBackToTop = document.querySelector(".back-to-top");
 const btnScrollTopFooter = document.querySelector(".scroll-top-btn");
 const listContainer = document.querySelectorAll(".container_top-choice-item");
@@ -26,6 +28,8 @@ const layoutHealthCareRightTitle = document.querySelector(
 // const layoutCertificationAwardSideBar = document.querySelector(
 //   ".layout_certification-awards-sidebar"
 // );
+
+
 
 const containerPartnerItem = document.querySelectorAll(
   ".container_partners-item "
@@ -193,3 +197,9 @@ slider && slider.addEventListener("mousedown", (e) => {});
 slider && slider.addEventListener("mouseleave", () => {});
 slider && slider.addEventListener("mouseup", () => {});
 slider && slider.addEventListener("mousemove", (e) => {});
+
+
+btn_tab.addEventListener("click", () => {
+  console.log("hello");
+  // menuLanguage.classList.toggle("dropdown-menu-show");
+});

@@ -52,3 +52,13 @@ window.addEventListener("scroll", () => {
 //     console.log(this.className)
 //   });
 // }
+
+
+// }
+function myFunction(elem) {
+  var a = document.querySelectorAll('#btn-tab');
+  for (i = 0; i < a.length; i++) {
+      a[i].classList.remove('active');
+  }
+  elem.classList.add('active');
+}
