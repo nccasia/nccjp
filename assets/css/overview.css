@@ -217,15 +217,27 @@
   align-items: center;
 }
 
+.container_management-cards-list:first-child:before {
+  content: "";
+  height: 50%;
+  width: 2px;
+  transform: translateY(50%);
+  background-color: #fc6061;
+  position: absolute;
+}
+
+.container_management-cards-list:last-child:before {
+  content: "";
+  height: 50%;
+  width: 2px;
+  transform: translateY(-50%);
+  background-color: #fc6061;
+  position: absolute;
+}
+
 .line-css {
   width: 60px;
   height: 2px;
-  background-color: #fc6061;
-}
-
-.line_height-css {
-  width: 2px;
-  height: 100%;
   background-color: #fc6061;
 }
 
@@ -260,6 +272,7 @@ p.container_management-content {
 .container_management--list {
   display: flex;
   flex-direction: column;
+  position: relative;
   gap: 80px;
 }
 
@@ -326,6 +339,14 @@ p strong {
 @media (max-width: 1024px) {
   .container_management {
     padding: 96px 16px 0px;
+  }
+
+  .container_management-cards-list:first-child:before {
+    display: none;
+  }
+
+  .container_management-cards-list:last-child:before {
+    display: none;
   }
 
   .container_management-content-member .manager-member {
