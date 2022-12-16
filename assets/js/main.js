@@ -197,9 +197,3 @@ slider && slider.addEventListener("mousedown", (e) => {});
 slider && slider.addEventListener("mouseleave", () => {});
 slider && slider.addEventListener("mouseup", () => {});
 slider && slider.addEventListener("mousemove", (e) => {});
-
-
-btn_tab.addEventListener("click", () => {
-  console.log("hello");
-  // menuLanguage.classList.toggle("dropdown-menu-show");
-});

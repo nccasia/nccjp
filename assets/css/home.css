@@ -208,7 +208,10 @@
 }
 
 .vector_down_care.vector-downup {
-  left: -10px;
+  left: -11px;
+}
+.vector_up_care.vector-downup {
+  right: -11px;
 }
 
 .vector-downup {
