@@ -26,14 +26,6 @@
   justify-content: space-between;
 }
 
-.footer_head-item-address-text {
-  white-space: pre-line;
-  color: #fff;
-  font-weight: 400;
-  background: url(../img/building.png) no-repeat 0 2px;
-  margin-bottom: 30px;
-}
-
 .link-footer-first > p {
   font-size: 16px;
   line-height: 140%;
@@ -64,17 +56,6 @@
   color: #ffffff;
   padding-left: 30px;
   margin: 0 0 24px 0;
-}
-
-.footer_head-item-address-text {
-  margin: 0;
-  white-space: pre-line;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  color: #ffffff;
-  background: url(../img/building.png) no-repeat 0 2px;
-  margin-bottom: 30px;
 }
 
 .footer_head-item--infomation {
@@ -118,8 +99,8 @@
   background: url(../img/building.png) no-repeat 0 2px;
   padding-left: 30px;
   font-size: 16px;
-  margin-bottom: 0;
   margin-bottom: 12px;
+  line-height: 140%;
 }
 .footer_head-item-phone-info {
   display: flex;
