@@ -13,7 +13,6 @@
 
   /* index  */
 
-
   .container_top-choice-right {
     width: 63%;
   }
@@ -27,13 +26,11 @@
     width: 384px;
   }
 
-
   .container_review-item-content {
     font-size: 1.8rem;
     padding: 0 34px;
     margin-right: 20px;
   }
-
 
   .container_review-item-img-inter {
     padding-right: 0px;
@@ -221,7 +218,7 @@
     padding: 0;
     margin: 0;
     padding: 40px 0px;
-    color: var(--black-color) ;
+    color: var(--black-color);
     padding: 0;
     margin: 0;
   }
@@ -574,7 +571,6 @@
     overflow: hidden;
   }
 
-
   .icon-d {
     margin-bottom: 15px;
   }
@@ -596,8 +592,6 @@
   }
 
   .heading-center {
-    /* margin: 20px 0; */
-
     background-position: 47% 100%;
   }
 
@@ -776,7 +770,6 @@
     margin-left: 0;
   }
 
-
   /* COMPANY OVERVIEW PAGE */
   .container-overview {
     padding: 10px 15px;
@@ -817,19 +810,12 @@
   .bu-wrapper {
     height: auto;
     margin: 10px 0;
-    /* justify-content: space-between; */
   }
 
   .manager-wrapper,
   .manager-wrapper-card {
     padding-left: 0;
   }
-
-  /* .container_management-item { */
-  /* flex: 100%;
-    min-width: 100%;
-    margin-top: 20px;
-  } */
 
   .bu-wrapper-second {
     margin-bottom: 157px;
@@ -878,7 +864,6 @@
   }
 
   .container_certification-purposes {
-    /* margin-top: 15px; */
     padding: 32px 0;
   }
 
@@ -946,10 +931,6 @@
 
   .contact-form-item {
     width: 100%;
-  }
-
-  .contact-forms-list {
-    /* flex-wrap: wrap ; */
   }
 
   .container_form-box-list {
@@ -1050,18 +1031,19 @@
   }
 
   /* container_company-overview-group-iconxzy */
-  .section-container-link, .section-container-link-bottan>ul{
+  .section-container-link,
+  .section-container-link-bottan > ul {
     display: block;
     width: 100%;
     padding-left: 0;
   }
-  .section-container-link-bottan>ul li{
+  .section-container-link-bottan > ul li {
     margin-bottom: 10px;
   }
-  .section-container-link-bottan>ul li a p{
+  .section-container-link-bottan > ul li a p {
     width: 100%;
   }
-  .section-container-link-title>p {
+  .section-container-link-title > p {
     margin-bottom: 25px;
   }
   .section-card-web {
@@ -1126,7 +1108,6 @@
     height: auto;
     overflow-x: scroll;
     gap: 16px;
-    /* min-width    : 100%; */
     height: auto;
     overflow-x: scroll;
   }
