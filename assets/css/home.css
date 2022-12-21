@@ -648,6 +648,7 @@
 
 .section_banner-image>img {
   width: 100%;
+  height: auto;
 }
 
 .section_banner-logo {
@@ -1209,10 +1210,6 @@
 
   .text-title {
     white-space: inherit;
-  }
-
-  .section_banner-image>img {
-    width: 100%;
   }
 
   .container_review-carousel::after {
