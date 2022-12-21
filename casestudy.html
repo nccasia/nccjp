@@ -45,10 +45,6 @@
     <meta property="og:url" content="https://www.ncc.asia"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
@@ -67,7 +63,7 @@
     <header class="header">
         <navbar class="header_navbar">
             <div class="header_logo">
-                <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
+                <a href="./index.html"><img loading="lazy" class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
             </div>
             <ul class="navbar_list">
                 <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
@@ -81,17 +77,17 @@
                 <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
                 <div class="navbar_submenu">
                     <a class="link-page" href="http://ncc.asia">
-                        <img src="./assets/img/images/fat_english.png" alt="">
+                        <img loading="lazy" src="./assets/img/images/fat_english.png" alt="" >
                     </a>
                     <!-- <div class="navbar_submenu-list">
-                        <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
-                        <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
-                        <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img loading="lazy" src="./assets/img/vi.png" alt=""> </span>
+                        <span class="navbar_submenu-item"><img loading="lazy" src="./assets/img/english.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img loading="lazy" src="./assets/img/jp.png" alt=""></span>
                     </div> -->
                 </div>
             </ul>
             <div class="menu-icon">
-                <button class="menu-icon-btn">
+                <button type="button" class="menu-icon-btn">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
@@ -137,11 +133,19 @@
                     </div>
                     <div class="section-container-link-bottan">
                         <ul>
-                            <li><a href="#web" ><p  onclick="myFunction(this)" id="btn-tab" class="tab-w1">Web</p></a></li>
-                            <li><a href="#アプリ"><p onclick="myFunction(this)" id="btn-tab" class="tab-w2">アプリ</p></a></li>
-                            <li><a href="#ゲーム"><p  onclick="myFunction(this)" id="btn-tab"  class="tab-w3">ゲーム</p></a></li>
-                            <li><a href="#管理システム"><p onclick="myFunction(this)" id="btn-tab" class="tab-w4">管理システム</p></a></li>
-                            
+                            <li><a href="#web">
+                                    <p onclick="myFunction(this)" id="btn-tab" class="tab-w1">Web</p>
+                                </a></li>
+                            <li><a href="#アプリ">
+                                    <p onclick="myFunction(this)" id="btn-tab" class="tab-w2">アプリ</p>
+                                </a></li>
+                            <li><a href="#ゲーム">
+                                    <p onclick="myFunction(this)" id="btn-tab" class="tab-w3">ゲーム</p>
+                                </a></li>
+                            <li><a href="#管理システム">
+                                    <p onclick="myFunction(this)" id="btn-tab" class="tab-w4">管理システム</p>
+                                </a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -150,14 +154,14 @@
             </div>
             <div class="section-card">
                 <div class="section-card-common">
-                    <img src="./assets/img/images/img_web-01.png" alt="" class="img-common" />
+                    <img loading="lazy" src="./assets/img/images/img_web-01.png" alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
                                 <div class="title_card">
                                     <div class="header-card">オンライン予約 Web アプリケーション</div>
                                 </div>
-                               
+
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -170,13 +174,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card">Web</button>
+                            <button type="button" class="button-card">Web</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_web-02.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_web-02.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -184,7 +188,7 @@
                                 <div class="title_card">
                                     <div class="header-card">顧客関係管理 Web サイト</div>
                                 </div>
-                               
+
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -197,13 +201,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card">Web</button>
+                            <button type="button" class="button-card">Web</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_web-03.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_web-03.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -211,7 +215,7 @@
                                 <div class="title_card">
                                     <div class="header-card">国境を越えた投資管理Web</div>
                                 </div>
-                               
+
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -228,7 +232,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card">Web</button>
+                            <button type="button" class="button-card">Web</button>
                         </div>
                     </div>
                 </div>
@@ -243,7 +247,7 @@
 
             <div class="section-card">
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/images/dating.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/images/dating.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -251,7 +255,7 @@
                                 <div class="title_card">
                                     <div class="header-card">デートアプリ</div>
                                 </div>
-                                
+
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -266,20 +270,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-app">アプリ</button>
+                            <button type="button" class="button-card-app">アプリ</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_web-02.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_web-02.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="title_card">
                                 <div class="header-card">家計管理アプリ</div>
                             </div>
-                            <div class="content-card-2">                  
+                            <div class="content-card-2">
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -295,13 +299,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-app">アプリ</button>
+                            <button type="button" class="button-card-app">アプリ</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-03.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-03.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -309,7 +313,7 @@
                                 <div class="title_card">
                                     <div class="header-card">外国語学習アプリ</div>
                                 </div>
-                               
+
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -322,20 +326,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-app">アプリ</button>
+                            <button type="button" class="button-card-app">アプリ</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-04.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-04.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
                                 <div class="title_card">
                                     <div class="header-card">トレーラー雇用サービスアプリ</div>
-                                </div>                       
+                                </div>
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -348,13 +352,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-app">アプリ</button>
+                            <button type="button" class="button-card-app">アプリ</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-05.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-05.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -362,7 +366,7 @@
                                 <div class="title_card">
                                     <div class="header-card">トレーラー雇用サービスアプリ</div>
                                 </div>
-                                
+
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> 開発、テスト、導入
@@ -377,20 +381,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-app">アプリ</button>
+                            <button type="button" class="button-card-app">アプリ</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-06.png" alt=""
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_app-06.png" alt=""
                         class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
                                 <div class="title_card">
                                     <div class="header-card">ニュース集約アプリ</div>
-                                </div>     
+                                </div>
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> ニュース集約アプリ
@@ -403,7 +407,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-app">アプリ</button>
+                            <button type="button" class="button-card-app">アプリ</button>
                         </div>
                     </div>
                 </div>
@@ -418,14 +422,14 @@
 
             <div class="section-card">
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-01.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-01.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
                                 <div class="title_card">
                                     <div class="header-card">PVP マッチ 3 ゲーム</div>
-                                </div>  
+                                </div>
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> アート、ゲームデザイン、ゲーム開発
@@ -439,20 +443,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-game" >ゲーム</button>
+                            <button type="button" class="button-card-game">ゲーム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-02.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-02.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
                                 <div class="title_card">
                                     <div class="header-card">ブロックチェーンベースのマルチプレイヤー戦略ゲーム</div>
-                                </div>  
+                                </div>
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> ゲームデザイン、ゲーム開発、Smartcontract
@@ -466,20 +470,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-game">ゲーム</button>
+                            <button type="button" class="button-card-game">ゲーム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-03.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-03.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
                                 <div class="title_card">
                                     <div class="header-card">ブロックチェーン マルチプレイヤー 「Kill-To-Earn」 ゾンビ サバイバル ゲーム</div>
-                                </div>     
+                                </div>
                                 <div class="container-card-1">
                                     <div class="p-card">
                                         <span class="span-card">・対応工程：</span> ゲームデザイン、ゲーム開発、Smartcontract
@@ -492,13 +496,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-game">ゲーム</button>
+                            <button type="button" class="button-card-game">ゲーム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-04.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-04.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -518,13 +522,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-game">ゲーム</button>
+                            <button type="button" class="button-card-game">ゲーム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-05.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-05.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -543,13 +547,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-game">ゲーム</button>
+                            <button type="button" class="button-card-game">ゲーム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-06.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_game-06.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -569,7 +573,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-game">ゲーム</button>
+                            <button type="button" class="button-card-game">ゲーム</button>
                         </div>
                     </div>
                 </div>
@@ -583,7 +587,7 @@
             </div>
             <div class="section-card">
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-01.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-01.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -599,17 +603,17 @@
                                         <span class="span-card">・サイズ：</span> 2021年2月開始、月に8人
                                     </div>
                                     <div class="p-card">
-                                        <span class="span-card">・技術：</span> JAVA /ANGULAR
+                                        <span class="span-card">・技術：</span> JAVA /ANGdivAR
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-management" >管理システム</button>
+                            <button type="button" class="button-card-management">管理システム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-02.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-02.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
@@ -630,18 +634,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-management">管理システム</button>
+                            <button type="button" class="button-card-management">管理システム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-03.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-03.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
-                                 <div class="title_card">
+                                <div class="title_card">
                                     <div class="header-card">サッカー分析システム</div>
                                 </div>
                                 <div class="container-card-1">
@@ -659,18 +663,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-management">管理システム</button>
+                            <button type="button" class="button-card-management">管理システム</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-card-common">
-                    <img data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-04.png"
+                    <img loading="lazy" data-toggle="modal" data-target="#exampleModal" src="./assets/img/images/img_management-04.png"
                         alt="" class="img-common" />
                     <div class="content-card">
                         <div class="content-card-1">
                             <div class="content-card-2">
-                                 <div class="title_card">
+                                <div class="title_card">
                                     <div class="header-card">オンライン食品配送システム</div>
                                 </div>
                                 <div class="container-card-1">
@@ -688,7 +692,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="button-card-management">管理システム</button>
+                            <button type="button" class="button-card-management">管理システム</button>
                         </div>
                     </div>
                 </div>
@@ -700,10 +704,10 @@
     <footer class="footer">
         <div class="footer_head">
             <div class="footer_head-logo">
-                <img class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
+                <img loading="lazy" class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
             </div>
-            <ul class="footer_head-category">
-                <li class="footer_head-collection footer_head-collection-infomation ">
+            <div class="footer_head-category">
+                <div class="footer_head-collection footer_head-collection-infomation ">
                     <div class="footer_head-item--infomation">
                         <h6 class="footer_head-item-address-vi">ベトナム本社</h6>
                         <p class="footer_head-item-address-text">5F、A2 Ecolife、58 To Huu、Nam Tu Liem、
@@ -723,73 +727,81 @@
                             <p class="footer_head-item-email-text">info@ncc.jp</p>
                         </div>
                     </div>
-                </li>
+                </div>
 
-                <li class="footer_head-collection footer_head-collection-address">
-                    <ul class="footer_head-list-first flex-column no-padding">
+                <div class="footer_head-collection footer_head-collection-address">
+                    <div class="footer_head-list-first flex-column no-padding">
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p>
+                            <div class=" link-footer link-footer-first">
+                                <p>
                                     <span class="text-footer">HA
-                                        NOI 2</span> | オフィス： 1F、8 Pham Hung St、Cau Giay Dist、Hanoi、Vietnam</p>
-                            </li>
+                                        NOI 2</span> | オフィス： 1F、8 Pham Hung St、Cau Giay Dist、Hanoi、Vietnam
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">SAI
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">SAI
                                         GON 1 </span>| オフィス： 2F、The Office、340/15A Ung Van Khiem St、Binh Thanh
-                                    Dist、HCMC、Vietnam</p></li>
+                                    Dist、HCMC、Vietnam</p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">DA
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">DA
                                         NANG </span>| オフィス： 3F、Ricco Building、363 Nguyen Huu Tho St、Cam Le
                                     Dist、Da
                                     Nang、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">QUY
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">QUY
                                         NHON</span> | オフィス： 4F、307 Nguyen Thi Minh Khai St、Quy Nhon City、Binh
                                     Dinh
                                     Province、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
-                    </ul>
-                </li>
-                <li class="footer_head-collection footer_head-collection-address ">
-                    <ul class="footer_head-list-main flex-column">
+                    </div>
+                </div>
+                <div class="footer_head-collection footer_head-collection-address ">
+                    <div class="footer_head-list-main flex-column">
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">HA
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">HA
                                         NOI 3</span> | オフィス： 5F、Hong Ha Tower、89 Thinh Liet、Hoang
                                     Mai、Hanoi、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">SAI
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">SAI
                                         GON 2</span> | オフィス： 6F、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu
                                     Ward、Thu
                                     Duc、HCMC、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">VINH</span> |
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">VINH</span> |
                                     オフィス： 7F、138 Ha Huy Tap St、Vinh City、Nghe An Province、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
-                    </ul>
-                </li>
-            </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

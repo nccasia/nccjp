@@ -8,10 +8,6 @@
     <title>About us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
@@ -27,7 +23,7 @@
     <header class="header">
         <navbar class="header_navbar">
             <div class="header_logo">
-                <a href="./index.html"><img class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
+                <a href="./index.html"><img loading="lazy" class="logo-company" src="./assets/img/logoNcc.png" alt=""></a>
             </div>
             <ul class="navbar_list">
                 <li class="navbar_list-item"><a href="./index.html" class="navbar_list-item-link">ホーム</a></li>
@@ -39,17 +35,17 @@
                 <li class="navbar_list-item"><a href="./contact.html" class="navbar_list-item-link">お問い合わせ</a></li>
                 <div class="navbar_submenu">
                     <a class="link-page" href="http://ncc.asia">
-                        <img src="./assets/img/images/fat_english.png" alt="">
+                        <img loading="lazy" src="./assets/img/images/fat_english.png" alt="">
                     </a>
                     <!-- <div class="navbar_submenu-list">
-                        <span class="navbar_submenu-item"><img src="./assets/img/vi.png" alt=""> </span>
-                        <span class="navbar_submenu-item"><img src="./assets/img/english.png" alt=""></span>
-                        <span class="navbar_submenu-item"><img src="./assets/img/jp.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img loading="lazy" src="./assets/img/vi.png" alt=""> </span>
+                        <span class="navbar_submenu-item"><img loading="lazy" src="./assets/img/english.png" alt=""></span>
+                        <span class="navbar_submenu-item"><img loading="lazy" src="./assets/img/jp.png" alt=""></span>
                     </div> -->
                 </div>
             </ul>
             <div class="menu-icon">
-                <button class="menu-icon-btn">
+                <button type="button" class="menu-icon-btn">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
@@ -109,10 +105,10 @@
     <footer class="footer">
         <div class="footer_head">
             <div class="footer_head-logo">
-                <img class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
+                <img loading="lazy" class="logo-company" src="assets/img/logoFooter.png" alt="logo-ominext">
             </div>
-            <ul class="footer_head-category">
-                <li class="footer_head-collection footer_head-collection-infomation ">
+            <div class="footer_head-category">
+                <div class="footer_head-collection footer_head-collection-infomation ">
                     <div class="footer_head-item--infomation">
                         <h6 class="footer_head-item-address-vi">ベトナム本社</h6>
                         <p class="footer_head-item-address-text">5F、A2 Ecolife、58 To Huu、Nam Tu Liem、
@@ -132,73 +128,81 @@
                             <p class="footer_head-item-email-text">info@ncc.jp</p>
                         </div>
                     </div>
-                </li>
+                </div>
 
-                <li class="footer_head-collection footer_head-collection-address">
-                    <ul class="footer_head-list-first flex-column no-padding">
+                <div class="footer_head-collection footer_head-collection-address">
+                    <div class="footer_head-list-first flex-column no-padding">
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p>
+                            <div class=" link-footer link-footer-first">
+                                <p>
                                     <span class="text-footer">HA
-                                        NOI 2</span> | オフィス： 1F、8 Pham Hung St、Cau Giay Dist、Hanoi、Vietnam</p>
-                            </li>
+                                        NOI 2</span> | オフィス： 1F、8 Pham Hung St、Cau Giay Dist、Hanoi、Vietnam
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">SAI
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">SAI
                                         GON 1 </span>| オフィス： 2F、The Office、340/15A Ung Van Khiem St、Binh Thanh
-                                    Dist、HCMC、Vietnam</p></li>
+                                    Dist、HCMC、Vietnam</p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">DA
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">DA
                                         NANG </span>| オフィス： 3F、Ricco Building、363 Nguyen Huu Tho St、Cam Le
                                     Dist、Da
                                     Nang、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">QUY
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">QUY
                                         NHON</span> | オフィス： 4F、307 Nguyen Thi Minh Khai St、Quy Nhon City、Binh
                                     Dinh
                                     Province、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
-                    </ul>
-                </li>
-                <li class="footer_head-collection footer_head-collection-address ">
-                    <ul class="footer_head-list-main flex-column">
+                    </div>
+                </div>
+                <div class="footer_head-collection footer_head-collection-address ">
+                    <div class="footer_head-list-main flex-column">
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">HA
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">HA
                                         NOI 3</span> | オフィス： 5F、Hong Ha Tower、89 Thinh Liet、Hoang
                                     Mai、Hanoi、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">SAI
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">SAI
                                         GON 2</span> | オフィス： 6F、Phong Phu Tower、93/10 Quang Trung、Kp1、Hiep Phu
                                     Ward、Thu
                                     Duc、HCMC、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
                         <div class="header_footer">
                             <i class="fa-sharp fa-solid fa-location-dot fa-locations"></i>
-                            <li class=" link-footer link-footer-first"><p><span
-                                        class="text-footer">VINH</span> |
+                            <div class=" link-footer link-footer-first">
+                                <p><span class="text-footer">VINH</span> |
                                     オフィス： 7F、138 Ha Huy Tap St、Vinh City、Nghe An Province、Vietnam
-                                </p></li>
+                                </p>
+                            </div>
                         </div>
-                    </ul>
-                </li>
-            </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
