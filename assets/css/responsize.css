@@ -339,8 +339,6 @@
     margin-right: 0;
   }
 
-
-
   .section_content-info-item > p {
     font-size: 16px;
     line-height: 25px;
@@ -393,22 +391,6 @@
   .container_top-choice-item-img > img {
     width: 160px;
     height: 160px;
-  }
-
-  .container_top-choice-item-info {
-    width: 100%;
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  .container_top-choice-item-info > h3 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .container_top-choice-item-info p {
-    line-height: 2.5rem;
-    font-size: 1.4rem;
   }
 
   .container_health-care {
@@ -531,7 +513,6 @@
   .vector_up_care.vector-downup {
     display: none;
   }
-
 
   .container_health-care .container_background-top {
     padding-bottom: 20px;
@@ -704,13 +685,6 @@
     display: block;
   }
 
-  .container_review-item-author {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-size: var(--text-font);
-  }
-
   .container_review-carousel::after {
     width: 0;
   }
@@ -751,16 +725,6 @@
 
   .container_review-item--content {
     padding: 0 33px;
-  }
-
-  .container_review-item-author {
-    margin-top: 10px;
-    text-align: start;
-  }
-
-  .container_review-item-author--co {
-    margin-top: 3px;
-    margin-left: 0;
   }
 
   /* COMPANY OVERVIEW PAGE */
