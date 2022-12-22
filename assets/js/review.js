@@ -13,10 +13,10 @@ function replaceBoxSlide() {
   for (let i = 0; i < reviewList.childElementCount; i++) {
     if (i + 1 == indexReviewList) {
       box_slide.innerHTML +=
-        '<button type="button" class="box_lide-left dot"></button>';
+        '<button type="button" class="box_lide-left dot" aria-label="dot"></button>';
     } else {
       box_slide.innerHTML +=
-        '<button type="button" class="box_lide-left"></button>';
+        '<button type="button" class="box_lide-left" aria-label="box_lide-left"></button>';
     }
     for (let i = 0; i < slide.length; i++) {
       slide[i].addEventListener("click", () => {
