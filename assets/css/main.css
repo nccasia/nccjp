@@ -751,28 +751,6 @@ div .certification-awards-item-middle {
   font-size: var(--text-font);
 }
 
-.slick-slide-title {
-  font-size: 2rem;
-  color: rgb(47, 120, 205);
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: var(--black-color);
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.slick-slide-content {
-  font-size: 14px;
-  line-height: 19px;
-}
-
-.slick-next {
-  right: -3%;
-}
-
-.slick-prev {
-  left: -3%;
-}
 
 /* BAR BOTTOM */
 .section_main {
@@ -811,15 +789,6 @@ div .certification-awards-item-middle {
 
 .section_content-info-item:hover {
   opacity: 0.5;
-}
-
-.color-text {
-  color: #ef0c0e;
-  font-size: 48px;
-  margin: 0;
-  font-weight: 500;
-  padding: 7px 10px;
-  border-bottom: 1px solid #d6d6d6;
 }
 
 .section_content-info-item>p {
