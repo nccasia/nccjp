@@ -73,7 +73,7 @@
   align-items: center;
   padding: 13px 25px;
   gap: 10px;
-  background: var(--black-color);
+  background: var(--red_vip-color);
   border-radius: 48px;
   cursor: pointer;
   border: none;
