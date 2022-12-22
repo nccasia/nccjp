@@ -635,14 +635,14 @@
   padding: 0px 0px;
 }
 
-.container_top-choice-item-info > h3 {
+.container_top-choice-item-info-p {
   font-size: 32px;
   margin: 0;
   margin-bottom: 16px;
   margin-top: 35px;
 }
 
-.container_top-choice-item-info p {
+.container_top-choice-item-info-p1 {
   text-align: justify;
   font-weight: 500;
   font-size: 18px;
