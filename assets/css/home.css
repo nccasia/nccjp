@@ -80,9 +80,7 @@
   outline: none;
 }
 
-.btn-download:hover {
-  background: #4c4c4c;
-}
+
 
 .btn-download:active {
   background: #757575;
@@ -307,7 +305,7 @@
   font-size: 45px;
   white-space: pre-line;
   line-height: 55.8px;
-  margin-top: 65px;
+  margin: 65px 0 40px 0;
 }
 
 .text-title-child {
