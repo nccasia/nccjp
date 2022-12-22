@@ -15,12 +15,14 @@
 * {
   box-sizing: inherit;
   /* font-family: Satoshi; */
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 html,
 body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 html {
