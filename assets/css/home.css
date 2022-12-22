@@ -19,7 +19,7 @@
 
 .section_main {
   background-color: #fbfbfb;
-  padding: 130px 76px 60px 76px;
+  /* padding: 130px 76px 60px 76px; */
 }
 
 .section-why-ncc {
@@ -66,6 +66,14 @@
   font-size: 20px;
   line-height: 27px;
 }
+.section_content-info-item  .color-text {
+  color: #ef0c0e;
+  font-size: 48px;
+  margin: 0;
+  font-weight: 500;
+  padding: 25px 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
 
 .btn-download {
   display: flex;
@@ -98,6 +106,10 @@
   font-size: 48px;
   line-height: 65px;
   text-align: center;
+  padding: 0 167px;
+  width: 1073px;
+  margin: 0;
+  padding-bottom: 35px;
 }
 
 .container_heading-text-title {
@@ -307,7 +319,7 @@
   font-size: 45px;
   white-space: pre-line;
   line-height: 55.8px;
-  margin: 65px 0 40px 0;
+  margin: 65px 20px 40px 0;
 }
 
 .text-title-child {
@@ -762,7 +774,7 @@
 
 .statical-section {
   background-color: #fbfbfb;
-  padding: 130px 76px 60px 76px;
+  padding: 130px 76px 96px 76px;
 }
 
 @media (max-width: 1440px) {
@@ -826,7 +838,7 @@
     border: 1px solid #4c4c4c;
     border-radius: 20px;
     z-index: 10;
-    background: #fff;
+    background: var(--white-color);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1209,6 +1221,10 @@
     gap: 16px;
   }
 
+  .layout_health-care-right-content-list--item_mobile {
+    width: 100%;
+    margin-bottom: 20px;
+  }
   .layout_health-care-right-content-list--item_mobile .vector_arrow {
     display: none;
   }
