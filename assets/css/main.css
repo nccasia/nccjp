@@ -454,7 +454,7 @@ b {
 }
 
 .container_post-home {
-  background-color: #fbfbfb;
+  background-color: var(--opaque-white-color);
   padding: 88px 0;
 }
 
@@ -740,7 +740,7 @@ div .certification-awards-item-middle {
 
 /* BAR BOTTOM */
 .section_main {
-  background-color: #fbfbfb;
+  background-color: var(--opaque-white-color);
   padding: 88px 0;
 }
 
@@ -1468,7 +1468,7 @@ button.contact-form-btn {
 }
 
 .container_service-item {
-  border: 1px solid #fbfbfb;
+  border: 1px solid var(--opaque-white-color);
   flex-wrap: wrap;
   border-radius: 10px;
   color: var(--white-color);
@@ -1770,7 +1770,7 @@ a.container_field-item-link {
   font-size: 32px;
   line-height: 43px;
   letter-spacing: -0.01em;
-  color: black;
+  color: var(--black-color);
 }
 
 .section-card {
@@ -1959,7 +1959,7 @@ a.container_field-item-link {
   gap: 12px;
   flex-wrap: nowrap;
   padding: 12px 8px;
-  background-color: #fbfbfb;
+  background-color: var(--opaque-white-color);
   border: 1px solid #d1d1d1;
   border-radius: 10px;
 }

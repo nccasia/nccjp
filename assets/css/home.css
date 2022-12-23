@@ -18,13 +18,13 @@
 }
 
 .section_main {
-  background-color: #fbfbfb;
+  background-color: var(--opaque-white-color);
   /* padding: 130px 76px 60px 76px; */
 }
 
-.section-why-ncc {
-  background-color: #fbfbfb;
-}
+/* .section-why-ncc {
+  background-color: var(--opaque-white-color);
+} */
 
 .section_content-title {
   display: flex;
@@ -151,14 +151,15 @@
 .section_content-info-item:hover {
   opacity: 0.5;
 }
-
+.section-why-ncc{
+  background-color: var(--opaque-white-color)
+}
 .container_post-home {
-  background-color: #fbfbfb;
   padding: 130px 76px 60px 76px;
 }
 
 .container-choice {
-  background-color: white;
+  background-color: var(--white-color);
   padding: 130px 76px 60px 76px;
 }
 
@@ -405,7 +406,7 @@
 }
 
 .layout_health-care-right {
-  background: white;
+  background: var(--white-color);
 }
 
 .heading-text > h1 {
@@ -773,7 +774,7 @@
 }
 
 .statical-section {
-  background-color: #fbfbfb;
+  background-color: var(--opaque-white-color);
   padding: 130px 76px 96px 76px;
 }
 
@@ -876,7 +877,7 @@
   }
 
   .section-why-ncc {
-    background-color: #fbfbfb;
+    background-color: var(--opaque-white-color);
   }
 
   .container_certification-purposes {
@@ -1070,7 +1071,7 @@
     grid-template-columns: 48% 48%;
     grid-gap: 16px;
     position: absolute;
-    background: #fbfbfb;
+    background: var(--opaque-white-color);
   }
 
   .grid.top-choice {
