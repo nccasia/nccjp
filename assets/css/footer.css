@@ -1,4 +1,4 @@
-/* Footer */
+/* Footer
 .footer {
   background-color: var(--black-color);
   display: block;
@@ -64,7 +64,7 @@
 
 .footer_head-item-office {
   background: url(../img/vi.png) no-repeat 0 2px;
-  color: #fff;
+  color: var(--white-color);
   padding-left: 30px;
   margin: 0 0 15px 0;
   font-size: var(--text-font);
@@ -183,4 +183,4 @@
   .footer_head {
     max-width: 1280px;
   }
-}
+} */
