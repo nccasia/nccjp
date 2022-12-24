@@ -261,14 +261,9 @@
   text-align: center;
 }
 
-p.container_management-content {
+p.container_management-content, .container_management-content-member {
   text-align: center;
 }
-
-.container_management-content-member {
-  text-align: center;
-}
-
 .container_management--list {
   display: flex;
   flex-direction: column;
