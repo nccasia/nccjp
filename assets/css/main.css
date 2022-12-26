@@ -1467,6 +1467,7 @@ button.contact-form-btn {
   font-size: 30px;
   color: var(--black-color);
   font-weight: 500;
+  margin-top: 15px;
 }
 .section-container-link-bottan > ul {
   display: flex;
@@ -1772,7 +1773,7 @@ button.contact-form-btn {
   justify-content: flex-start;
   margin-bottom: 0;
   gap: 3.08px;
-  width: 30%;
+  width: 32%;
 }
 
 .number-home {
