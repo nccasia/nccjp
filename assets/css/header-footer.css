@@ -388,10 +388,9 @@
 
   span.nav-link.hover.title-t {
     height: 100%;
-    display: block;
     padding: 10px 0;
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    width: 100%;
   }
 
   a.sub_menu-link {
@@ -434,6 +433,11 @@
 
   .footer_head-collection {
     width: 100%;
+  }
+
+ .fa-locations {
+     font-size: 15px;
+    margin-top: 5px;
   }
 }
 

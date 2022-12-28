@@ -100,7 +100,7 @@
     padding: 0;
     justify-content: flex-start;
     margin-bottom: 0;
-    width: 25%;
+    width: 30%;
     gap: 3.08px;
   }
 
@@ -855,10 +855,7 @@
     margin-bottom: 15px;
   }
 
-  .fa-locations {
-    margin-top: 4px;
-  }
-
+ 
   .container_service-item-customer {
     flex: 100%;
   }
@@ -923,7 +920,7 @@
   }
 
   .section-container-title{
-    font-size: 44px;
+    font-size: 41px;
   }
   .section-content {
     font-weight: 500;
