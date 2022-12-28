@@ -899,6 +899,7 @@
   }
   .section-container-link-title > p {
     margin-bottom: 25px;
+    margin-top: 0;
   }
 
   .block-title {
