@@ -1,0 +1,26 @@
+# NCC Software — ベトナムオフショア開発企業
+
+NCCソフトウェア（NCC）は2014年に設立されたベトナム拠点のソフトウェア開発会社です。日本語対応のエンジニア350名以上が在籍し、日本企業向けにオフショア開発・DX支援を提供しています。
+
+## 企業概要
+- 設立: 2014年（10年以上の実績）
+- エンジニア数: 350名以上
+- 拠点: 9拠点（ハノイ、ホーチミン、ダナンなどベトナム全土 + 東京）
+- 主要市場: 日本（メイン）、アメリカ、ドイツ/ヨーロッパ
+- サービス: カスタムソフトウェア開発、モバイルアプリ、ゲーム開発、QA/テスト、エンタープライズシステム、専任チーム
+
+## サービス詳細
+- Webシステム開発（React, Vue, Angular, .NET, Java, PHP）
+- モバイルアプリ開発（iOS, Android, Flutter, React Native）
+- ゲーム開発（Unity, Unreal Engine）
+- QA/テスト自動化
+- DX推進・システム刷新
+
+## 関連サイト
+- 日本語サイト: https://nccsoft.jp
+- グローバルサイト: https://ncc.plus
+- 技術ブログ: https://ant.ncc.plus
+- GitHub: https://github.com/nccasia
+
+## お問い合わせ
+- サイト: https://nccsoft.jp/contact/
